@@ -1,0 +1,33 @@
+{
+  "numero": 24,
+  "titre": "Les notifications arrivent en retard ou n'arrivent pas",
+  "message": "Pas de notification / Les messages arrivent seulement quand j'ouvre l'application",
+  "image": "images/erreur-24.png",
+  "video": "",
+  "motsCles": "notifications en retard arrivent pas whatsapp message économie batterie arrière-plan tecno infinix xiaomi android",
+  "quand": [
+    "Quand tu reçois les messages WhatsApp seulement après avoir ouvert l'application.",
+    "Quand les notifications arrivent plusieurs minutes ou heures plus tard.",
+    "Surtout sur certaines marques qui limitent fortement les applications (Tecno, Infinix, Xiaomi, Oppo, Huawei)."
+  ],
+  "explication": "Le téléphone met l'application en « sommeil » pour économiser la batterie, et elle ne peut plus te prévenir. Ce n'est pas un problème de l'application. C'est le téléphone qui l'empêche de travailler quand tu n'es pas dessus.",
+  "causes": [
+    "Optimisation de la batterie ou mode économie d'énergie.",
+    "L'application n'a pas le droit de travailler en arrière-plan.",
+    "Les notifications sont désactivées pour l'application.",
+    "Le mode « Ne pas déranger » est activé.",
+    "Les données en arrière-plan ou l'économiseur de données bloquent l'application.",
+    "Le démarrage automatique de l'application est interdit (marques comme Tecno, Infinix, Xiaomi).",
+    "L'application a été fermée par le système ou retirée de la liste des applications récentes."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Applications > l'application > Batterie, puis choisis « Sans restriction » ou « Non optimisée ».",
+    "Autorise l'application à fonctionner en arrière-plan et le démarrage automatique (menu propre à chaque marque).",
+    "Vérifie que les notifications de l'application sont activées.",
+    "Désactive le mode « Ne pas déranger » et le mode économie d'énergie.",
+    "Autorise les données en arrière-plan et désactive l'économiseur de données pour cette application.",
+    "Sur certaines marques, verrouille l'application dans la liste des applications récentes pour qu'elle ne soit pas fermée.",
+    "Mets l'application et le système à jour."
+  ],
+  "securite": "Autorise seulement les applications dont tu as besoin à travailler en arrière-plan : trop d'applications ralentissent le téléphone et vident la batterie. Ne clique pas sur les liens suspects reçus dans une notification."
+}

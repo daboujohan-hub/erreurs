@@ -1,0 +1,34 @@
+{
+  "numero": 29,
+  "titre": "L'application se ferme toute seule, sans aucun message",
+  "message": "Aucun message : l'application disparaît et on revient à l'écran d'accueil",
+  "image": "images/erreur-29.png",
+  "video": "",
+  "motsCles": "application se ferme toute seule sans message disparaît silencieux plante invisible arrière-plan mémoire android",
+  "quand": [
+    "Quand tu ouvres l'application : elle s'affiche une seconde, puis tu te retrouves sur l'écran d'accueil.",
+    "Pendant que tu l'utilises, sans aucune fenêtre d'erreur.",
+    "Quand le téléphone a peu de mémoire ou que la batterie est en mode économie."
+  ],
+  "explication": "C'est une erreur invisible. Contrairement à l'erreur n°1, Android n'affiche rien. L'application est fermée sans prévenir, soit parce qu'elle a planté, soit parce que le système l'a fermée pour récupérer de la mémoire ou de la batterie. L'utilisateur croit que l'application est cassée, alors qu'il n'a aucune information.",
+  "causes": [
+    "Le téléphone manque de mémoire et ferme l'application en arrière-plan.",
+    "L'économie d'énergie ou l'optimisation de la batterie ferme l'application.",
+    "Une erreur dans le code qui ferme l'application sans afficher la fenêtre habituelle.",
+    "Données de l'application abîmées.",
+    "Une autorisation retirée (stockage, réseau) dont l'application a besoin.",
+    "Version de l'application incompatible avec ta version d'Android."
+  ],
+  "solutions": [
+    "Redémarre le téléphone, puis rouvre l'application.",
+    "Libère de l'espace et de la mémoire : ferme les autres applications.",
+    "Paramètres > Applications > l'application > Batterie : choisis « Sans restriction ».",
+    "Vide le cache de l'application, puis, si besoin, les données.",
+    "Vérifie les autorisations de l'application.",
+    "Mets l'application et le système à jour, ou réinstalle l'application.",
+    "Pour le développeur : cherche « FATAL EXCEPTION », « has died » ou « lowmemorykiller » avec la commande ci-dessous. Cela dit si c'est un plantage ou une fermeture par le système."
+  ],
+  "commande": "adb logcat -d | grep -E \"FATAL EXCEPTION|has died|lowmemorykiller\"",
+  "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé, ouvre l'application, puis lance cette commande. Envoie les lignes trouvées à une IA avec ton code.",
+  "securite": "Si une application inconnue se ferme sans cesse ou se rouvre toute seule, désinstalle-la. Ne désactive pas les protections du téléphone pour la faire marcher."
+}

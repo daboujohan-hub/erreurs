@@ -1,0 +1,32 @@
+{
+  "numero": 33,
+  "titre": "Une application ne marche plus après une mise à jour automatique",
+  "message": "Aucun message d'avertissement avant la mise à jour : l'application est simplement différente ou cassée",
+  "image": "images/erreur-33.png",
+  "video": "",
+  "motsCles": "application ne marche plus après mise à jour automatique update bug cassée play store version android",
+  "quand": [
+    "Après qu'une application a été mise à jour toute seule par le Play Store.",
+    "Quand une application marchait hier et bloque aujourd'hui.",
+    "Quand ton téléphone est ancien et que la nouvelle version est trop lourde."
+  ],
+  "explication": "Le Play Store met à jour les applications en arrière-plan, sans te prévenir. Parfois la nouvelle version a un bug, ne marche pas bien sur ton téléphone, ou garde d'anciennes données qui posent problème. Tu ne vois rien venir, et l'application cesse simplement de marcher.",
+  "causes": [
+    "La nouvelle version a un bug.",
+    "La nouvelle version est trop lourde ou incompatible avec ton téléphone.",
+    "Des données de l'ancienne version posent problème.",
+    "Le cache est abîmé.",
+    "La mise à jour ne s'est pas terminée correctement.",
+    "Pour le développeur : un changement qui casse la compatibilité avec les anciennes versions d'Android."
+  ],
+  "solutions": [
+    "Redémarre le téléphone.",
+    "Vide le cache de l'application, puis les données si besoin (sauvegarde avant).",
+    "Vérifie s'il existe une nouvelle mise à jour qui corrige le problème.",
+    "Désinstalle l'application et réinstalle-la.",
+    "Pour éviter ce problème : Play Store > l'application > les trois points > décoche « Mise à jour automatique ».",
+    "Signale le bug au développeur ou dans les avis du Play Store.",
+    "Pour le développeur : teste toujours les nouvelles versions sur d'anciens téléphones et diffuse-les progressivement (déploiement par étapes)."
+  ],
+  "securite": "Ne télécharge pas une ancienne version depuis un site inconnu : beaucoup de faux APK contiennent des virus. Passe seulement par des sources de confiance."
+}

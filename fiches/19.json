@@ -1,0 +1,30 @@
+{
+  "numero": 19,
+  "titre": "J'ai oublié le code de verrouillage du téléphone",
+  "message": "Code erroné / Réessayez dans 30 secondes / Appareil verrouillé",
+  "image": "images/erreur-19.png",
+  "video": "",
+  "motsCles": "code oublié verrouillage mot de passe schéma pin téléphone verrouillé déverrouiller réinitialiser android",
+  "quand": [
+    "Après plusieurs mauvais essais pour déverrouiller l'écran.",
+    "Après un changement de code récent, ou après une longue période sans utiliser le téléphone.",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Tu ne te souviens plus du code, du schéma ou du mot de passe. Après plusieurs essais, le téléphone te fait attendre de plus en plus longtemps. Il n'existe pas de truc magique : le code protège tes données. Il faut passer par les méthodes officielles, et certaines effacent tout.",
+  "causes": [
+    "Un code changé récemment et oublié.",
+    "Un schéma ou un code que tu n'utilisais plus depuis longtemps.",
+    "Quelqu'un d'autre (un enfant) a changé le code.",
+    "Trop d'essais ratés qui bloquent le téléphone un moment."
+  ],
+  "solutions": [
+    "Attends la fin du délai affiché, puis essaie de nouveau avec les codes que tu as déjà utilisés.",
+    "Si tu as activé l'empreinte ou le visage, utilise-les puis change le code dans Paramètres > Sécurité.",
+    "Sur certaines marques (Samsung, par exemple), utilise l'outil officiel de la marque depuis un ordinateur ou un autre téléphone, si ton compte était enregistré avant.",
+    "Utilise « Localiser mon appareil » de Google depuis un autre appareil, avec ton compte Google.",
+    "En dernier recours : la réinitialisation d'usine efface tout. Elle demande ensuite le compte Google déjà enregistré sur le téléphone.",
+    "Si tu ne connais plus le compte Google ou le mot de passe, récupère-le d'abord sur le site officiel de Google.",
+    "Si le téléphone vient de toi mais que rien ne marche, va dans une boutique agréée de la marque avec la preuve d'achat."
+  ],
+  "securite": "Ne paie jamais des inconnus sur Facebook ou WhatsApp qui promettent de « débloquer ton téléphone » : ce sont souvent des arnaques. N'installe pas d'outils de déblocage trouvés sur internet : ils peuvent voler tes données. Pour éviter ce problème, note ton code dans un endroit sûr et garde ton compte Google à jour."
+}

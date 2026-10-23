@@ -1,0 +1,34 @@
+{
+  "numero": 2,
+  "titre": "« L'application ne répond plus »",
+  "message": "[Nom de l'application] ne répond pas / ne répond plus (choix : Fermer l'application ou Attendre)",
+  "image": "images/erreur-2.png",
+  "video": "",
+  "motsCles": "application ne répond plus pas anr bloque bloquée figée gelée freeze lent attendre fermer android",
+  "quand": [
+    "Quand l'écran se fige et que les boutons ne réagissent plus pendant quelques secondes.",
+    "Au lancement d'une application lourde, ou quand elle charge beaucoup de données.",
+    "Sur téléphone, tablette, ou écran Android de voiture, surtout quand l'appareil est lent, presque plein ou chargé de trop d'applications ouvertes."
+  ],
+  "explication": "Cette erreur s'appelle ANR (Application Not Responding). Elle apparaît quand l'application est occupée à un travail trop long et ne peut plus répondre aux touches de l'utilisateur. Android attend environ 5 secondes. Si rien ne bouge, il affiche cette fenêtre. Contrairement à l'erreur n°1, l'application n'a pas planté : elle est bloquée. En choisissant « Attendre », elle peut parfois se débloquer toute seule.",
+  "causes": [
+    "Un travail lourd exécuté sur le fil principal de l'application (téléchargement, lecture de gros fichiers, base de données, calculs).",
+    "Une boucle qui ne s'arrête jamais dans le code.",
+    "Deux parties du code qui s'attendent l'une l'autre (blocage mutuel).",
+    "Un téléphone lent, avec peu de mémoire ou presque plein.",
+    "Trop d'applications ouvertes en même temps.",
+    "Une connexion internet très lente quand l'application attend une réponse du serveur."
+  ],
+  "solutions": [
+    "Appuie sur « Attendre » et patiente 10 à 20 secondes. Si ça ne revient pas, appuie sur « Fermer l'application ».",
+    "Ferme les autres applications ouvertes, puis relance celle qui bloque.",
+    "Libère de l'espace et de la mémoire sur le téléphone.",
+    "Vide le cache de l'application (Infos sur l'appli > Stockage > Vider le cache).",
+    "Mets l'application à jour, ou réinstalle-la.",
+    "Pour le développeur : déplace tout travail long (internet, fichiers, base de données) hors du fil principal, dans un thread séparé ou une coroutine, et affiche un petit chargement pendant ce temps.",
+    "Pour trouver la cause exacte : lance la commande ci-dessous et cherche la ligne « ANR in »."
+  ],
+  "commande": "adb logcat -d | grep \"ANR in\"",
+  "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. La ligne trouvée donne le nom de l'application et ce qui l'a bloquée. Si tu utilises une IA, envoie-lui cette ligne avec ton code.",
+  "securite": "Si une application inconnue bloque ou se fige tout le temps, désinstalle-la : elle peut être mal faite ou cacher des activités en arrière-plan. N'installe que des applications de sources de confiance."
+}

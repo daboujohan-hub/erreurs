@@ -1,0 +1,29 @@
+{
+  "numero": 32,
+  "titre": "Une application utilise le micro, la caméra ou la position en cachette",
+  "message": "Aucun message (parfois un petit point vert ou orange en haut de l'écran)",
+  "image": "images/erreur-32.png",
+  "video": "",
+  "motsCles": "application micro caméra position localisation cachette espionne permissions confidentialité point vert orange android",
+  "quand": [
+    "Quand une application que tu n'utilises pas accède à ta position, ton micro ou ta caméra.",
+    "Après avoir accepté trop vite une demande d'autorisation.",
+    "Sur Android 12 et plus récent, un petit point vert ou orange apparaît en haut de l'écran quand le micro ou la caméra est utilisé."
+  ],
+  "explication": "Quand une application s'installe, elle demande des autorisations. Beaucoup de gens répondent « Autoriser » sans lire. Ensuite l'application peut utiliser le micro, la caméra ou la position sans afficher de message. Souvent c'est normal (une carte a besoin de la position), mais une lampe de poche qui demande ta position ou ton micro est suspecte.",
+  "causes": [
+    "Autorisations accordées trop vite lors de l'installation.",
+    "Application qui n'a pas besoin de ces accès mais les demande quand même.",
+    "Application malveillante ou espion.",
+    "Autorisation « Toujours autoriser » alors qu'« Seulement pendant l'utilisation » suffirait."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Confidentialité > Tableau de bord de confidentialité : tu vois quelle application a utilisé le micro, la caméra ou la position, et quand.",
+    "Ouvre Paramètres > Confidentialité > Gestionnaire d'autorisations, et regarde chaque autorisation.",
+    "Choisis « Seulement pendant l'utilisation » ou « Ne pas autoriser » pour les applications qui n'en ont pas besoin.",
+    "Désinstalle les applications suspectes ou inutiles.",
+    "Sur Android 12 et plus récent, tu peux couper complètement le micro ou la caméra dans les réglages rapides.",
+    "Lance une analyse Google Play Protect."
+  ],
+  "securite": "Si tu penses qu'une application t'espionne, désinstalle-la, change tes mots de passe depuis un autre appareil, et active la double vérification sur tes comptes importants. Ne donne les autorisations qu'aux applications dont tu as besoin."
+}

@@ -1,0 +1,31 @@
+{
+  "numero": 43,
+  "titre": "L'application bancaire ou Mobile Money refuse de s'ouvrir",
+  "message": "Cette application ne peut pas fonctionner sur cet appareil / Appareil non sécurisé / Environnement non sécurisé détecté",
+  "image": "images/erreur-43.png",
+  "video": "",
+  "motsCles": "application bancaire mobile money refuse ouvrir appareil non sécurisé options développeur débogage usb root sécurité android",
+  "quand": [
+    "Quand tu ouvres une application de banque, de paiement ou de Mobile Money.",
+    "Après avoir activé les options pour les développeurs ou le débogage USB.",
+    "Sur un téléphone modifié, ou avec une version d'Android non officielle."
+  ],
+  "explication": "Les applications d'argent vérifient si ton téléphone est sûr avant de s'ouvrir. Si elles trouvent quelque chose de suspect, elles se ferment ou affichent un message. Ce n'est pas une panne : c'est une protection pour que ton argent ne soit pas volé.",
+  "causes": [
+    "Les options pour les développeurs ou le débogage USB sont activés.",
+    "Le téléphone est « rooté » ou a un système non officiel.",
+    "Une application de contrôle à distance ou d'affichage par-dessus est installée.",
+    "Le système Android ou l'application n'est pas à jour.",
+    "Une application suspecte est installée (hors du Play Store).",
+    "Le téléphone n'est pas certifié par Google."
+  ],
+  "solutions": [
+    "Désactive le débogage USB et les options pour les développeurs : Paramètres > Système > Options pour les développeurs.",
+    "Mets à jour le système et l'application.",
+    "Désinstalle les applications que tu ne connais pas ou qui ne viennent pas du Play Store.",
+    "Retire les applications de contrôle à distance ou d'affichage par-dessus.",
+    "Redémarre le téléphone et rouvre l'application.",
+    "Si le message reste, contacte le service client de ta banque ou de ton opérateur depuis le numéro officiel."
+  ],
+  "securite": "Ne cherche pas à contourner cette protection avec des outils ou des applications trouvées sur internet : c'est dangereux pour ton argent. Si quelqu'un te demande d'installer une application de contrôle à distance pour « réparer » ton compte, c'est une arnaque."
+}

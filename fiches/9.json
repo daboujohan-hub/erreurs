@@ -1,0 +1,35 @@
+{
+  "numero": 9,
+  "titre": "« Analyse du package impossible »",
+  "message": "Problème d'analyse du package / Impossible d'analyser le package",
+  "image": "images/erreur-9.png",
+  "video": "",
+  "motsCles": "analyse du package impossible apk illisible corrompu installer parse error android",
+  "quand": [
+    "Au moment où tu ouvres un fichier APK pour l'installer.",
+    "Après avoir téléchargé un APK, ou après l'avoir reçu par WhatsApp ou Bluetooth.",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Android essaie de lire l'APK avant de l'installer, mais il n'arrive pas à comprendre le fichier. C'est un peu comme ouvrir un livre dont des pages sont déchirées. Le problème vient presque toujours du fichier lui-même, pas du téléphone.",
+  "causes": [
+    "Le fichier APK est incomplet ou corrompu (téléchargement coupé).",
+    "Ce n'est pas un vrai APK : ce peut être un .xapk, un .apks, un .zip ou un fichier AAB.",
+    "L'APK a été renommé ou modifié.",
+    "L'APK n'est pas signé ou sa signature est invalide.",
+    "L'application demande une version d'Android plus récente que celle du téléphone.",
+    "Le fichier AndroidManifest de l'application contient une erreur.",
+    "Le fichier a été abîmé en passant par WhatsApp ou Bluetooth."
+  ],
+  "solutions": [
+    "Télécharge de nouveau l'APK depuis la source officielle et compare la taille du fichier.",
+    "Vérifie que l'extension est bien .apk. Si c'est .xapk ou .apks, utilise l'installateur prévu pour ce format.",
+    "Évite de transférer l'APK par WhatsApp : mets-le dans un dossier ou envoie-le sous forme de fichier zip.",
+    "Vérifie que ton Android est assez récent pour l'application.",
+    "Autorise l'installation depuis la source qui ouvre le fichier.",
+    "Pour le développeur : génère un vrai APK signé, pas seulement un AAB, puis vérifie l'AndroidManifest.",
+    "Pour tester le fichier dans Termux, utilise la commande ci-dessous."
+  ],
+  "commande": "unzip -t app.apk",
+  "commandeNote": "Dans Termux (pkg install unzip). Si le résultat affiche « No errors detected », le fichier est entier. S'il affiche des erreurs, le fichier est abîmé : télécharge-le de nouveau.",
+  "securite": "Ne fais pas confiance à un APK dont tu ne connais pas l'origine. Un fichier modifié ou renommé peut cacher un virus. Télécharge seulement depuis le Play Store ou depuis le site officiel de l'application."
+}

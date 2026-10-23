@@ -1,0 +1,31 @@
+{
+  "numero": 6,
+  "titre": "« Espace insuffisant » alors qu'il reste de la place",
+  "message": "Espace de stockage insuffisant. Il est possible que certaines fonctionnalités du système ne fonctionnent pas",
+  "image": "images/erreur-6.png",
+  "video": "",
+  "motsCles": "espace insuffisant stockage plein reste de la place installer play store cache android mémoire",
+  "quand": [
+    "Quand tu installes ou mets à jour une application, alors que Paramètres > Stockage montre encore de l'espace libre.",
+    "Souvent sur les téléphones avec peu de mémoire (16, 32 ou 64 Go).",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Le téléphone affiche qu'il n'y a plus de place, alors que tu vois de l'espace libre. C'est parce que Android a besoin de beaucoup plus d'espace que la taille de l'application pour l'installer : il télécharge, décompresse, puis copie. Si l'espace libre est juste un peu au-dessus de la taille de l'application, ça échoue.",
+  "causes": [
+    "L'espace libre est trop petit : il faut souvent 2 à 3 fois la taille de l'application.",
+    "Le cache (surtout celui du Play Store) est plein et bloque la place.",
+    "Une grande partie de l'espace est prise par « Système » et « Autres », qui ne se voit pas facilement.",
+    "La Corbeille de la galerie garde les fichiers supprimés pendant environ 30 jours.",
+    "Des mises à jour d'applications en attente utilisent de l'espace temporaire.",
+    "La mémoire interne est presque pleine même si une carte SD est vide."
+  ],
+  "solutions": [
+    "Libère au moins 2 à 3 Go : supprime photos, vidéos et fichiers inutiles, ou sauvegarde-les ailleurs.",
+    "Vide la Corbeille de la galerie.",
+    "Vide le cache du Play Store : Paramètres > Applications > Google Play Store > Stockage > Vider le cache.",
+    "Vide aussi le cache des applications les plus lourdes (Facebook, TikTok, WhatsApp, navigateur).",
+    "Utilise l'application « Files » de Google et appuie sur « Libérer de l'espace ».",
+    "Redémarre le téléphone, puis réessaie l'installation."
+  ],
+  "securite": "Évite les applications de « nettoyage » ou « booster » inconnues : beaucoup affichent de fausses alertes ou collectent tes données. Utilise les outils intégrés d'Android ou « Files » de Google."
+}

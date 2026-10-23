@@ -1,0 +1,34 @@
+{
+  "numero": 3,
+  "titre": "« Mon téléphone neuf est déjà plein »",
+  "message": "Espace de stockage insuffisant / Stockage presque saturé",
+  "image": "images/erreur-3.png",
+  "video": "",
+  "motsCles": "stockage plein saturé mémoire espace insuffisant téléphone neuf lent cache photos vidéos whatsapp télécharger android",
+  "quand": [
+    "Quelques jours ou semaines après l'achat d'un téléphone neuf.",
+    "Quand tu veux installer une application, filmer ou mettre à jour et que le téléphone refuse.",
+    "Sur téléphone, tablette ou écran Android de voiture qui enregistre cartes et musique."
+  ],
+  "explication": "Beaucoup de gens pensent que le téléphone est défectueux. En réalité, il se remplit avec les choses que tu ne vois pas. Dès qu'il est connecté à internet, il télécharge des mises à jour, des données d'applications et des fichiers temporaires. De plus, le système Android lui-même occupe déjà une grande partie de l'espace : un téléphone de 64 Go ne laisse souvent qu'environ la moitié de libre dès le départ.",
+  "causes": [
+    "Les photos et vidéos : les vidéos en haute qualité prennent énormément de place.",
+    "WhatsApp, Telegram et autres : ils téléchargent automatiquement toutes les photos, vidéos et audios reçus, y compris dans les groupes.",
+    "Le cache des applications (Facebook, TikTok, YouTube, navigateur) qui grossit chaque jour.",
+    "Les mises à jour automatiques des applications et du système.",
+    "Les fichiers téléchargés et jamais supprimés (APK, PDF, vidéos).",
+    "Les photos supprimées qui restent dans la Corbeille de la galerie pendant environ 30 jours.",
+    "Trop d'applications installées qui ne servent plus."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Stockage pour voir ce qui prend le plus de place.",
+    "Utilise l'application « Files » de Google et appuie sur « Libérer de l'espace » : elle propose de supprimer les doublons, les gros fichiers et les fichiers inutiles.",
+    "Dans WhatsApp : Paramètres > Stockage et données > Téléchargement automatique, puis désactive les téléchargements automatiques de vidéos et de documents.",
+    "Vide le cache des applications lourdes : Paramètres > Applications > l'application > Stockage > Vider le cache.",
+    "Vide la Corbeille de la galerie.",
+    "Désinstalle les applications que tu n'utilises plus.",
+    "Sauvegarde tes photos et vidéos sur Google Photos ou sur un ordinateur, puis supprime-les du téléphone.",
+    "Garde au moins 1 à 2 Go d'espace libre pour que le téléphone reste rapide."
+  ],
+  "securite": "N'installe pas d'applications de « nettoyage » ou « booster » trouvées au hasard : beaucoup affichent de fausses alertes, de la publicité ou espionnent le téléphone. Utilise seulement les outils intégrés d'Android ou « Files » de Google."
+}

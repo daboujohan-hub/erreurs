@@ -1,0 +1,35 @@
+{
+  "numero": 20,
+  "titre": "Mon forfait internet se vide trop vite",
+  "message": "Forfait data épuisé / Les données mobiles disparaissent très vite",
+  "image": "images/erreur-20.png",
+  "video": "",
+  "motsCles": "forfait internet data se vide vite données mobiles consommation mise à jour vidéo whatsapp wifi android",
+  "quand": [
+    "Quand ton forfait finit en quelques heures ou quelques jours, alors que tu n'as presque rien fait.",
+    "Après l'installation de nouvelles applications.",
+    "Quand les mises à jour se font sur les données mobiles."
+  ],
+  "explication": "Beaucoup d'utilisateurs se fâchent parce que leur forfait disparaît sans raison. Le téléphone utilise souvent les données sans que tu le saches : mises à jour, vidéos qui se lancent toutes seules, sauvegarde des photos, applications en arrière-plan.",
+  "causes": [
+    "Les applications se mettent à jour avec les données mobiles.",
+    "Les vidéos se lancent toutes seules (Facebook, TikTok, YouTube, Statuts WhatsApp).",
+    "WhatsApp télécharge automatiquement photos et vidéos.",
+    "La sauvegarde automatique des photos (Google Photos) utilise les données.",
+    "Des applications travaillent en arrière-plan.",
+    "Le partage de connexion est utilisé par d'autres personnes.",
+    "Le téléphone passe aux données mobiles quand le Wi-Fi est faible.",
+    "Une application suspecte consomme les données en cachette."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Réseau > Utilisation des données pour voir quelle application consomme le plus.",
+    "Dans le Play Store : Paramètres > Préférences réseau > Mise à jour automatique > Via Wi-Fi uniquement.",
+    "Désactive la lecture automatique des vidéos dans Facebook, TikTok et YouTube.",
+    "Dans WhatsApp : Paramètres > Stockage et données > Téléchargement automatique, et désactive-le pour les données mobiles.",
+    "Mets la sauvegarde des photos sur Wi-Fi uniquement.",
+    "Active l'économiseur de données et limite les données en arrière-plan des applications que tu n'utilises pas.",
+    "Active une alerte ou une limite de données dans Paramètres > Réseau.",
+    "Vérifie que ton partage de connexion est éteint."
+  ],
+  "securite": "Si une application que tu ne connais pas consomme beaucoup de données, désinstalle-la : elle peut envoyer tes informations en cachette. N'accepte pas les « bonus data gratuits » qui demandent ton code ou ton numéro de paiement : ce sont souvent des arnaques."
+}

@@ -1,0 +1,31 @@
+{
+  "numero": 39,
+  "titre": "Impossible de se connecter à son compte Google",
+  "message": "Mot de passe incorrect / Vérifiez votre identité / Connexion impossible / Compte Google introuvable",
+  "image": "images/erreur-39.png",
+  "video": "",
+  "motsCles": "compte google connexion impossible mot de passe oublié vérification deux étapes gmail play store récupérer compte android",
+  "quand": [
+    "Quand tu ajoutes ton compte sur un nouveau téléphone.",
+    "Après une réinitialisation d'usine : le téléphone demande le compte Google déjà enregistré.",
+    "Quand le Play Store ou Gmail demande de te reconnecter."
+  ],
+  "explication": "Ton compte Google est la clé de ton téléphone : Play Store, Gmail, photos, sauvegardes. Quand la connexion échoue, c'est souvent un mot de passe oublié, une vérification en 2 étapes mal faite, ou un compte à récupérer.",
+  "causes": [
+    "Mot de passe oublié ou mal tapé.",
+    "La vérification en 2 étapes demande un code que tu ne reçois plus (ancien numéro, ancien téléphone).",
+    "L'adresse Gmail est mal écrite.",
+    "Google trouve la connexion suspecte (nouveau pays, nouvel appareil).",
+    "Le compte a été changé ou bloqué.",
+    "Date et heure fausses sur le téléphone, ou connexion internet instable."
+  ],
+  "solutions": [
+    "Vérifie l'adresse et le mot de passe en tapant lentement (utilise l'œil pour l'afficher).",
+    "Mets la date et l'heure en automatique, et vérifie ta connexion.",
+    "Essaie de te connecter depuis un ordinateur sur le site officiel de Google.",
+    "Si tu as oublié le mot de passe : utilise « Mot de passe oublié » sur la page officielle de Google, avec ton numéro ou ton e-mail de secours.",
+    "Utilise un appareil où tu es déjà connecté : Google te reconnaît plus facilement.",
+    "Prépare des codes de secours pour la vérification en 2 étapes, et garde-les dans un endroit sûr."
+  ],
+  "securite": "Ne donne jamais ton mot de passe ni le code de vérification à quelqu'un, même s'il dit venir de Google. Récupère ton compte seulement sur les pages officielles de Google. Les personnes qui proposent de « récupérer ton compte » contre de l'argent sont des arnaqueurs."
+}

@@ -1,0 +1,34 @@
+{
+  "numero": 38,
+  "titre": "Les SMS ne s'envoient pas",
+  "message": "Échec de l'envoi du message / Message non envoyé / Impossible d'envoyer le SMS",
+  "image": "images/erreur-38.png",
+  "video": "",
+  "motsCles": "sms ne s'envoie pas échec envoi message non envoyé texto mms crédit réseau centre de messages android",
+  "quand": [
+    "Quand tu envoies un SMS et qu'un point d'exclamation rouge apparaît.",
+    "Quand tu n'arrives plus à envoyer ni à recevoir de messages texte.",
+    "Après un changement de SIM ou de téléphone."
+  ],
+  "explication": "Un SMS passe par le réseau de ton opérateur, pas par internet. Il faut donc un signal, une ligne active et un numéro correct. Si l'un de ces éléments manque, le message échoue.",
+  "causes": [
+    "Pas de signal réseau ou signal très faible.",
+    "Pas de crédit ou forfait SMS épuisé.",
+    "Le numéro est mal écrit ou incomplet (code pays manquant).",
+    "Le numéro du centre de messages (SMSC) est mal enregistré sur la SIM.",
+    "La mémoire des messages est pleine.",
+    "L'application de messages a un bug ou un cache plein.",
+    "La ligne ou la SIM est suspendue."
+  ],
+  "solutions": [
+    "Vérifie que tu as du signal (au moins 2 barres).",
+    "Active puis désactive le mode avion.",
+    "Vérifie le numéro, avec le code du pays si besoin (par exemple +225).",
+    "Vérifie ton crédit ou ton forfait chez l'opérateur.",
+    "Supprime les anciennes discussions pour libérer la mémoire des messages.",
+    "Vide le cache de l'application Messages : Paramètres > Applications > Messages > Stockage > Vider le cache.",
+    "Redémarre le téléphone.",
+    "Si ça continue, demande à ton opérateur de vérifier le numéro du centre de messages."
+  ],
+  "securite": "Ne réponds pas aux SMS qui demandent un code, un mot de passe ou un paiement, même s'ils semblent venir de ton opérateur ou d'une banque. Ne donne jamais le code reçu par SMS à quelqu'un d'autre."
+}

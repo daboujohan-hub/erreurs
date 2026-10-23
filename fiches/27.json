@@ -1,0 +1,31 @@
+{
+  "numero": 27,
+  "titre": "Des publicités s'affichent tout le temps sur le téléphone",
+  "message": "Fausses alertes « Votre téléphone est infecté » / publicités qui s'ouvrent toutes seules",
+  "image": "images/erreur-27.png",
+  "video": "",
+  "motsCles": "publicités pop-up fenêtre s'affichent toutes seules virus infecté alerte adware navigateur android",
+  "quand": [
+    "Quand des publicités s'ouvrent par-dessus d'autres applications, même quand tu n'utilises pas le navigateur.",
+    "Quand une fausse alerte dit « Votre téléphone est infecté » ou « Vous avez gagné ».",
+    "Après l'installation d'une application ou d'un APK de source inconnue."
+  ],
+  "explication": "Dans la majorité des cas, ce n'est pas le téléphone qui est cassé. C'est une application (adware) ou un site qui affiche de la publicité de force, parfois avec de fausses alertes pour te faire peur et te pousser à installer quelque chose de dangereux.",
+  "causes": [
+    "Une application installée depuis une source inconnue (APK modifié).",
+    "Une application autorisée à « s'afficher par-dessus d'autres applications ».",
+    "Des notifications de sites autorisées dans le navigateur.",
+    "Une extension ou un navigateur suspect.",
+    "Une fausse alerte venant d'un site web, pas du téléphone."
+  ],
+  "solutions": [
+    "Ne touche pas aux fausses alertes et n'installe rien qu'elles te proposent.",
+    "Désinstalle les applications récentes que tu ne connais pas ou qui ne viennent pas du Play Store.",
+    "Vérifie : Paramètres > Applications > Accès spécial > Afficher par-dessus d'autres applications, et retire l'accès aux applications suspectes.",
+    "Dans Chrome : Paramètres > Paramètres des sites > Notifications, et bloque les sites que tu ne connais pas.",
+    "Lance une analyse avec Google Play Protect (Play Store > profil > Play Protect > Analyser).",
+    "Démarre en mode sécurisé pour trouver l'application responsable.",
+    "Si le problème continue, sauvegarde tes données et fais une réinitialisation d'usine."
+  ],
+  "securite": "N'installe pas d'« antivirus » ou de « nettoyeur » à cause d'une fausse alerte : c'est souvent le piège. Ne donne jamais de code, de numéro de paiement ou de Mobile Money sur une page qui s'affiche toute seule."
+}

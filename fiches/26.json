@@ -1,0 +1,32 @@
+{
+  "numero": 26,
+  "titre": "Mon téléphone est tombé dans l'eau",
+  "message": "Humidité détectée / le téléphone s'éteint, chauffe ou ne s'allume plus après contact avec l'eau",
+  "image": "images/erreur-26.png",
+  "video": "",
+  "motsCles": "téléphone tombé dans l'eau mouillé humidité eau liquide éteint sécher riz android",
+  "quand": [
+    "Quand le téléphone tombe dans l'eau, dans la pluie, aux toilettes ou dans un liquide.",
+    "Quand un message « Humidité détectée » apparaît sur le port de charge.",
+    "Sur tous les téléphones, même ceux « résistants à l'eau ». Cette résistance n'est pas garantie pour toujours."
+  ],
+  "explication": "L'eau peut abîmer les composants intérieurs du téléphone, surtout si le téléphone est allumé ou branché. Le plus important, ce sont les premières minutes. Ce que tu fais tout de suite compte beaucoup.",
+  "causes": [
+    "Contact avec de l'eau ou un autre liquide.",
+    "Charge d'un téléphone encore humide.",
+    "Utilisation du téléphone alors qu'il est mouillé.",
+    "Eau salée, sucrée ou sale, qui abîme plus vite.",
+    "Port de charge ou haut-parleur encore humide."
+  ],
+  "solutions": [
+    "Sors le téléphone de l'eau tout de suite et éteins-le.",
+    "Ne le branche pas à un chargeur et ne l'allume pas.",
+    "Retire la coque, la SIM et la carte mémoire.",
+    "Essuie l'extérieur avec un chiffon sec. Ne le secoue pas fort.",
+    "Laisse-le sécher à l'air libre, dans un endroit sec et ventilé, pendant au moins 24 à 48 heures. Des sachets de silice absorbent mieux l'humidité que le riz.",
+    "N'utilise pas de sèche-cheveux très chaud ni de four.",
+    "Si le téléphone était dans de l'eau salée ou sale, apporte-le rapidement à un technicien.",
+    "Après le séchage, allume-le. S'il ne marche pas, va chez un technicien de confiance."
+  ],
+  "securite": "Ne charge jamais un téléphone mouillé : cela peut causer un court-circuit, détruire le téléphone ou provoquer un incendie. Si la batterie gonfle ou si le téléphone chauffe fortement, arrête et apporte-le à un technicien."
+}

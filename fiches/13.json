@@ -1,0 +1,34 @@
+{
+  "numero": 13,
+  "titre": "Le téléphone ne charge pas ou charge très lentement",
+  "message": "Ne charge pas / Charge lente / Humidité détectée dans le port USB",
+  "image": "images/erreur-13.png",
+  "video": "",
+  "motsCles": "téléphone ne charge pas charge lente chargeur câble port usb humidité batterie android",
+  "quand": [
+    "Quand tu branches le chargeur et que le pourcentage ne monte pas, ou monte très lentement.",
+    "Quand un message dit « Humidité détectée » ou « Charge en pause ».",
+    "Sur téléphone, tablette ou autre appareil Android."
+  ],
+  "explication": "Tu branches ton téléphone et rien ne se passe, ou la charge dure des heures. Dans la plupart des cas, le problème vient du câble, du chargeur ou du port de charge, et pas du téléphone lui-même. Il faut tester les éléments un par un.",
+  "causes": [
+    "Câble abîmé ou de mauvaise qualité.",
+    "Chargeur défectueux ou trop faible.",
+    "Prise électrique ou rallonge qui ne marche pas bien.",
+    "Port de charge sale (poussière, saleté) ou humide.",
+    "Utilisation du téléphone pendant la charge.",
+    "Téléphone chaud : la charge se met en pause pour se protéger.",
+    "Batterie usée.",
+    "Problème temporaire du système."
+  ],
+  "solutions": [
+    "Essaie un autre câble, puis un autre chargeur, puis une autre prise.",
+    "Éteins le téléphone et branche-le : si ça charge éteint, c'est un problème logiciel.",
+    "Nettoie le port : souffle doucement ou utilise une brosse souple. N'utilise jamais un objet métallique.",
+    "Si le port est humide, débranche tout, éteins le téléphone et laisse-le sécher à l'air, sans le chauffer.",
+    "Laisse refroidir le téléphone s'il est chaud.",
+    "Redémarre le téléphone et mets-le à jour.",
+    "Si rien ne marche, fais vérifier le port et la batterie chez un technicien de confiance."
+  ],
+  "securite": "Utilise un chargeur et un câble d'origine ou de bonne marque. Les chargeurs très bon marché sans marque peuvent abîmer la batterie et même causer un incendie. Ne charge jamais un téléphone mouillé."
+}

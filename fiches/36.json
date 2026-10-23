@@ -1,0 +1,34 @@
+{
+  "numero": 36,
+  "titre": "L'application devient de plus en plus lente avec le temps",
+  "message": "Aucun message : l'application rame de plus en plus, puis se ferme (fuite de mémoire)",
+  "image": "images/erreur-36.png",
+  "video": "",
+  "motsCles": "application de plus en plus lente avec le temps fuite de mémoire memory leak rame ralentit ferme développeur android",
+  "quand": [
+    "Quand une application marche bien au début, puis ralentit après quelques minutes ou quelques heures d'utilisation.",
+    "Quand fermer et rouvrir l'application règle le problème pour un moment.",
+    "Surtout dans les jeux, les applications avec beaucoup d'images, de vidéos ou de défilement."
+  ],
+  "explication": "C'est une erreur très difficile à voir pour un développeur. On appelle ça une fuite de mémoire. L'application garde en mémoire des choses dont elle n'a plus besoin. Petit à petit, la mémoire se remplit, l'application ralentit, puis Android la ferme sans message.",
+  "causes": [
+    "Des images trop grandes gardées en mémoire.",
+    "Des écrans ou des données jamais libérés quand l'utilisateur quitte l'écran.",
+    "Des écouteurs d'événements ou des tâches qui ne sont jamais arrêtés.",
+    "Des listes qui grossissent sans limite.",
+    "Un téléphone avec peu de mémoire qui rend le problème plus visible.",
+    "Un travail lourd répété en continu."
+  ],
+  "solutions": [
+    "Pour l'utilisateur : ferme complètement l'application, puis rouvre-la.",
+    "Redémarre le téléphone, mets l'application à jour, vide son cache.",
+    "Pour le développeur : utilise le Profiler de mémoire d'Android Studio ou un outil comme LeakCanary pour trouver ce qui n'est pas libéré.",
+    "Libère les ressources quand l'écran se ferme (arrêter les tâches, retirer les écouteurs).",
+    "Réduis la taille des images et utilise une bibliothèque de chargement d'images (Glide, Coil).",
+    "Teste l'application longtemps, sur un téléphone ancien, pour voir la mémoire grandir.",
+    "Surveille la mémoire avec la commande ci-dessous."
+  ],
+  "commande": "adb shell dumpsys meminfo nom.du.paquet",
+  "commandeNote": "Remplace « nom.du.paquet » par l'identifiant de ton application. Lance la commande plusieurs fois pendant que tu utilises l'application : si le chiffre de mémoire monte sans jamais baisser, il y a probablement une fuite.",
+  "securite": "Les applications très lentes qui chauffent le téléphone sans que tu les utilises peuvent aussi cacher une activité suspecte. Si tu ne connais pas l'application, désinstalle-la."
+}

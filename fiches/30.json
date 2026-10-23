@@ -1,0 +1,35 @@
+{
+  "numero": 30,
+  "titre": "Le stockage « Système » ou « Autres » grossit sans raison",
+  "message": "Aucun message : le stockage se remplit alors que tu n'as presque rien installé",
+  "image": "images/erreur-30.png",
+  "video": "",
+  "motsCles": "stockage système autres grossit invisible mémoire plein cache fichiers temporaires espace disparaît android",
+  "quand": [
+    "Quand tu ouvres Paramètres > Stockage et que « Système » ou « Autres » occupe des Go.",
+    "Quand ton espace libre baisse alors que tu n'as pas ajouté de photos ni d'applications.",
+    "Sur téléphone, tablette ou appareil Android de voiture."
+  ],
+  "explication": "C'est un espace caché : tu ne vois pas ce qui le remplit. Une partie est normale, car le système Android occupe beaucoup de place. Mais le reste vient des fichiers temporaires, du cache et des données d'applications qui grossissent avec le temps sans que tu le voies.",
+  "causes": [
+    "Le système Android et les applications préinstallées (souvent 10 à 20 Go).",
+    "Le cache des applications (Facebook, TikTok, YouTube, navigateur).",
+    "Les données d'applications qui grossissent (WhatsApp, Telegram, jeux).",
+    "Les fichiers temporaires et les anciennes mises à jour.",
+    "Les miniatures de la galerie.",
+    "Les fichiers de sauvegarde, de téléchargement ou d'installation oubliés (APK, zip).",
+    "Les cartes ou les vidéos téléchargées hors ligne."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Stockage pour voir la répartition.",
+    "Utilise « Files » de Google : « Libérer de l'espace ».",
+    "Vide le cache des applications les plus lourdes.",
+    "Dans WhatsApp : Paramètres > Stockage et données > Gérer le stockage, et supprime les gros fichiers.",
+    "Supprime les APK, zip et téléchargements que tu n'utilises plus.",
+    "Redémarre le téléphone : certains fichiers temporaires disparaissent.",
+    "Pour trouver les gros dossiers dans Termux, utilise la commande ci-dessous."
+  ],
+  "commande": "du -sh ~/storage/shared/* 2>/dev/null | sort -h | tail",
+  "commandeNote": "Dans Termux, après avoir tapé une fois « termux-setup-storage ». Les dernières lignes montrent les plus gros dossiers de ton téléphone.",
+  "securite": "Ne supprime pas des dossiers que tu ne connais pas dans Android ou dans les dossiers d'applications : tu peux casser une application et perdre des données. N'installe pas d'application de « nettoyage » inconnue."
+}

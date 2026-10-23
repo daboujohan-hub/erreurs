@@ -1,0 +1,32 @@
+{
+  "numero": 22,
+  "titre": "L'écran reste noir",
+  "message": "Écran noir (le téléphone vibre ou sonne, mais rien ne s'affiche)",
+  "image": "images/erreur-22.png",
+  "video": "",
+  "motsCles": "écran noir téléphone s'allume pas rien ne s'affiche vibre sonne éteint batterie vide android",
+  "quand": [
+    "Quand le téléphone ne s'allume plus après une charge vide ou un blocage.",
+    "Après une chute ou du contact avec l'eau.",
+    "Quand le téléphone sonne ou vibre, mais que l'écran reste noir."
+  ],
+  "explication": "L'écran ne s'allume plus. Il faut d'abord savoir si le téléphone est vraiment éteint, ou s'il est allumé avec seulement l'écran qui ne marche pas. La solution est très différente dans chaque cas.",
+  "causes": [
+    "Batterie complètement vide.",
+    "Plantage du système (le téléphone est figé).",
+    "Écran ou connecteur abîmé après une chute.",
+    "Chaleur excessive.",
+    "Eau ou humidité à l'intérieur.",
+    "Chargeur ou câble défectueux qui donne l'impression que le téléphone ne répond pas.",
+    "Batterie défectueuse."
+  ],
+  "solutions": [
+    "Branche le téléphone avec un chargeur d'origine pendant 30 minutes, même s'il ne montre rien.",
+    "Fais un redémarrage forcé : maintiens le bouton d'allumage (parfois avec volume bas) pendant 10 à 15 secondes.",
+    "Appelle ton numéro depuis un autre téléphone : si ça sonne ou vibre, le téléphone est allumé et c'est l'écran qui est en cause.",
+    "Si le téléphone est allumé mais l'écran reste noir, apporte-le chez un technicien pour l'écran.",
+    "Laisse refroidir s'il est chaud.",
+    "Si le téléphone a pris l'eau, éteins-le et apporte-le vite à un technicien."
+  ],
+  "securite": "N'ouvre pas le téléphone toi-même : tu peux l'abîmer ou te blesser avec la batterie. Choisis un réparateur de confiance et, avant de le lui laisser, sauvegarde ce que tu peux et note le code de verrouillage pour pouvoir récupérer tes données."
+}

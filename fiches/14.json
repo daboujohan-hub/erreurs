@@ -1,0 +1,34 @@
+{
+  "numero": 14,
+  "titre": "L'écran tactile ne répond pas bien",
+  "message": "L'écran ne réagit pas / touches fantômes (parfois sans message)",
+  "image": "images/erreur-14.png",
+  "video": "",
+  "motsCles": "écran tactile ne répond pas touche fantôme tactile bloqué écran fissuré protection android",
+  "quand": [
+    "Quand tu touches l'écran et que rien ne se passe, ou que le téléphone appuie tout seul.",
+    "Après une chute, du contact avec l'eau, ou le changement d'une protection d'écran.",
+    "Pendant la charge avec un mauvais chargeur."
+  ],
+  "explication": "L'écran ne comprend plus bien tes doigts. Il peut ne pas réagir, réagir en retard, ou faire des « touches fantômes » : le téléphone ouvre des choses tout seul. La cause peut être simple (saleté, film) ou plus sérieuse (écran abîmé).",
+  "causes": [
+    "Écran sale, gras ou mouillé, ou doigts humides.",
+    "Protection d'écran (film) mal posée, épaisse ou abîmée.",
+    "Bug temporaire du système.",
+    "Écran fissuré ou abîmé après une chute.",
+    "Chargeur de mauvaise qualité qui crée des touches fantômes pendant la charge.",
+    "Chaleur trop forte.",
+    "Une application défectueuse.",
+    "Humidité entrée dans le téléphone."
+  ],
+  "solutions": [
+    "Essuie l'écran avec un chiffon doux et sec, avec les mains sèches.",
+    "Retire la protection d'écran et la coque pour tester.",
+    "Redémarre le téléphone.",
+    "Débranche le chargeur : si le problème disparaît, change de chargeur.",
+    "Démarre en mode sécurisé (appui long sur « Éteindre », puis appui long sur « Éteindre » encore pour proposer le mode sécurisé). Si l'écran marche bien, une application récente est la cause : désinstalle-la.",
+    "Mets à jour le système.",
+    "Si l'écran est fissuré ou si le problème reste, fais-le réparer."
+  ],
+  "securite": "Si l'écran est très fissuré, tu peux te couper : protège-le avec un film et fais-le réparer. Avant de donner le téléphone à un réparateur, sauvegarde tes données et retire ton compte si possible. Choisis un réparateur de confiance."
+}

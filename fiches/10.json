@@ -1,0 +1,36 @@
+{
+  "numero": 10,
+  "titre": "Le Wi-Fi est connecté mais sans internet",
+  "message": "Connecté, aucun accès à Internet / Connecté sans internet",
+  "image": "images/erreur-10.png",
+  "video": "",
+  "motsCles": "wifi connecté sans internet pas d'accès internet réseau routeur dns box android",
+  "quand": [
+    "Quand le Wi-Fi est affiché comme connecté, mais que les pages et applications ne chargent pas.",
+    "Dans les lieux publics (hôtel, école, café) qui demandent une connexion supplémentaire.",
+    "Sur téléphone, tablette ou autre appareil Android."
+  ],
+  "explication": "Le téléphone est bien relié au routeur (la box), mais la box n'a pas d'internet, ou bloque l'accès. C'est comme être dans une maison avec le téléphone en main, mais sans la route qui mène dehors.",
+  "causes": [
+    "Le forfait internet de la box est fini ou l'opérateur est en panne.",
+    "La box a besoin d'être redémarrée.",
+    "Une page de connexion (portail) n'a pas été validée dans un lieu public.",
+    "Trop d'appareils connectés au même Wi-Fi.",
+    "Un problème de DNS (les sites ne se trouvent pas).",
+    "Un VPN ou un « DNS privé » mal réglé sur le téléphone.",
+    "La date et l'heure du téléphone sont fausses."
+  ],
+  "solutions": [
+    "Teste sur un autre appareil : si lui non plus n'a pas internet, le problème vient de la box ou de l'opérateur.",
+    "Éteins la box 30 secondes puis rallume-la.",
+    "Sur le téléphone : oublie le réseau Wi-Fi, puis reconnecte-toi.",
+    "Dans un lieu public, ouvre le navigateur : une page de connexion peut s'afficher.",
+    "Désactive le VPN et vérifie le DNS privé (Paramètres > Réseau > DNS privé : mets « Automatique »).",
+    "Mets la date et l'heure en automatique.",
+    "Active puis désactive le mode avion.",
+    "Vérifie que ton forfait n'est pas épuisé."
+  ],
+  "commande": "ping -c 3 8.8.8.8",
+  "commandeNote": "Dans Termux. Si cette commande répond mais que « ping -c 3 google.com » échoue, c'est un problème de DNS. Si aucune des deux ne répond, il n'y a pas d'internet sur le Wi-Fi.",
+  "securite": "Sur un Wi-Fi public, évite les opérations bancaires et les mots de passe importants. Ne tape pas tes informations sur une page de connexion qui te paraît bizarre."
+}

@@ -1,0 +1,33 @@
+{
+  "numero": 15,
+  "titre": "Pas de réseau / « Aucun service » / SIM non détectée",
+  "message": "Aucun service / Pas de carte SIM / Réseau mobile non disponible",
+  "image": "images/erreur-15.png",
+  "video": "",
+  "motsCles": "pas de réseau aucun service sim non détectée carte sim signal opérateur appel android",
+  "quand": [
+    "Quand le téléphone n'a plus de barres de signal, ou affiche « Aucun service ».",
+    "Après une chute, un changement de SIM ou une mise à jour.",
+    "Dans une zone mal couverte (sous-sol, village isolé)."
+  ],
+  "explication": "Le téléphone ne trouve pas le réseau de ton opérateur. Tu ne peux plus appeler, envoyer de SMS ni utiliser les données mobiles. La cause peut être la SIM, la zone où tu es, un réglage ou ton opérateur.",
+  "causes": [
+    "Tu es dans une zone sans couverture.",
+    "La carte SIM est mal placée, sale ou abîmée.",
+    "Le mode avion est activé.",
+    "La ligne est suspendue ou le forfait est terminé.",
+    "Le téléphone est bloqué sur un mauvais réglage de réseau.",
+    "Une panne chez l'opérateur.",
+    "Le plateau SIM ou le lecteur est abîmé après une chute."
+  ],
+  "solutions": [
+    "Active puis désactive le mode avion.",
+    "Redémarre le téléphone.",
+    "Éteins le téléphone, retire la SIM, essuie-la doucement avec un chiffon sec, puis remets-la bien en place.",
+    "Mets la SIM dans un autre téléphone : si elle ne marche pas non plus, la SIM est le problème.",
+    "Dans Paramètres > Réseau mobile > Opérateurs, choisis la sélection automatique du réseau.",
+    "Réinitialise les réglages réseau : Paramètres > Système > Réinitialiser > Réinitialiser le Wi-Fi, le mobile et le Bluetooth.",
+    "Contacte ton opérateur : la ligne est peut-être suspendue, ou la SIM doit être remplacée."
+  ],
+  "securite": "Si ton réseau disparaît soudainement sans raison et que tu reçois des alertes bizarres, appelle vite ton opérateur depuis un autre téléphone : quelqu'un a peut-être fait remplacer ta SIM pour voler ton compte, notamment Mobile Money. Ne partage jamais tes codes secrets."
+}

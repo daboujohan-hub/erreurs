@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Base d'erreurs : les erreurs courantes des téléphones et des applications, expliquées simplement avec leurs causes et leurs solutions.">
+<title>Base d'erreurs</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:sans-serif;margin:0;background:#f4f4f8;color:#222;line-height:1.4}
+  header{background:#3b2f8f;color:#fff;padding:16px}
+  header h1{margin:0;font-size:20px}
+  header p{margin:4px 0 0;font-size:13px;opacity:.85}
+  header a{color:#fff;text-decoration:underline}
+  #q{width:100%;padding:14px;font-size:16px;border:0;border-bottom:2px solid #3b2f8f;border-radius:0;outline:none}
+  main{padding:12px;max-width:820px;margin:0 auto}
+  .fiche{background:#fff;border-radius:12px;padding:14px;margin-bottom:14px;box-shadow:0 1px 4px #0002}
+  .num{display:inline-block;background:#3b2f8f;color:#fff;border-radius:6px;padding:2px 8px;font-size:13px}
+  .fiche h2{font-size:17px;margin:8px 0}
+  .fiche h3{font-size:14px;color:#3b2f8f;margin:14px 0 4px}
+  .fiche ul,.fiche ol{margin:4px 0;padding-left:20px;font-size:14px}
+  .fiche li{margin-bottom:3px}
+  .fiche p{margin:4px 0;font-size:14px}
+  .fiche img,.fiche video{max-width:100%;border-radius:8px;margin-top:6px}
+  .secu{background:#fff4e0;border-left:4px solid #e8a317;padding:8px 10px;font-size:14px;border-radius:6px}
+  pre{background:#222;color:#eee;padding:10px;border-radius:8px;overflow:auto;font-size:13px}
+  mark{background:#ffe97a;color:inherit;border-radius:3px;padding:0 1px}
+  #info{text-align:center;color:#666;padding:14px;font-size:14px}
+  footer{text-align:center;font-size:13px;color:#555;padding:18px 12px 28px}
+  footer a{color:#3b2f8f}
+</style>
+</head>
+<body>
+<header>
+  <h1>Base d'erreurs</h1>
+  <p id="compteur">Chargement...</p>
+  <p>Développeur officiel : <a href="https://daboujohan-hub.github.io" target="_blank" rel="noopener">daboujohan-hub.github.io</a></p>
+</header>
+<input id="q" type="search" placeholder="Rechercher : batterie, écran, wifi, ne répond plus..." aria-label="Rechercher une erreur" autocomplete="off">
+<div id="info"></div>
+<main id="liste"></main>
+<footer>
+  <a href="confidentialite.html">Politique de confidentialité</a> ·
+  <a href="https://daboujohan-hub.github.io" target="_blank" rel="noopener">Développeur officiel</a>
+  <p>© 2026 Base d'erreurs</p>
+</footer>
+
+<script>
+// Ce fichier ne change plus. Chaque erreur est un fichier dans le dossier "fiches" (1.json, 2.json, ...).
+
+function esc(s){
+  return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+  });
+}
+
+// minuscules + sans accents
+function norm(s){
+  return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+// distance entre deux mots (tolère les petites fautes de frappe)
+function dist(a, b, max){
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  var prev = [];
+  for (var j = 0; j <= b.length; j++) prev.push(j);
+  for (var i = 1; i <= a.length; i++){
+    var cur = [i], min = i;
+    for (j = 1; j <= b.length; j++){
+      var v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      cur[j] = v;
+      if (v < min) min = v;
+    }
+    if (min > max) return max + 1;
+    prev = cur;
+  }
+  return prev[b.length];
+}
+
+// met en surbrillance les mots cherchés (sans tenir compte des accents)
+function hl(texte, mots){
+  var s = String(texte == null ? '' : texte);
+  if (!mots.length) return esc(s);
+  var n = '', map = [];
+  for (var i = 0; i < s.length; i++){
+    var c = norm(s[i]);
+    for (var k = 0; k < c.length; k++){ n += c[k]; map.push(i); }
+  }
+  var marque = new Array(s.length).fill(false);
+  mots.forEach(function(m){
+    var pos = n.indexOf(m);
+    while (pos !== -1){
+      for (var p = pos; p < pos + m.length; p++) marque[map[p]] = true;
+      pos = n.indexOf(m, pos + 1);
+    }
+  });
+  var out = '', ouvert = false;
+  for (i = 0; i < s.length; i++){
+    if (marque[i] && !ouvert){ out += '<mark>'; ouvert = true; }
+    if (!marque[i] && ouvert){ out += '</mark>'; ouvert = false; }
+    out += esc(s[i]);
+  }
+  if (ouvert) out += '</mark>';
+  return out;
+}
+
+// prépare le texte de recherche d'une fiche
+function preparer(e){
+  var corps = [e.explication, (e.quand || []).join(' '), (e.causes || []).join(' '),
+               (e.solutions || []).join(' '), e.securite, e.commandeNote].join(' ');
+  e._n = { titre: norm(e.titre), message: norm(e.message), cles: norm(e.motsCles), corps: norm(corps) };
+  function mots_de(t){ return Array.from(new Set(t.split(/[^a-z0-9]+/).filter(function(x){ return x.length >= 3; }))); }
+  e._tok = {
+    titre: mots_de(e._n.titre),
+    cles: mots_de(e._n.cles + ' ' + e._n.message),
+    corps: mots_de(e._n.corps)
+  };
+}
+
+function proche(m, tab, max){
+  for (var t = 0; t < tab.length; t++){
+    if (dist(m, tab[t], max) <= max) return true;
+  }
+  return false;
+}
+
+// 0 = pas trouvé ; plus le score est haut, plus la fiche correspond
+function evaluer(e, mots){
+  var score = 0;
+  for (var i = 0; i < mots.length; i++){
+    var m = mots[i], s = 0;
+    if (e._n.titre.indexOf(m) !== -1) s = 5;
+    else if (e._n.cles.indexOf(m) !== -1 || e._n.message.indexOf(m) !== -1) s = 3;
+    else if (e._n.corps.indexOf(m) !== -1) s = 1;
+    else if (m.length >= 4){
+      var max = m.length >= 6 ? 2 : 1;
+      if (proche(m, e._tok.titre, max)) s = 2.5;
+      else if (proche(m, e._tok.cles, max)) s = 1.5;
+      else if (proche(m, e._tok.corps, max)) s = 0.5;
+    }
+    if (!s) return 0;
+    score += s;
+  }
+  return score;
+}
+
+function liste_html(tab, tag, mots){
+  return '<' + tag + '>' + (tab || []).map(function(x){ return '<li>' + hl(x, mots) + '</li>'; }).join('') + '</' + tag + '>';
+}
+
+function carte(e, mots){
+  var h = '<div class="fiche"><span class="num">Erreur n°' + esc(e.numero) + '</span><h2>' + hl(e.titre, mots) + '</h2>';
+  if (e.message) h += '<p><b>Message affiché :</b> ' + hl(e.message, mots) + '</p>';
+  if (e.image) h += '<img src="' + esc(e.image) + '" alt="Capture de l\'erreur" loading="lazy" onerror="this.style.display=\'none\'">';
+  if (e.video) h += '<video src="' + esc(e.video) + '" controls></video>';
+  if (e.quand) h += '<h3>Quand elle apparaît</h3>' + liste_html(e.quand, 'ul', mots);
+  if (e.explication) h += '<h3>Explication</h3><p>' + hl(e.explication, mots) + '</p>';
+  if (e.causes) h += '<h3>Pourquoi elle apparaît</h3>' + liste_html(e.causes, 'ul', mots);
+  if (e.solutions) h += '<h3>Comment la corriger</h3>' + liste_html(e.solutions, 'ol', mots);
+  if (e.commande) h += '<pre>' + esc(e.commande) + '</pre><p>' + hl(e.commandeNote || '', mots) + '</p>';
+  if (e.securite) h += '<h3>Sécurité</h3><div class="secu">' + hl(e.securite, mots) + '</div>';
+  return h + '</div>';
+}
+
+// ---- DOM ----
+var erreurs = [];
+var listeEl = document.getElementById('liste');
+var info = document.getElementById('info');
+var q = document.getElementById('q');
+var compteur = document.getElementById('compteur');
+
+function afficher(){
+  var mots = norm(q.value).split(/[^a-z0-9]+/).filter(function(m){ return m.length >= 2; });
+  var res;
+  if (!mots.length){
+    res = erreurs.map(function(e){ return { e: e, s: 0 }; });
+  } else {
+    res = erreurs.map(function(e){ return { e: e, s: evaluer(e, mots) }; })
+                 .filter(function(r){ return r.s > 0; })
+                 .sort(function(a, b){ return b.s - a.s || a.e.numero - b.e.numero; });
+  }
+  listeEl.innerHTML = res.map(function(r){ return carte(r.e, mots); }).join('');
+  if (!erreurs.length) return;
+  if (!res.length) info.textContent = 'Aucune erreur trouvée. Essaie un autre mot, par exemple : batterie, écran, wifi, stockage.';
+  else if (mots.length) info.textContent = res.length + ' résultat(s)';
+  else info.textContent = '';
+}
+
+async function listerFichiers(){
+  try {
+    var r = await fetch('fiches/', { cache: 'no-cache' });
+    var html = await r.text();
+    var doc = new DOMParser().parseFromString(html, 'text/html');
+    var noms = Array.from(doc.querySelectorAll('a')).map(function(a){ return a.getAttribute('href'); })
+      .filter(function(h){ return h && h.endsWith('.json') && h.split('/').pop() !== 'liste.json'; });
+    if (noms.length) return noms.map(function(n){ return n.split('/').pop(); });
+  } catch (e) {}
+  var r2 = await fetch('fiches/liste.json', { cache: 'no-cache' });
+  return await r2.json();
+}
+
+async function demarrer(){
+  try {
+    var noms = await listerFichiers();
+    var lots = await Promise.all(noms.map(function(n){
+      return fetch('fiches/' + n, { cache: 'no-cache' }).then(function(r){ return r.json(); }).catch(function(){ return null; });
+    }));
+    erreurs = lots.filter(Boolean).sort(function(a, b){ return a.numero - b.numero; });
+    erreurs.forEach(preparer);
+    compteur.textContent = erreurs.length + ' erreur(s) documentée(s)';
+    afficher();
+  } catch (e) {
+    console.error(e);
+    compteur.textContent = 'Les fiches ne sont pas disponibles pour le moment';
+    info.textContent = 'Réessaie dans quelques instants.';
+  }
+}
+
+q.addEventListener('input', afficher);
+demarrer();
+</script>
+</body>
+</html>

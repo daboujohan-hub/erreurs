@@ -1,0 +1,34 @@
+{
+  "numero": 21,
+  "titre": "La mise à jour du système échoue",
+  "message": "Échec de la mise à jour / Impossible d'installer la mise à jour / Mise à jour bloquée",
+  "image": "images/erreur-21.png",
+  "video": "",
+  "motsCles": "mise à jour système échoue bloquée impossible installer android update espace batterie",
+  "quand": [
+    "Quand le téléphone télécharge une mise à jour mais ne parvient pas à l'installer.",
+    "Quand la mise à jour reste bloquée à un certain pourcentage.",
+    "Après le redémarrage : le téléphone revient à l'ancienne version."
+  ],
+  "explication": "Une mise à jour du système demande de la place, de l'énergie et une bonne connexion. Si une seule de ces choses manque, elle échoue. C'est frustrant parce que le téléphone peut rester bloqué un long moment.",
+  "causes": [
+    "Pas assez d'espace libre (une mise à jour demande souvent plusieurs Go).",
+    "Batterie trop faible.",
+    "Connexion internet instable ou trop lente.",
+    "Fichier de mise à jour incomplet ou abîmé.",
+    "Serveurs surchargés le jour de la sortie de la mise à jour.",
+    "Téléphone modifié (rooté) ou avec un système non officiel.",
+    "Date et heure fausses."
+  ],
+  "solutions": [
+    "Libère au moins 4 à 5 Go d'espace.",
+    "Charge le téléphone à au moins 50 % ou laisse-le branché.",
+    "Connecte-toi à un Wi-Fi stable, pas aux données mobiles.",
+    "Redémarre le téléphone, puis relance la mise à jour.",
+    "Mets la date et l'heure en automatique.",
+    "Réessaie plus tard : parfois les serveurs sont trop chargés.",
+    "Utilise l'outil officiel de la marque sur ordinateur si elle en propose un.",
+    "Si le téléphone est bloqué sur la mise à jour, charge-le puis fais un redémarrage forcé."
+  ],
+  "securite": "N'utilise que les mises à jour officielles de la marque. Les fichiers « mise à jour » trouvés sur des sites inconnus peuvent contenir un virus ou rendre le téléphone inutilisable. Sauvegarde tes données avant une grosse mise à jour et n'éteins pas le téléphone pendant l'installation."
+}

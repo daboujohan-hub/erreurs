@@ -1,0 +1,33 @@
+{
+  "numero": 1,
+  "titre": "« L'application s'arrête systématiquement »",
+  "message": "Sécurité.DAJ s'arrête systématiquement",
+  "image": "images/erreur-1.png",
+  "video": "",
+  "motsCles": "application s'arrête systématiquement plante crash ferme apk ouverture lancement android daj sécurité",
+  "quand": [
+    "Juste après l'installation d'un APK que tu viens de fabriquer.",
+    "Au moment où l'utilisateur appuie sur l'icône de l'application.",
+    "Sur téléphone Android. Le même type de blocage existe aussi sur tablette ou écran de voiture Android."
+  ],
+  "explication": "Le développeur termine son application, génère l'APK, l'installe, puis l'application s'ouvre une seconde et se ferme. Android affiche alors cette fenêtre avec deux choix : « Infos sur l'appli » et « Fermer l'application ». Cela veut dire qu'une erreur grave dans le code est survenue au démarrage, et Android a arrêté l'application pour protéger le téléphone. C'est une erreur très courante : beaucoup de débutants se découragent ici, surtout ceux qui construisent leur application avec l'aide de l'intelligence artificielle.",
+  "causes": [
+    "Une erreur dans le code qui s'exécute dès l'ouverture (variable vide, écran mal déclaré).",
+    "Une permission ou un écran (activité) non déclaré dans le fichier AndroidManifest.",
+    "Un fichier ou une ressource manquante dans l'APK (image, base de données, bibliothèque).",
+    "Une version d'Android trop ancienne pour l'application, ou un APK non adapté au processeur du téléphone.",
+    "Une installation corrompue ou une ancienne version qui gêne la nouvelle.",
+    "Le téléphone n'a presque plus de mémoire."
+  ],
+  "solutions": [
+    "Redémarre le téléphone, puis rouvre l'application.",
+    "Appuie sur « Infos sur l'appli » > Stockage > Vider le cache, puis Effacer les données.",
+    "Désinstalle complètement l'application, puis réinstalle l'APK.",
+    "Libère de l'espace sur le téléphone (au moins 1 Go libre).",
+    "Pour le développeur : trouve le vrai message d'erreur avec logcat (voir ci-dessous). Il indique la ligne exacte qui a fait planter l'application.",
+    "Si tu utilises une IA : copie le message qui contient FATAL EXCEPTION et envoie-le-lui, avec le fichier concerné. C'est la méthode la plus rapide pour corriger."
+  ],
+  "commande": "adb logcat -b crash",
+  "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé, lance cette commande, puis ouvre l'application. Cherche la ligne « FATAL EXCEPTION ».",
+  "securite": "Installe un APK seulement depuis une source de confiance. Un APK inconnu peut contenir un virus. Teste toujours ton APK sur ton propre téléphone avant de le partager."
+}

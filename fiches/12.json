@@ -1,0 +1,35 @@
+{
+  "numero": 12,
+  "titre": "Le Play Store affiche « Erreur » ou ne télécharge pas",
+  "message": "Erreur / Le téléchargement est en attente / Impossible de télécharger l'application",
+  "image": "images/erreur-12.png",
+  "video": "",
+  "motsCles": "play store erreur télécharge pas téléchargement en attente impossible google play android",
+  "quand": [
+    "Quand tu télécharges ou mets à jour une application dans le Play Store.",
+    "Quand le téléchargement reste bloqué sur « En attente » ou « Téléchargement en cours ».",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Le Play Store n'arrive pas à télécharger l'application. Le message est souvent vague (« Erreur »), ou le téléchargement reste bloqué sans avancer. La cause se trouve souvent dans la connexion, l'espace de stockage, le cache du Play Store ou l'heure du téléphone.",
+  "causes": [
+    "Pas d'internet, ou connexion très lente.",
+    "Le forfait mobile est épuisé, ou le téléchargement est limité au Wi-Fi uniquement.",
+    "Le téléphone n'a pas assez d'espace.",
+    "Le cache du Play Store ou des Services Google Play est plein ou abîmé.",
+    "La date et l'heure du téléphone sont fausses.",
+    "Un problème avec le compte Google.",
+    "D'autres téléchargements ou mises à jour sont déjà en file d'attente.",
+    "Le Play Store n'est pas à jour."
+  ],
+  "solutions": [
+    "Vérifie ta connexion : essaie d'ouvrir une page web.",
+    "Mets la date et l'heure en automatique.",
+    "Libère de l'espace sur le téléphone.",
+    "Vide le cache : Paramètres > Applications > Google Play Store > Stockage > Vider le cache. Fais la même chose pour « Services Google Play ».",
+    "Si ça ne marche pas, appuie aussi sur « Effacer les données » du Play Store.",
+    "Dans le Play Store : profil > Paramètres > Préférences réseau > Préférence de téléchargement d'applications, et choisis le bon réseau.",
+    "Redémarre le téléphone.",
+    "Supprime ton compte Google du téléphone, puis ajoute-le de nouveau."
+  ],
+  "securite": "Télécharge les applications uniquement depuis le Play Store officiel. Vérifie le nom du développeur avant d'installer. Si le Play Store ne marche pas, n'installe pas une version « modifiée » ou « gratuite » depuis un site inconnu : c'est souvent un virus."
+}

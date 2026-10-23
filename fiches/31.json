@@ -1,0 +1,32 @@
+{
+  "numero": 31,
+  "titre": "Des applications tournent en arrière-plan sans que tu le saches",
+  "message": "Aucun message : le téléphone ralentit et la batterie baisse sans raison",
+  "image": "images/erreur-31.png",
+  "video": "",
+  "motsCles": "applications arrière-plan tournent sans le savoir invisible ralentit batterie mémoire services processus android",
+  "quand": [
+    "Quand le téléphone est lent ou chaud alors que tu ne l'utilises pas.",
+    "Quand la batterie baisse pendant la nuit.",
+    "Après avoir installé beaucoup d'applications."
+  ],
+  "explication": "Une application peut continuer à travailler même quand tu l'as fermée : elle se synchronise, envoie des notifications, vérifie ta position, joue de la publicité. Tu ne vois rien, mais ces applications utilisent la mémoire, la batterie et les données.",
+  "causes": [
+    "Applications autorisées à démarrer toutes seules.",
+    "Services qui restent actifs (musique, localisation, synchronisation).",
+    "Widgets ou notifications qui se mettent à jour sans arrêt.",
+    "Applications mal faites qui ne s'arrêtent jamais.",
+    "Applications inconnues, publicitaires ou malveillantes.",
+    "Trop d'applications installées."
+  ],
+  "solutions": [
+    "Paramètres > Batterie : regarde quelles applications consomment le plus.",
+    "Ouvre Paramètres > Applications, choisis l'application inutile et appuie sur « Forcer l'arrêt ».",
+    "Limite l'activité en arrière-plan : Paramètres > Applications > l'application > Batterie > « Optimisée » ou « Restreinte ».",
+    "Désactive le démarrage automatique des applications inutiles (selon la marque).",
+    "Désinstalle les applications que tu n'utilises plus.",
+    "Dans les Options pour les développeurs, ouvre « Services en cours d'exécution » pour voir ce qui tourne.",
+    "Redémarre le téléphone de temps en temps."
+  ],
+  "securite": "Si une application inconnue travaille tout le temps en arrière-plan, désinstalle-la. Une application qui ne sert à rien ne doit pas utiliser ta batterie, tes données ni ta position."
+}

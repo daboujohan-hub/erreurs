@@ -1,0 +1,32 @@
+{
+  "numero": 37,
+  "titre": "La carte SD n'est pas détectée",
+  "message": "Carte SD endommagée / Carte SD introuvable / Carte SD vide ou avec un système de fichiers non compatible",
+  "image": "images/erreur-37.png",
+  "video": "",
+  "motsCles": "carte sd non détectée endommagée introuvable mémoire externe micro sd lecture format android",
+  "quand": [
+    "Après avoir mis une carte SD dans le téléphone, ou après une chute.",
+    "Quand les photos de la carte n'apparaissent plus dans la galerie.",
+    "Après avoir utilisé la carte dans un autre appareil (ordinateur, appareil photo)."
+  ],
+  "explication": "Le téléphone ne réussit plus à lire la carte mémoire. Il peut dire qu'elle est endommagée, vide ou introuvable. Avant de penser que tes fichiers sont perdus, il faut vérifier les causes simples : mauvais contact, carte mal posée, ou carte lue dans un autre appareil.",
+  "causes": [
+    "La carte est mal insérée ou le plateau est mal fermé.",
+    "Les contacts de la carte sont sales ou abîmés.",
+    "La carte a été retirée sans l'éjecter proprement.",
+    "Le format de la carte n'est pas compatible avec le téléphone.",
+    "La carte est abîmée par une chute, l'eau ou l'usure.",
+    "Fausse carte vendue avec une capacité qui n'est pas réelle.",
+    "Le lecteur de carte du téléphone est abîmé."
+  ],
+  "solutions": [
+    "Éteins le téléphone, retire la carte, essuie les contacts avec un chiffon sec, puis remets-la bien.",
+    "Redémarre le téléphone.",
+    "Mets la carte dans un ordinateur avec un lecteur : si les fichiers s'y trouvent, copie-les tout de suite.",
+    "Si les fichiers sont copiés, tu peux alors formater la carte dans le téléphone (Paramètres > Stockage > Carte SD > Formater). Cela efface tout.",
+    "Teste la carte dans un autre téléphone pour savoir si c'est la carte ou le téléphone.",
+    "Si la carte est abîmée, remplace-la par une carte d'une marque connue achetée dans une boutique fiable."
+  ],
+  "securite": "Ne formate pas la carte avant d'avoir essayé de récupérer tes fichiers : le formatage les efface. N'utilise pas d'applications de « récupération » inconnues, elles peuvent contenir des virus. Évite les cartes SD trop bon marché : beaucoup sont fausses et perdent les données."
+}

@@ -1,0 +1,40 @@
+{
+  "numero": 4,
+  "titre": "« La batterie se vide trop vite »",
+  "message": "Batterie faible / le pourcentage baisse très vite (parfois sans message)",
+  "image": "images/erreur-4.png",
+  "video": "",
+  "motsCles": "batterie vide trop vite décharge rapidement chauffe autonomie pourcentage chargeur applications arrière-plan téléphone android",
+  "quand": [
+    "Depuis le matin, le pourcentage baisse de façon visible, même sans utiliser le téléphone.",
+    "Après l'installation d'une nouvelle application ou une mise à jour.",
+    "Quand le téléphone chauffe, ou quand le réseau est très faible.",
+    "Sur téléphone, tablette, ou appareil Android de voiture branché sur batterie."
+  ],
+  "explication": "La batterie se vide plus vite que d'habitude. Ce n'est pas toujours la batterie elle-même : très souvent, une application, un réglage ou la chaleur fait travailler le téléphone sans que tu le voies. Il y a plusieurs causes possibles. Il faut les vérifier une par une, en commençant par la plus simple.",
+  "causes": [
+    "Écran trop lumineux ou qui reste allumé longtemps.",
+    "Applications qui tournent en arrière-plan (Facebook, TikTok, WhatsApp, jeux).",
+    "Synchronisation et mises à jour automatiques qui travaillent en continu.",
+    "Localisation (GPS) toujours activée pour trop d'applications.",
+    "Réseau faible : le téléphone cherche le signal sans arrêt et consomme beaucoup.",
+    "Wi-Fi, Bluetooth ou partage de connexion laissés allumés pour rien.",
+    "Batterie vieille ou usée (souvent après 2 ans d'usage).",
+    "Chaleur : soleil, jeux longs, ou téléphone qui chauffe pendant la charge.",
+    "Mauvais chargeur ou câble qui n'est pas d'origine.",
+    "Application défectueuse ou malveillante qui consomme énormément."
+  ],
+  "solutions": [
+    "Ouvre Paramètres > Batterie pour voir quelle application consomme le plus.",
+    "Si une application suspecte arrive en tête, ferme-la, mets-la à jour ou désinstalle-la.",
+    "Active la luminosité automatique et réduis le délai de mise en veille de l'écran.",
+    "Active le mode économie d'énergie.",
+    "Limite l'activité en arrière-plan des applications que tu n'utilises pas souvent.",
+    "Désactive la localisation, le Bluetooth et le Wi-Fi quand tu ne les utilises pas.",
+    "Redémarre le téléphone, et mets à jour le système et les applications.",
+    "Utilise un chargeur et un câble d'origine ou de bonne qualité.",
+    "Garde le téléphone au frais : pas au soleil, pas sous l'oreiller, pas dans une coque trop épaisse pendant la charge.",
+    "Si la batterie est usée, fais-la changer chez un technicien de confiance."
+  ],
+  "securite": "Si la batterie est gonflée, si le téléphone devient très chaud ou sent le brûlé, arrête de le charger et de l'utiliser, et apporte-le à un technicien. Une batterie abîmée peut prendre feu. Méfie-toi aussi des applications inconnues qui vident la batterie : elles peuvent travailler en cachette."
+}

@@ -1,0 +1,35 @@
+{
+  "numero": 23,
+  "titre": "Le Bluetooth ne se connecte pas",
+  "message": "Impossible de se connecter / Échec de l'association / Casque ou enceinte non détecté",
+  "image": "images/erreur-23.png",
+  "video": "",
+  "motsCles": "bluetooth ne se connecte pas casque enceinte appairage association échec voiture android",
+  "quand": [
+    "Quand tu veux connecter un casque, une enceinte, une montre ou la voiture.",
+    "Quand l'appareil se connecte puis se déconnecte tout seul.",
+    "Quand un appareil déjà utilisé avant ne se reconnecte plus."
+  ],
+  "explication": "Le téléphone et l'autre appareil ne réussissent pas à s'associer. C'est très courant, surtout avec des anciens appairages, des appareils trop loin ou déjà connectés à un autre téléphone.",
+  "causes": [
+    "L'autre appareil n'est pas en mode association.",
+    "L'appareil est déjà connecté à un autre téléphone.",
+    "Distance trop grande ou obstacles.",
+    "Batterie faible sur l'appareil Bluetooth.",
+    "Un ancien appairage abîmé.",
+    "Le Bluetooth du téléphone a un bug temporaire.",
+    "Les deux appareils ne sont pas compatibles.",
+    "Interférences avec d'autres appareils."
+  ],
+  "solutions": [
+    "Éteins et rallume le Bluetooth du téléphone.",
+    "Mets l'autre appareil en mode association (souvent un bouton à garder appuyé).",
+    "Charge l'appareil Bluetooth.",
+    "Dans Paramètres > Bluetooth, supprime l'ancien appareil (« Oublier »), puis refais l'association.",
+    "Déconnecte l'appareil de tous les autres téléphones.",
+    "Redémarre le téléphone et l'appareil Bluetooth.",
+    "Vide le cache Bluetooth : Paramètres > Applications > Afficher les applications système > Bluetooth > Stockage > Vider le cache.",
+    "Si tout échoue, réinitialise les réglages réseau du téléphone."
+  ],
+  "securite": "N'accepte pas une demande d'association venant d'un appareil que tu ne connais pas. Désactive le Bluetooth quand tu ne l'utilises pas, surtout dans les lieux publics."
+}

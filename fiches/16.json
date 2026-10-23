@@ -1,0 +1,35 @@
+{
+  "numero": 16,
+  "titre": "Les messages WhatsApp ne s'envoient pas",
+  "message": "Petite horloge à côté du message / En attente de connexion / Connexion en cours",
+  "image": "images/erreur-16.png",
+  "video": "",
+  "motsCles": "whatsapp message ne s'envoie pas horloge attente connexion en cours internet android",
+  "quand": [
+    "Quand une petite horloge reste à côté du message au lieu d'une coche.",
+    "Quand WhatsApp affiche « En attente de connexion ».",
+    "Quand les données mobiles ou le Wi-Fi sont faibles."
+  ],
+  "explication": "WhatsApp a besoin d'internet pour envoyer. Une petite horloge veut dire que le message est prêt mais n'est pas parti. Souvent, la connexion est trop faible, ou le téléphone empêche WhatsApp de travailler en arrière-plan.",
+  "causes": [
+    "Pas d'internet, forfait terminé ou connexion très faible.",
+    "Le mode économie de données ou d'énergie bloque WhatsApp.",
+    "WhatsApp n'a pas le droit d'utiliser les données en arrière-plan.",
+    "La date et l'heure du téléphone sont fausses.",
+    "WhatsApp n'est pas à jour.",
+    "Le stockage est plein.",
+    "Un VPN ou un réglage réseau gêne la connexion.",
+    "WhatsApp peut aussi avoir une panne chez lui."
+  ],
+  "solutions": [
+    "Teste internet : ouvre une page web.",
+    "Mets la date et l'heure en automatique.",
+    "Désactive le mode économie d'énergie et le mode économie de données pour WhatsApp.",
+    "Dans Paramètres > Applications > WhatsApp > Données mobiles, autorise les données en arrière-plan.",
+    "Mets WhatsApp à jour depuis le Play Store.",
+    "Vide le cache de WhatsApp : Paramètres > Applications > WhatsApp > Stockage > Vider le cache.",
+    "Redémarre le téléphone, puis réessaie.",
+    "En dernier recours : sauvegarde tes discussions, puis désinstalle et réinstalle WhatsApp."
+  ],
+  "securite": "Ne donne jamais à personne le code à 6 chiffres que WhatsApp t'envoie par SMS : il permet de prendre ton compte. N'installe pas de versions modifiées de WhatsApp (GBWhatsApp et autres) : elles peuvent voler tes données et ton compte peut être bloqué."
+}

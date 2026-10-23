@@ -1,0 +1,34 @@
+{
+  "numero": 25,
+  "titre": "L'appareil photo ne marche pas",
+  "message": "Impossible de se connecter à l'appareil photo / L'appareil photo s'est arrêté",
+  "image": "images/erreur-25.png",
+  "video": "",
+  "motsCles": "appareil photo caméra ne marche pas impossible se connecter arrêté écran noir flou android",
+  "quand": [
+    "Quand tu ouvres l'appareil photo et que l'écran reste noir ou que le message d'erreur s'affiche.",
+    "Pendant un appel vidéo ou dans une autre application utilisant la caméra.",
+    "Après une chute, une mise à jour ou quand le stockage est plein."
+  ],
+  "explication": "L'application de l'appareil photo ne réussit pas à accéder à la caméra. Souvent, c'est une autre application qui l'utilise déjà, ou un bug logiciel, ou le stockage est plein. Plus rarement, c'est la caméra elle-même qui est abîmée.",
+  "causes": [
+    "Une autre application utilise déjà la caméra (appel vidéo, scanner, WhatsApp).",
+    "Le cache de l'application Appareil photo est abîmé.",
+    "Le stockage est plein.",
+    "Bug du système ou mise à jour récente.",
+    "Le téléphone est trop chaud.",
+    "L'application n'a pas la permission d'utiliser la caméra.",
+    "Caméra abîmée après une chute ou à cause de l'humidité."
+  ],
+  "solutions": [
+    "Ferme toutes les applications, puis rouvre l'appareil photo.",
+    "Redémarre le téléphone.",
+    "Vide le cache de l'appareil photo : Paramètres > Applications > Appareil photo > Stockage > Vider le cache, puis « Effacer les données » si besoin.",
+    "Libère de l'espace sur le téléphone.",
+    "Vérifie la permission : Paramètres > Applications > Appareil photo > Autorisations.",
+    "Teste dans une autre application (WhatsApp, par exemple) pour voir si le problème vient de l'application ou de la caméra.",
+    "Démarre en mode sécurisé pour voir si une application bloque la caméra.",
+    "Si la caméra ne marche dans aucune application, fais-la réparer."
+  ],
+  "securite": "Vérifie quelles applications ont accès à la caméra : Paramètres > Confidentialité > Gestionnaire d'autorisations > Appareil photo. Retire l'accès aux applications inconnues ou inutiles."
+}

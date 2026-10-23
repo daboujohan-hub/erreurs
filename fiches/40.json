@@ -1,0 +1,33 @@
+{
+  "numero": 40,
+  "titre": "Pas de son sur le téléphone",
+  "message": "Aucun son : sonnerie, médias ou haut-parleur muet",
+  "image": "images/erreur-40.png",
+  "video": "",
+  "motsCles": "pas de son muet haut-parleur volume sonnerie silencieux bluetooth écouteurs casque ne marche pas android",
+  "quand": [
+    "Quand le téléphone ne sonne plus pour les appels ou les notifications.",
+    "Quand les vidéos ou la musique n'ont pas de son.",
+    "Après avoir utilisé un casque ou un appareil Bluetooth."
+  ],
+  "explication": "Un téléphone a plusieurs volumes séparés (sonnerie, médias, appels, alarme). Il suffit qu'un seul soit à zéro pour que tu n'entendes rien. Parfois, le son part vers un autre appareil sans que tu le saches.",
+  "causes": [
+    "Mode silencieux ou Ne pas déranger activé.",
+    "Volume des médias ou de la sonnerie à zéro.",
+    "Un casque Bluetooth ou un appareil connecté reçoit le son.",
+    "Une prise casque ou un port USB-C qui croit qu'un casque est branché.",
+    "Le haut-parleur est bouché par la saleté ou la coque.",
+    "Bug temporaire du système.",
+    "Haut-parleur abîmé après une chute ou de l'humidité."
+  ],
+  "solutions": [
+    "Appuie sur le bouton volume et ouvre le menu pour vérifier chaque volume (médias, sonnerie, appels).",
+    "Désactive le mode silencieux et Ne pas déranger.",
+    "Désactive le Bluetooth pour voir si le son revient.",
+    "Débranche tout casque et nettoie le port avec une brosse souple.",
+    "Retire la coque et nettoie les trous du haut-parleur.",
+    "Redémarre le téléphone, puis mets-le à jour.",
+    "Si le son ne marche dans aucune application, fais réparer le haut-parleur."
+  ],
+  "securite": "N'utilise pas de liquide ni d'objet métallique pour nettoyer le haut-parleur : tu peux l'abîmer. N'installe pas d'applications « boosteur de volume » inconnues."
+}

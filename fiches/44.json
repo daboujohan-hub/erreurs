@@ -1,0 +1,34 @@
+{
+  "numero": 44,
+  "titre": "Termux : « command not found » ou « Permission denied »",
+  "message": "bash: xxx: command not found / Permission denied / No such file or directory",
+  "image": "images/erreur-44.png",
+  "video": "",
+  "motsCles": "termux command not found permission denied no such file or directory pkg install python stockage storage commande introuvable",
+  "quand": [
+    "Quand tu tapes une commande dans Termux et qu'elle ne marche pas.",
+    "Quand tu veux lire un fichier dans le dossier Téléchargements.",
+    "Après une installation récente de Termux ou une mise à jour."
+  ],
+  "explication": "Termux est un terminal : il ne connaît que ce qui est installé dedans. « command not found » veut dire que le programme n'est pas installé. « Permission denied » veut dire que Termux n'a pas le droit d'ouvrir le dossier ou le fichier. « No such file » veut dire que le chemin est faux.",
+  "causes": [
+    "Le programme n'est pas installé (python, unzip, git, etc.).",
+    "Il y a une faute de frappe dans la commande.",
+    "Termux n'a pas l'autorisation d'accéder au stockage du téléphone.",
+    "Le fichier ou le dossier n'est pas là où tu penses (mauvais dossier).",
+    "Les paquets de Termux ne sont pas à jour.",
+    "Le fichier n'a pas le droit d'être exécuté."
+  ],
+  "solutions": [
+    "Installe le programme manquant : pkg install nom-du-programme",
+    "Mets à jour Termux : pkg update && pkg upgrade",
+    "Donne l'accès au stockage : termux-setup-storage, puis accepte la demande.",
+    "Tes téléchargements sont dans ~/storage/downloads.",
+    "Vérifie où tu es avec pwd, et liste les fichiers avec ls.",
+    "Vérifie l'écriture de la commande, lettre par lettre.",
+    "Pour rendre un fichier exécutable : chmod +x nom-du-fichier"
+  ],
+  "commande": "pkg update && pkg upgrade",
+  "commandeNote": "Mets Termux à jour avant d'installer un nouveau programme. Si Termux demande une confirmation, tape y puis Entrée.",
+  "securite": "Ne copie pas dans Termux des commandes trouvées sur internet sans les comprendre : une commande peut effacer tes fichiers ou installer un programme dangereux. Pour supprimer, prends toujours le temps de relire la commande avant d'appuyer sur Entrée."
+}

@@ -1,0 +1,32 @@
+{
+  "numero": 17,
+  "titre": "Le téléphone redémarre tout seul ou reste bloqué sur le logo",
+  "message": "Le téléphone redémarre en boucle / bloqué sur le logo au démarrage",
+  "image": "images/erreur-17.png",
+  "video": "",
+  "motsCles": "téléphone redémarre tout seul boucle bloqué logo démarrage ne s'allume pas bootloop android",
+  "quand": [
+    "Après une mise à jour du système ou l'installation d'une application.",
+    "Quand le téléphone est très chaud, ou presque sans batterie.",
+    "Après une chute ou du contact avec l'eau."
+  ],
+  "explication": "Le téléphone s'allume, affiche le logo de la marque, puis redémarre ou reste bloqué dessus sans jamais arriver à l'écran d'accueil. C'est une erreur très stressante parce qu'on pense avoir perdu toutes ses données. Il y a quelques solutions à essayer avant de paniquer.",
+  "causes": [
+    "Une application défectueuse installée récemment.",
+    "Une mise à jour du système interrompue ou mal faite.",
+    "Stockage complètement plein.",
+    "Batterie très faible ou défectueuse.",
+    "Chaleur excessive.",
+    "Fichiers système abîmés.",
+    "Dégât matériel : chute ou eau."
+  ],
+  "solutions": [
+    "Charge le téléphone au moins 30 minutes avec un chargeur d'origine, puis réessaie.",
+    "Fais un redémarrage forcé : maintiens le bouton d'allumage (parfois avec volume bas) pendant 10 à 15 secondes. La combinaison dépend de la marque.",
+    "Essaie de démarrer en mode sécurisé, puis désinstalle la dernière application installée.",
+    "Si le téléphone démarre, libère de l'espace et mets-le à jour.",
+    "Si rien ne marche, une réinitialisation d'usine peut être nécessaire. Elle efface tout, donc c'est le dernier recours.",
+    "Si le téléphone a pris l'eau ou est tombé, apporte-le directement chez un technicien."
+  ],
+  "securite": "N'installe pas de logiciels ou de « ROM » trouvés au hasard pour réparer le téléphone : tu peux le rendre définitivement inutilisable ou y mettre un virus. Pour éviter de perdre tes données un jour, sauvegarde régulièrement tes photos et contacts."
+}

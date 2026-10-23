@@ -1,0 +1,30 @@
+{
+  "numero": 42,
+  "titre": "Faux messages de gain ou de faux agent Mobile Money",
+  "message": "« Vous avez gagné… » / « Votre compte est bloqué » / « Je me suis trompé de numéro, renvoie-moi l'argent »",
+  "image": "images/erreur-42.png",
+  "video": "",
+  "motsCles": "faux message gain arnaque mobile money sms whatsapp hameçonnage phishing lien code compte bloqué faux agent android",
+  "quand": [
+    "Quand tu reçois un SMS ou un message WhatsApp qui annonce un gain, un prix ou un cadeau.",
+    "Quand quelqu'un se présente comme ton opérateur, ta banque ou un agent Mobile Money et te demande un code.",
+    "Quand un message te dit que ton compte est bloqué et te demande de cliquer sur un lien."
+  ],
+  "explication": "Ce n'est pas une erreur du téléphone : c'est une arnaque qui arrive par le téléphone. Les escrocs t'envoient un message pour te faire peur ou te faire rêver, puis te poussent à donner un code, un mot de passe ou de l'argent. Beaucoup de personnes perdent de l'argent de cette façon.",
+  "causes": [
+    "Un message qui annonce un gain pour un jeu auquel tu n'as pas participé.",
+    "Un faux message qui dit que ton compte est bloqué et qui demande un code.",
+    "Un lien qui imite le site d'un opérateur ou d'une banque.",
+    "Quelqu'un qui dit s'être trompé de numéro et demande de renvoyer de l'argent.",
+    "Un faux agent qui t'appelle et demande ton code secret ou ton code de validation."
+  ],
+  "solutions": [
+    "Ne clique sur aucun lien reçu dans ce genre de message.",
+    "Ne donne jamais ton code secret, ton code de validation ni ton mot de passe, même à une personne qui dit être ton opérateur.",
+    "Si un message te dit que ton compte est bloqué, appelle toi-même le numéro officiel de ton opérateur (celui du site ou de ta carte).",
+    "Bloque le numéro et signale-le à ton opérateur.",
+    "Si tu as donné un code, appelle tout de suite ton opérateur ou ta banque pour bloquer le compte, et change ton code secret.",
+    "Prévient tes proches : ces arnaques touchent beaucoup de monde."
+  ],
+  "securite": "Une règle simple : un vrai opérateur, une vraie banque ou un vrai agent ne te demande jamais ton code secret. Si on te presse de faire vite, c'est un signe d'arnaque. Ne partage pas ta carte d'identité ni des photos de tes documents à un inconnu."
+}

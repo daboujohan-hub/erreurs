@@ -1,0 +1,33 @@
+{
+  "numero": 34,
+  "titre": "La sauvegarde (Google Photos, WhatsApp) reste bloquée sans message",
+  "message": "Sauvegarde en attente / en attente de Wi-Fi / sauvegarde bloquée à un pourcentage",
+  "image": "images/erreur-34.png",
+  "video": "",
+  "motsCles": "sauvegarde bloquée en attente google photos whatsapp backup stockage google plein wifi photos android",
+  "quand": [
+    "Quand tes photos ne se sauvegardent plus mais que rien ne l'indique clairement.",
+    "Quand la sauvegarde WhatsApp reste bloquée à 0 % ou à un pourcentage fixe.",
+    "Quand tu changes de téléphone et que tu découvres que les photos ne sont pas sauvegardées."
+  ],
+  "explication": "Une sauvegarde qui échoue sans bruit est très dangereuse : tu penses que tes photos et tes messages sont protégés, mais ils ne le sont pas. Si le téléphone est perdu ou cassé, tout peut disparaître.",
+  "causes": [
+    "Le stockage de ton compte Google est plein (15 Go gratuits).",
+    "La sauvegarde est réglée sur Wi-Fi uniquement et tu n'es pas connecté.",
+    "Le téléphone n'est pas en charge et le mode économie d'énergie bloque la sauvegarde.",
+    "Connexion trop lente ou instable.",
+    "L'application n'a pas l'autorisation de travailler en arrière-plan.",
+    "Pas assez d'espace sur le téléphone pour préparer la sauvegarde.",
+    "Problème de compte Google."
+  ],
+  "solutions": [
+    "Vérifie l'espace de ton compte Google (Google One ou les réglages de Google Photos).",
+    "Connecte-toi à un Wi-Fi stable et branche le téléphone.",
+    "Ouvre Google Photos : il affiche l'état (« Sauvegarde terminée » ou le nombre d'éléments en attente).",
+    "Désactive le mode économie d'énergie le temps de la sauvegarde.",
+    "Autorise l'application à fonctionner en arrière-plan.",
+    "Pour WhatsApp : Paramètres > Discussions > Sauvegarde, puis relance la sauvegarde sur Wi-Fi.",
+    "Libère de l'espace si le téléphone est presque plein."
+  ],
+  "securite": "Ne supprime jamais tes photos ou tes discussions du téléphone avant d'avoir vérifié que la sauvegarde est vraiment terminée. Garde aussi une copie importante sur un ordinateur ou un disque externe."
+}

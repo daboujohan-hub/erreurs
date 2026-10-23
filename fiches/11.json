@@ -1,0 +1,31 @@
+{
+  "numero": 11,
+  "titre": "« Échec de l'authentification » au Wi-Fi",
+  "message": "Échec de l'authentification / Mot de passe incorrect",
+  "image": "images/erreur-11.png",
+  "video": "",
+  "motsCles": "wifi échec authentification mot de passe incorrect connexion refusée réseau android",
+  "quand": [
+    "Quand tu essaies de te connecter à un Wi-Fi avec le mot de passe.",
+    "Quand le mot de passe du Wi-Fi a été changé.",
+    "Sur téléphone, tablette ou appareil Android."
+  ],
+  "explication": "Le téléphone voit le Wi-Fi mais le routeur refuse la connexion. Dans la grande majorité des cas, le mot de passe est faux ou a changé. Mais ce peut aussi être un ancien réglage enregistré ou un problème de la box.",
+  "causes": [
+    "Le mot de passe est mal tapé (majuscules, chiffre 0 ou lettre O, espace en trop).",
+    "Le propriétaire a changé le mot de passe.",
+    "Le téléphone a gardé un ancien profil enregistré pour ce Wi-Fi.",
+    "La box est saturée ou a un problème temporaire.",
+    "Le type de sécurité de la box est incompatible avec le téléphone.",
+    "Le filtrage d'appareils est activé sur la box (ton téléphone n'est pas autorisé)."
+  ],
+  "solutions": [
+    "Retape le mot de passe lentement et vérifie chaque caractère (utilise l'œil pour l'afficher).",
+    "Demande au propriétaire de confirmer le mot de passe actuel.",
+    "Oublie le réseau Wi-Fi sur ton téléphone, puis reconnecte-toi en le retapant.",
+    "Redémarre la box et le téléphone.",
+    "Si ça ne marche toujours pas : Paramètres > Système > Réinitialiser > Réinitialiser le Wi-Fi, le mobile et le Bluetooth.",
+    "Si tu es le propriétaire : vérifie les réglages de la box (sécurité WPA2, filtrage d'appareils)."
+  ],
+  "securite": "Ne cherche pas à deviner ni à pirater le mot de passe d'un Wi-Fi qui n'est pas à toi. C'est interdit, et les applications « pour trouver les mots de passe Wi-Fi » sont souvent des arnaques ou des virus. Demande toujours le mot de passe au propriétaire."
+}

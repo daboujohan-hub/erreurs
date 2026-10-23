@@ -1,0 +1,30 @@
+{
+  "numero": 41,
+  "titre": "Le téléphone reste bloqué en mode sécurisé",
+  "message": "Mode sécurisé affiché en bas à gauche de l'écran / applications grisées",
+  "image": "images/erreur-41.png",
+  "video": "",
+  "motsCles": "mode sécurisé bloqué safe mode applications grisées désactiver redémarrer bouton volume android",
+  "quand": [
+    "Après avoir redémarré le téléphone ou lui avoir fait une manipulation avec les boutons.",
+    "Quand le texte « Mode sécurisé » apparaît en bas à gauche et que beaucoup d'applications sont grisées.",
+    "Quand un bouton du téléphone est bloqué (volume bas surtout)."
+  ],
+  "explication": "Le mode sécurisé démarre le téléphone avec seulement les applications d'origine. Il sert à vérifier si une application cause un problème. Il peut s'activer sans que tu le veuilles, par exemple quand un bouton reste enfoncé au démarrage.",
+  "causes": [
+    "Un bouton (souvent volume bas) est bloqué ou maintenu pendant le démarrage.",
+    "Une manipulation par erreur dans le menu d'extinction.",
+    "Le téléphone a détecté une application qui plante au démarrage.",
+    "Une coque trop serrée appuie sur un bouton.",
+    "Après une mise à jour qui a mal tourné."
+  ],
+  "solutions": [
+    "Éteins le téléphone complètement, attends 10 secondes, puis rallume-le sans toucher aux boutons.",
+    "Retire la coque pour ne pas appuyer sur un bouton.",
+    "Dans la barre de notifications, cherche « Mode sécurisé » et appuie dessus pour le désactiver, si le choix existe.",
+    "Si les applications sont toujours grisées : redémarre de nouveau en vérifiant qu'aucun bouton n'est bloqué.",
+    "Si le mode sécurisé revient tout le temps : désinstalle les dernières applications installées, puis redémarre.",
+    "Si le bouton volume est abîmé, fais-le réparer."
+  ],
+  "securite": "Si le mode sécurisé solutionne un problème (le téléphone marche bien dedans), c'est qu'une application récente est la cause : désinstalle-la. N'installe pas d'outils « pour sortir du mode sécurisé » trouvés au hasard."
+}

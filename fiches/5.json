@@ -1,0 +1,37 @@
+{
+  "numero": 5,
+  "titre": "« Application non installée »",
+  "message": "Application non installée",
+  "image": "images/erreur-5.png",
+  "video": "",
+  "motsCles": "application non installée apk installer installation échoue refuse android source inconnue",
+  "quand": [
+    "Au moment où tu ouvres un fichier APK pour l'installer.",
+    "Quand tu installes une nouvelle version d'une application déjà présente.",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Android a essayé d'installer l'APK puis s'est arrêté. Le message est très court et ne donne pas la raison exacte, ce qui frustre beaucoup de développeurs. Il y a plusieurs causes possibles et il faut les vérifier une par une.",
+  "causes": [
+    "Le fichier APK est incomplet ou abîmé (téléchargement interrompu).",
+    "Une ancienne version est déjà installée avec une autre signature (autre clé).",
+    "Le numéro de version (versionCode) est plus bas que celui de la version déjà installée.",
+    "L'APK demande une version d'Android plus récente que celle du téléphone.",
+    "Le téléphone n'autorise pas l'installation depuis cette source.",
+    "Google Play Protect bloque l'application.",
+    "Il n'y a pas assez d'espace libre sur le téléphone.",
+    "L'APK n'est pas adapté au processeur du téléphone."
+  ],
+  "solutions": [
+    "Télécharge ou copie de nouveau l'APK, puis réessaie.",
+    "Désinstalle complètement l'ancienne version, puis installe la nouvelle.",
+    "Autorise l'installation : Paramètres > Applications > Accès spécial > Installer des applis inconnues, puis choisis l'application qui ouvre l'APK (navigateur ou gestionnaire de fichiers).",
+    "Libère de l'espace (au moins 1 Go).",
+    "Vérifie que la version d'Android du téléphone est assez récente pour l'application.",
+    "Copie l'APK dans le stockage interne du téléphone, pas sur une carte SD.",
+    "Pour le développeur : signe toujours l'APK avec la même clé et augmente le versionCode à chaque nouvelle version.",
+    "Pour connaître la vraie raison : installe avec adb. Il affiche un code précis (par exemple INSTALL_FAILED_...)."
+  ],
+  "commande": "adb install -r app.apk",
+  "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. Si l'installation échoue, adb affiche la cause exacte. Envoie ce message à une IA avec ton problème.",
+  "securite": "N'installe que des APK de sources de confiance. Si Play Protect bloque une application inconnue, ne désactive pas la protection juste pour l'installer : l'application peut être dangereuse."
+}

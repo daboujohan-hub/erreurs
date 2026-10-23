@@ -1,0 +1,34 @@
+{
+  "numero": 28,
+  "titre": "Le Play Store dit « Votre appareil n'est pas compatible »",
+  "message": "Cette application n'est pas compatible avec votre appareil / Non disponible dans votre pays",
+  "image": "images/erreur-28.png",
+  "video": "",
+  "motsCles": "play store pas compatible appareil non disponible installer application version android ancienne incompatible",
+  "quand": [
+    "Quand tu ouvres la page d'une application dans le Play Store et que le bouton « Installer » est grisé ou absent.",
+    "Après avoir changé de téléphone, ou sur un téléphone ancien.",
+    "Aussi quand tu fabriques ton propre APK : certains téléphones ne peuvent pas l'installer."
+  ],
+  "explication": "Le Play Store a décidé que ton téléphone ne peut pas faire marcher cette application. Cela arrive pour des raisons précises : version d'Android trop ancienne, processeur différent, taille d'écran, ou application non disponible dans ton pays.",
+  "causes": [
+    "Ta version d'Android est trop ancienne pour l'application.",
+    "Le processeur du téléphone (ABI) n'est pas pris en charge.",
+    "L'application n'est pas disponible dans ton pays.",
+    "L'appareil n'est pas certifié par Google.",
+    "Le Play Store n'est pas à jour.",
+    "Pour le développeur : le minSdkVersion est trop haut, ou des filtres d'appareils limitent la diffusion dans la Play Console."
+  ],
+  "solutions": [
+    "Mets le système Android à jour, si une mise à jour est disponible.",
+    "Mets à jour le Play Store (Play Store > profil > Paramètres > À propos > Mettre à jour le Play Store).",
+    "Vide le cache du Play Store.",
+    "Cherche une version « Lite » ou plus ancienne de l'application, faite pour les téléphones moins puissants.",
+    "Vérifie dans la fiche de l'application la version d'Android demandée.",
+    "Si l'application n'est pas disponible dans ton pays, ne télécharge pas un APK pris au hasard sur un site inconnu.",
+    "Pour le développeur : baisse le minSdkVersion si possible et vérifie les filtres dans la Play Console."
+  ],
+  "commande": "getprop ro.build.version.release && getprop ro.product.cpu.abi",
+  "commandeNote": "Dans Termux. La première ligne donne ta version d'Android, la deuxième le type de processeur (par exemple arm64-v8a). Compare-les avec ce que demande l'application.",
+  "securite": "Ne télécharge pas l'application sur un site inconnu juste parce que le Play Store la refuse. Beaucoup de faux APK contiennent des virus. Si tu dois utiliser un APK, prends-le uniquement sur le site officiel du développeur."
+}

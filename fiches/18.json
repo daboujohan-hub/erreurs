@@ -1,0 +1,34 @@
+{
+  "numero": 18,
+  "titre": "On ne m'entend pas pendant les appels",
+  "message": "Le correspondant n'entend pas ma voix / le micro ne marche pas",
+  "image": "images/erreur-18.png",
+  "video": "",
+  "motsCles": "micro ne marche pas on ne m'entend pas appel son voix microphone bluetooth android",
+  "quand": [
+    "Pendant un appel normal, un appel WhatsApp ou un enregistrement vocal.",
+    "Après une chute, du contact avec l'eau, ou une mise à jour.",
+    "Sur téléphone ou tablette Android."
+  ],
+  "explication": "Tu entends la personne, mais elle ne t'entend pas, ou elle t'entend très faiblement. Le micro peut être bouché, désactivé, ou le son passe par un autre appareil sans que tu le saches (casque Bluetooth, par exemple).",
+  "causes": [
+    "Le micro est bouché par la saleté, la coque ou la protection d'écran.",
+    "Un appareil Bluetooth connecté (casque, voiture, enceinte) capte le son à la place du téléphone.",
+    "L'application n'a pas la permission d'utiliser le micro.",
+    "Le mode silencieux ou la réduction de bruit est mal réglé.",
+    "Bug temporaire du système.",
+    "Une application utilise le micro en même temps.",
+    "Micro abîmé après une chute ou de l'humidité."
+  ],
+  "solutions": [
+    "Redémarre le téléphone.",
+    "Retire la coque et le film, et nettoie délicatement le petit trou du micro avec une brosse souple.",
+    "Désactive le Bluetooth et teste de nouveau.",
+    "Vérifie la permission : Paramètres > Applications > l'application > Autorisations > Micro.",
+    "Teste avec l'enregistreur vocal pour savoir si le problème vient du micro ou d'une application.",
+    "Mets à jour le système et l'application.",
+    "Démarre en mode sécurisé pour voir si une application bloque le micro.",
+    "Si le micro ne marche dans aucune application, fais-le réparer."
+  ],
+  "securite": "Vérifie quelles applications ont accès au micro : Paramètres > Confidentialité > Gestionnaire d'autorisations > Micro. Retire l'accès aux applications que tu ne connais pas ou dont tu n'as pas besoin."
+}

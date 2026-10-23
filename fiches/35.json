@@ -1,0 +1,36 @@
+{
+  "numero": 35,
+  "titre": "Le signal est bon mais internet est très lent",
+  "message": "Aucun message : les barres de réseau sont pleines mais les pages ne chargent presque pas",
+  "image": "images/erreur-35.png",
+  "video": "",
+  "motsCles": "internet lent signal bon réseau 2g 3g e h débit réduit données mobiles ping lent android",
+  "quand": [
+    "Quand les barres sont pleines mais les pages mettent très longtemps à charger.",
+    "Quand une petite lettre E, G ou H s'affiche à côté du signal au lieu de 4G ou LTE.",
+    "En fin de forfait, aux heures de pointe, ou dans une zone très chargée."
+  ],
+  "explication": "Les barres de signal ne mesurent que la force du signal, pas la vitesse d'internet. Tu peux avoir un signal fort sur un vieux réseau 2G ou 3G très lent, ou sur un réseau saturé. Le téléphone ne te dit rien de tout cela.",
+  "causes": [
+    "Le téléphone est passé sur un réseau lent (2G ou 3G) au lieu de la 4G.",
+    "Le réseau est saturé (beaucoup d'utilisateurs au même endroit ou à la même heure).",
+    "Le forfait a un débit réduit après une certaine quantité de données.",
+    "Une application utilise toute la connexion en arrière-plan (téléchargement, mise à jour).",
+    "Mauvais réglage du type de réseau ou des points d'accès (APN).",
+    "VPN actif.",
+    "Problème temporaire chez l'opérateur."
+  ],
+  "solutions": [
+    "Regarde la petite indication à côté du signal : 4G, LTE ou H+ est meilleur que E ou G.",
+    "Paramètres > Réseau mobile > Type de réseau préféré : choisis la 4G ou la 5G (ou « Automatique »).",
+    "Active puis désactive le mode avion.",
+    "Change d'endroit : près d'une fenêtre, en hauteur, ou dehors.",
+    "Vérifie si ton forfait n'a pas atteint sa limite et passe à un débit réduit.",
+    "Arrête les téléchargements et les mises à jour en cours.",
+    "Désactive le VPN.",
+    "Si tu as fait ces tests, redémarre le téléphone ou contacte l'opérateur."
+  ],
+  "commande": "ping -c 5 8.8.8.8",
+  "commandeNote": "Dans Termux. Regarde « time » : plus de 300 ms, ou des paquets perdus (« packet loss »), signifie une connexion mauvaise ou saturée, même avec un bon signal.",
+  "securite": "N'accepte pas les offres « internet illimité gratuit » ou les applications qui promettent d'accélérer ton réseau : ce sont souvent des arnaques qui demandent ton numéro ou tes codes."
+}

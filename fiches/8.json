@@ -1,0 +1,36 @@
+{
+  "numero": 8,
+  "titre": "Le téléphone est très lent ou se fige",
+  "message": "Téléphone lent, qui rame ou se fige (parfois sans message)",
+  "image": "images/erreur-8.png",
+  "video": "",
+  "motsCles": "téléphone lent rame fige bloqué ralenti lag performance mémoire stockage android",
+  "quand": [
+    "Quand tu ouvres une application ou que tu passes d'un écran à un autre.",
+    "Quand le stockage est presque plein ou que beaucoup d'applications sont ouvertes.",
+    "Plus souvent sur les téléphones anciens ou avec peu de mémoire."
+  ],
+  "explication": "Le téléphone met du temps à répondre aux touches, les applications s'ouvrent lentement et l'écran se fige. En général, le téléphone n'a plus assez d'espace ou de mémoire pour travailler, ou trop d'applications travaillent en même temps.",
+  "causes": [
+    "Stockage presque plein.",
+    "Trop d'applications ouvertes ou actives en arrière-plan.",
+    "Peu de mémoire vive (RAM), surtout sur les petits téléphones.",
+    "Système ou applications pas à jour.",
+    "Application défectueuse ou malveillante qui consomme beaucoup.",
+    "Chaleur : le téléphone ralentit pour se protéger.",
+    "Mode économie d'énergie activé.",
+    "Cache qui a beaucoup grossi.",
+    "Téléphone ancien dont le processeur est dépassé."
+  ],
+  "solutions": [
+    "Redémarre le téléphone.",
+    "Libère de l'espace : garde au moins 1 à 2 Go libres.",
+    "Ferme les applications ouvertes et désinstalle celles que tu n'utilises plus.",
+    "Vide le cache des applications lourdes.",
+    "Mets à jour le système et les applications.",
+    "Vérifie dans Paramètres > Batterie quelle application consomme trop.",
+    "Si tu es sûr de toi, tu peux réduire les animations dans Options pour les développeurs.",
+    "En dernier recours : sauvegarde tes données, puis fais une réinitialisation d'usine."
+  ],
+  "securite": "N'installe pas d'applications « booster » ou « antivirus » inconnues pour accélérer le téléphone : elles ralentissent souvent plus qu'elles n'aident. Si tu penses qu'une application est un virus, désinstalle-la et lance une analyse avec Google Play Protect."
+}

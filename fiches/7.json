@@ -1,0 +1,37 @@
+{
+  "numero": 7,
+  "titre": "Le téléphone chauffe trop",
+  "message": "Température du téléphone élevée (parfois sans message)",
+  "image": "images/erreur-7.png",
+  "video": "",
+  "motsCles": "téléphone chauffe chaud température surchauffe batterie charge jeu soleil android",
+  "quand": [
+    "Pendant un jeu, une vidéo longue ou un appel vidéo.",
+    "Pendant la charge, surtout si on utilise le téléphone en même temps.",
+    "Quand le téléphone est au soleil, dans une voiture ou dans une coque épaisse.",
+    "Sur téléphone, tablette ou écran Android de voiture."
+  ],
+  "explication": "Un téléphone peut chauffer un peu en travaillant. Mais s'il devient très chaud, l'appareil se protège : il ralentit, baisse la luminosité, arrête la charge ou affiche un avertissement de température. Si cela arrive souvent, il faut chercher la cause.",
+  "causes": [
+    "Jeux ou vidéos longs qui font travailler le processeur à fond.",
+    "Charge rapide en utilisant le téléphone en même temps.",
+    "Chaleur extérieure : soleil, voiture fermée, sous l'oreiller.",
+    "Coque épaisse qui garde la chaleur.",
+    "Applications qui tournent en arrière-plan sans arrêt.",
+    "Signal réseau faible : le téléphone force pour trouver le réseau.",
+    "Mise à jour ou installation en cours.",
+    "Mauvais chargeur ou câble non adapté.",
+    "Batterie vieille ou abîmée."
+  ],
+  "solutions": [
+    "Arrête d'utiliser le téléphone et laisse-le refroidir à l'ombre.",
+    "Retire la coque et débranche le chargeur.",
+    "Ferme les applications inutiles et arrête les jeux.",
+    "Baisse la luminosité et active le mode économie d'énergie.",
+    "Mets à jour le système et les applications.",
+    "Utilise un chargeur et un câble d'origine ou de bonne qualité.",
+    "Ne joue pas et ne regarde pas de vidéo pendant la charge.",
+    "Si le problème revient souvent, fais vérifier la batterie chez un technicien de confiance."
+  ],
+  "securite": "Si le téléphone devient brûlant, gonflé, ou sent le brûlé, éteins-le et arrête de le charger. Ne le mets jamais au congélateur : l'humidité peut l'abîmer. Une batterie abîmée peut prendre feu, apporte-la à un technicien."
+}
