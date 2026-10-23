@@ -1,0 +1,39 @@
+{
+  "numero": 45,
+  "titre": "« Interface ne répond pas » / « Quickstep ne répond pas »",
+  "message": "Interface ne répond pas. / Quickstep ne répond pas. (choix : Fermer l'application ou Attendre)",
+  "image": "images/erreur-45.png",
+  "video": "",
+  "motsCles": "interface ne répond pas quickstep système écran d'accueil lanceur barre notifications réglages rapides applications récentes figé bloqué anr tecno infinix itel android",
+  "quand": [
+    "Quand tu ouvres la barre de notifications ou les réglages rapides (Wi-Fi, luminosité) : le message est souvent « Interface ne répond pas ».",
+    "Quand tu reviens à l'écran d'accueil ou que tu ouvres la liste des applications récentes : le message est souvent « Quickstep ne répond pas ».",
+    "Surtout quand la batterie est faible, que le téléphone chauffe, que la mémoire est presque pleine, ou juste après avoir utilisé une application lourde (TikTok, jeux, capture ou enregistrement d'écran)."
+  ],
+  "explication": "Ce n'est pas une application que tu as ouverte : ce sont des éléments du système lui-même qui se bloquent. « Interface » gère la barre du haut, les notifications et les réglages rapides. « Quickstep » gère l'écran d'accueil et les applications récentes. Comme ces parties contrôlent tout l'écran, le téléphone semble figé. C'est le même principe que l'erreur n°2 (ANR) : l'élément est occupé et ne répond plus assez vite, mais il n'est pas forcément cassé. Souvent, c'est le signe que le téléphone est surchargé.",
+  "causes": [
+    "La mémoire (RAM) est saturée : trop d'applications ouvertes, ou une application très lourde (vidéo, TikTok, jeux, capture d'écran).",
+    "Le stockage est presque plein.",
+    "La batterie est très faible ou le mode économie d'énergie ralentit le système.",
+    "Le téléphone est chaud.",
+    "Le cache de l'écran d'accueil ou de l'interface système est abîmé.",
+    "Une mise à jour du système ou d'une application a été mal terminée.",
+    "Une application qui s'affiche par-dessus les autres (bulles, outils de capture) gêne l'interface.",
+    "Le téléphone est ancien ou a peu de mémoire."
+  ],
+  "solutions": [
+    "Appuie sur « Attendre » et patiente 10 à 20 secondes. Si l'écran revient, ne ferme rien.",
+    "Si rien ne bouge, appuie sur « Fermer l'application » : l'interface se relance toute seule en quelques secondes.",
+    "Ferme les applications lourdes, branche le téléphone et laisse-le refroidir s'il est chaud.",
+    "Redémarre le téléphone.",
+    "Libère de l'espace : garde au moins 1 à 2 Go libres.",
+    "Vide le cache de l'écran d'accueil : Paramètres > Applications > Afficher les applications système > « Écran d'accueil » (ou lanceur, Quickstep) > Stockage > Vider le cache. Fais la même chose pour « Interface système » si elle est listée.",
+    "Si ça continue, « Effacer les données » du lanceur remet ton écran d'accueil à zéro (les widgets disparaissent), mais ne supprime ni tes applications ni tes photos.",
+    "Retire les applications qui s'affichent par-dessus les autres : Paramètres > Applications > Accès spécial > Afficher par-dessus d'autres applications.",
+    "Mets le système à jour. Si le problème revient souvent, démarre en mode sécurisé pour voir si une application en est la cause.",
+    "Pour le développeur : lance la commande ci-dessous et cherche « ANR in com.android.systemui » ou le nom du lanceur."
+  ],
+  "commande": "adb logcat -d | grep \"ANR in\"",
+  "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. La ligne trouvée indique quel élément du système était bloqué et pourquoi. Si tu utilises une IA, envoie-lui cette ligne.",
+  "securite": "Ne désactive pas et ne désinstalle pas les applications du système (Interface système, écran d'accueil) pour « réparer » : le téléphone peut ne plus démarrer correctement. N'installe pas d'applications « booster » ou « nettoyeur ». Si ces messages apparaissent juste après l'installation d'une application inconnue, désinstalle-la."
+}
