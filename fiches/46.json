@@ -1,0 +1,34 @@
+{
+  "numero": 46,
+  "titre": "« Incompatibilité HDMI » sur la télévision (décodeur)",
+  "message": "INCOMPATIBILITÉ HDMI : Une erreur a été détectée lors du branchement de votre TV. Essayez de brancher votre décodeur à un autre port HDMI. Vérifier que votre TV est compatible HDCP.",
+  "image": "images/erreur-46.png",
+  "video": "",
+  "motsCles": "incompatibilité hdmi décodeur tv télévision hdcp câble rca pas d'image écran noir port hdmi smart tv canal startimes branchement",
+  "quand": [
+    "Quand tu branches un décodeur sur une télévision avec un câble HDMI, ou quand tu l'allumes.",
+    "Après avoir changé de télévision, de câble ou de port HDMI.",
+    "Après une coupure de courant, ou quand le décodeur et la télé sont branchés alors qu'ils étaient allumés.",
+    "Sur une télévision ancienne ou une télé « smart » bon marché dont les ports HDMI ne gèrent pas la protection HDCP."
+  ],
+  "explication": "Le câble HDMI envoie l'image et le son en numérique. Pour protéger les chaînes payantes contre la copie, le décodeur et la télévision doivent d'abord se reconnaître grâce à une protection qui s'appelle HDCP. Si cette reconnaissance échoue, le décodeur n'affiche pas l'image : il montre ce message à la place. L'appareil n'est pas forcément en panne. Souvent, c'est le câble, le port ou la télévision qui ne gère pas HDCP.",
+  "causes": [
+    "La télévision (ou son port HDMI) ne gère pas la protection HDCP.",
+    "Le câble HDMI est de mauvaise qualité, abîmé, trop long ou mal enfoncé.",
+    "Le port HDMI de la télévision est abîmé ou mal adapté.",
+    "Un adaptateur, un répartiteur ou une rallonge HDMI bloque la protection.",
+    "Les appareils étaient allumés pendant le branchement, ou une coupure de courant a perturbé la reconnaissance.",
+    "Le décodeur ou la télévision a un défaut."
+  ],
+  "solutions": [
+    "Éteins la télévision et le décodeur, débranche-les du courant 1 minute, puis rebranche le câble HDMI avant de remettre le courant.",
+    "Enfonce bien le câble HDMI des deux côtés.",
+    "Branche le décodeur sur un autre port HDMI de la télévision (HDMI 1, 2 ou 3), puis choisis la bonne entrée avec la touche « Source » ou « Input » de la télécommande.",
+    "Essaie un autre câble HDMI, de bonne qualité et pas trop long.",
+    "Retire les adaptateurs, répartiteurs ou rallonges HDMI.",
+    "Teste le décodeur sur une autre télévision : si ça marche, c'est ta télévision qui n'est pas compatible HDCP.",
+    "Si la télévision n'est pas compatible, fais ce que l'écran demande : débranche le câble HDMI, branche la télé au décodeur avec le câble RCA fourni (jaune, blanc, rouge), puis appuie sur « OK ». L'image sera de moins bonne qualité.",
+    "Si le problème continue, contacte le service client de ton fournisseur de décodeur."
+  ],
+  "securite": "Débranche toujours les appareils du courant avant de changer un câble, et ne démonte pas le décodeur. N'achète pas de boîtiers ou de câbles « spéciaux » vendus pour contourner la protection : ils peuvent abîmer ta télé. Ne donne pas ton numéro d'abonné ni de code à quelqu'un qui t'appelle pour « réparer » ton décodeur."
+}

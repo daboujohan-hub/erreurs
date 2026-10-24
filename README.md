@@ -19,13 +19,14 @@ Une barre de recherche permet de retrouver une erreur en tapant quelques mots (�
 
 ## Contenu
 
-45 erreurs documentées, par exemple :
+46 erreurs documentées, par exemple :
 
 - l'application s'arrête systématiquement, ne répond plus, se ferme sans message ;
 - stockage plein, batterie, chauffe, lenteur ;
 - APK : « Application non installée », « Analyse du package impossible » ;
 - Wi-Fi, réseau, SMS, Bluetooth, Play Store, compte Google ;
 - arnaques par SMS et faux agents Mobile Money ;
+- télévision et décodeur (Incompatibilité HDMI) ;
 - erreurs fréquentes dans Termux.
 
 ## Organisation des fichiers
@@ -49,14 +50,14 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 ## Ajouter une nouvelle erreur
 
-1. Crée le fichier `fiches/46.json` (le numéro suivant) avec ce modèle :
+1. Crée le fichier `fiches/47.json` (le numéro suivant) avec ce modèle :
 
 ```json
 {
-  "numero": 46,
+  "numero": 47,
   "titre": "Titre court de l'erreur",
   "message": "Le message affiché à l'écran",
-  "image": "images/erreur-46.png",
+  "image": "images/erreur-47.png",
   "video": "",
   "motsCles": "mots que les gens peuvent taper pour la chercher",
   "quand": ["Quand elle apparaît."],
@@ -69,13 +70,13 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 Champs facultatifs : `video`, `commande` et `commandeNote` (une commande à tester, avec son explication).
 
-2. Ajoute l'image dans `images/` sous le nom `erreur-46.png`. Sans image, la fiche s'affiche quand même.
-3. Ajoute `"46.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
+2. Ajoute l'image dans `images/` sous le nom `erreur-47.png`. Sans image, la fiche s'affiche quand même.
+3. Ajoute `"47.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
 4. Envoie les changements :
 
 ```
 git add .
-git commit -m "Ajout de l'erreur 46"
+git commit -m "Ajout de l'erreur 47"
 git push
 ```
 
@@ -95,7 +96,7 @@ Le site ne collecte aucune donnée personnelle, n'utilise ni cookies, ni statist
 
 ## Remarques sur les images
 
-Les images des erreurs 1, 2 et 45 sont de vraies captures d'écran. Les autres sont des **illustrations explicatives**. Pour remplacer une illustration par une vraie capture, enregistre la capture sous le même nom (par exemple `images/erreur-5.png`).
+Les images des erreurs 1, 2, 32, 45 et 46 sont de vraies captures ou photos d'écran. Les autres sont des **illustrations explicatives**. Pour remplacer une illustration par une vraie capture, enregistre la capture sous le même nom (par exemple `images/erreur-5.png`).
 
 ## Avertissement
 
