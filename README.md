@@ -21,7 +21,7 @@ Les erreurs sont classées en 8 catégories (boutons en haut de la page) : appli
 
 ## Contenu
 
-47 erreurs documentées, par exemple :
+48 erreurs documentées, par exemple :
 
 - l'application s'arrête systématiquement, ne répond plus, se ferme sans message ;
 - stockage plein, batterie, chauffe, lenteur ;
@@ -53,15 +53,15 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 ## Ajouter une nouvelle erreur
 
-1. Crée le fichier `fiches/48.json` (le numéro suivant) avec ce modèle :
+1. Crée le fichier `fiches/49.json` (le numéro suivant) avec ce modèle :
 
 ```json
 {
-  "numero": 48,
+  "numero": 49,
   "titre": "Titre court de l'erreur",
   "categorie": "Applications et performance",
   "message": "Le message affiché à l'écran",
-  "image": "images/erreur-48.png",
+  "image": "images/erreur-49.png",
   "video": "",
   "motsCles": "mots que les gens peuvent taper pour la chercher",
   "quand": ["Quand elle apparaît."],
@@ -74,13 +74,13 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 Le champ `categorie` range la fiche dans un des boutons du haut de la page : réutilise le nom exact d'une catégorie existante (ou crée-en une nouvelle). Champs facultatifs : `video`, `commande` et `commandeNote` (une commande à tester, avec son explication).
 
-2. Ajoute l'image dans `images/` sous le nom `erreur-48.png`. Sans image, la fiche s'affiche quand même.
-3. Ajoute `"48.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
+2. Ajoute l'image dans `images/` sous le nom `erreur-49.png`. Sans image, la fiche s'affiche quand même.
+3. Ajoute `"49.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
 4. Envoie les changements :
 
 ```
 git add .
-git commit -m "Ajout de l'erreur 48"
+git commit -m "Ajout de l'erreur 49"
 git push
 ```
 
@@ -100,7 +100,7 @@ Le site ne collecte aucune donnée personnelle, n'utilise ni cookies, ni statist
 
 ## Remarques sur les images
 
-Les images des erreurs 1, 2, 32, 45, 46 et 47 sont de vraies captures ou photos d'écran. Les autres sont des **illustrations explicatives**. Pour remplacer une illustration par une vraie capture, enregistre la capture sous le même nom (par exemple `images/erreur-5.png`).
+Les images des erreurs 1, 2, 32, 45, 46, 47 et 48 sont de vraies captures ou photos d'écran. Les autres sont des **illustrations explicatives**. Pour remplacer une illustration par une vraie capture, enregistre la capture sous le même nom (par exemple `images/erreur-5.png`).
 
 ## Avertissement
 

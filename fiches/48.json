@@ -1,0 +1,35 @@
+{
+  "numero": 48,
+  "categorie": "Sécurité et vie privée",
+  "titre": "« J'ai reçu 30 000 F CFA, vous devriez essayer aussi » (message transféré sur WhatsApp)",
+  "message": "Message « Transféré » dans un groupe WhatsApp : « J'ai reçu 30 000 F CFA, vous devriez essayer aussi, c'est vraiment facile ! » suivi d'un lien étrange",
+  "image": "images/erreur-48.png",
+  "video": "",
+  "motsCles": "arnaque whatsapp message transféré groupe gain argent facile 30 000 f cfa lien buzz faux témoignage chaîne piratage essayez aussi mobile money sondage cadeau",
+  "quand": [
+    "Quand un message marqué « Transféré » arrive dans un groupe WhatsApp, ou en message privé, avec un lien.",
+    "Quand il promet de l'argent facile (« j'ai reçu… », « c'est vraiment facile ») et te pousse à cliquer.",
+    "Souvent envoyé par quelqu'un que tu connais : une personne du groupe qui a cliqué et partagé sans réfléchir, ou dont le compte a été piraté."
+  ],
+  "explication": "Ce n'est pas une erreur du téléphone : c'est une arnaque en chaîne qui passe par WhatsApp. Le message ressemble au témoignage d'une personne qui aurait gagné de l'argent. En réalité, c'est un appât pour te faire ouvrir un lien. Ce genre de lien mène en général vers une fausse page qui demande ton numéro, tes codes ou de partager le message à d'autres groupes pour « débloquer le gain ». Le but est de voler des informations, de prendre ton compte, de t'amener à payer, ou de faire diffuser l'arnaque à tes contacts. Je n'ai pas ouvert ce lien : cette fiche décrit les signes habituels de ce type de message.",
+  "causes": [
+    "Un membre du groupe a cliqué sur le lien, puis a transféré le message à tous ses groupes (le faux site demande souvent de le partager).",
+    "Le compte WhatsApp d'un proche a été piraté et envoie le message à tous ses contacts.",
+    "Les gros groupes sont des cibles faciles : un seul message touche beaucoup de monde.",
+    "L'appât est simple et tentant : de l'argent facile, un témoignage, une somme précise.",
+    "Les arnaqueurs utilisent des adresses qui ne ressemblent à aucune marque connue (par exemple des fins en .buzz, .xyz, .top) et des liens longs avec des chiffres."
+  ],
+  "solutions": [
+    "Ne clique pas sur le lien et ne transfère pas le message.",
+    "Si tu as cliqué : ferme la page, ne tape ni ton numéro, ni tes codes, ni ton mot de passe, et ne télécharge rien.",
+    "Si tu as installé une application après avoir cliqué : désinstalle-la tout de suite.",
+    "Si tu as donné un code ou un numéro de paiement : appelle ton opérateur ou ta banque avec le numéro officiel, et change ton code secret.",
+    "Vérifie ton WhatsApp : Paramètres > Appareils connectés, et déconnecte tout appareil que tu ne connais pas.",
+    "Active la validation en deux étapes : Paramètres > Compte > Validation en deux étapes.",
+    "Si tu as envoyé le message par erreur : appuie longtemps dessus, puis « Supprimer pour tous ».",
+    "Préviens le groupe et l'administrateur avec un message simple, et dis à la personne qui l'a envoyé qu'elle a peut-être été piratée.",
+    "Limite qui peut t'ajouter dans des groupes : Paramètres > Confidentialité > Groupes > Mes contacts.",
+    "Signale le contact ou le groupe : menu ⋮ > Plus > Signaler."
+  ],
+  "securite": "Personne ne donne de l'argent à celui qui clique sur un lien. Si on te demande de payer des « frais » pour recevoir un gain, c'est une arnaque. Ne donne jamais le code à 6 chiffres que WhatsApp t'envoie par SMS, ni ton code Mobile Money, même à un proche : un piratage commence souvent par là. Un message « Transféré » qui te pousse à agir vite est un signal d'alerte."
+}
