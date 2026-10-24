@@ -1,0 +1,34 @@
+{
+  "numero": 47,
+  "titre": "Que se passe-t-il quand j'appuie sur « Autoriser » ? (les autorisations d'une application)",
+  "message": "« Autoriser [l'application] à accéder à votre position / micro / appareil photo / contacts… ? » avec les choix : Pendant l'utilisation de l'appli, Seulement cette fois, Ne pas autoriser",
+  "image": "images/erreur-47.png",
+  "video": "",
+  "motsCles": "autorisations permissions autoriser accès appareil photo micro contacts position photos vidéos notifications appareils à proximité tiktok whatsapp application dernier accès confidentialité android",
+  "quand": [
+    "Quand tu ouvres une application pour la première fois, ou quand tu utilises une nouvelle fonction (filmer, envoyer un message vocal, trouver des amis).",
+    "Quand une fenêtre te demande d'autoriser l'accès à une ressource de ton téléphone.",
+    "Quand tu ouvres Paramètres > Applications > l'application > Autorisations et que tu veux comprendre ce qui est écrit."
+  ],
+  "explication": "Une application ne peut pas utiliser librement ton appareil photo, ton micro, tes contacts ou ta position : Android lui demande d'abord ta permission. Quand tu appuies sur « Autoriser », tu lui donnes le droit d'utiliser cette ressource. Quand tu appuies sur « Ne pas autoriser », elle ne peut pas l'utiliser. L'application ne reçoit pas toutes tes données d'un coup : elle reçoit seulement l'accès à la ressource demandée. Mais ce qu'elle en fait ensuite dépend de l'application. L'écran « Autorisations de l'application » (comme celui de TikTok sur la capture) montre ce qui est autorisé et quand l'application s'en est servie pour la dernière fois (« Dernier accès » ou « Accès au cours des dernières 24 heures »).",
+  "causes": [
+    "Appareil photo : l'application peut prendre des photos, filmer et scanner avec la caméra. Utile pour filmer une vidéo ou scanner un code. Un point coloré apparaît en haut de l'écran quand la caméra est utilisée (sur les versions récentes d'Android).",
+    "Micro : l'application peut enregistrer le son autour de toi. Utile pour les appels, les vidéos et les messages vocaux. Elle n'en a pas besoin pour une calculatrice ou une lampe de poche.",
+    "Contacts : l'application peut lire (et parfois modifier) ta liste de contacts. Utile pour retrouver tes amis. Si tu refuses, tu peux quand même utiliser l'application, mais sans la recherche d'amis.",
+    "Position : l'application peut savoir où tu es. Utile pour la carte, la livraison, la météo. Tu peux choisir une position approximative ou précise, et « seulement pendant l'utilisation ».",
+    "Photos et vidéos : l'application peut voir les photos et vidéos de ton téléphone. Utile pour publier ou envoyer une photo. Sur les versions récentes, tu peux choisir seulement quelques photos.",
+    "Musique et audio : l'application peut voir et lire les fichiers audio de ton téléphone (musiques, enregistrements).",
+    "Appareils à proximité : l'application peut chercher et se connecter aux appareils tout près (Bluetooth, par exemple une enceinte). Elle peut aussi savoir quels appareils sont autour de toi.",
+    "Notifications : l'application peut t'envoyer des alertes. Elle ne lit pas tes données, mais peut te déranger souvent."
+  ],
+  "solutions": [
+    "Lis la demande : pose-toi la question « est-ce que cette application a besoin de ça pour faire ce que je veux ? ». Une application de caméra a besoin de la caméra. Une lampe de poche n'a pas besoin de tes contacts.",
+    "Choisis « Pendant l'utilisation de l'appli » plutôt que « Toujours » : l'application ne peut utiliser la ressource que quand tu l'as ouverte.",
+    "Choisis « Seulement cette fois » si tu veux un accès pour un seul usage (une photo, une vidéo).",
+    "Appuie sur « Ne pas autoriser » si tu n'es pas sûr : tu pourras toujours changer d'avis plus tard.",
+    "Pour changer une autorisation : Paramètres > Applications > l'application > Autorisations, puis appuie sur la ressource et choisis un autre réglage.",
+    "Pour voir qui a utilisé quoi : Paramètres > Confidentialité > Tableau de bord de confidentialité (ou Gestionnaire d'autorisations). Regarde les lignes « Dernier accès ».",
+    "Si une application ne marche plus après un refus, c'est qu'elle a vraiment besoin de cette autorisation : active-la seulement pour cette fonction."
+  ],
+  "securite": "Les autorisations les plus sensibles sont le micro, la caméra, la position, les contacts et les photos. Ne les donne qu'aux applications de confiance, et seulement quand c'est utile. Si une application inconnue ou une application qui n'en a pas besoin demande une de ces autorisations, refuse-la ou désinstalle-la. Retire régulièrement les autorisations que tu n'utilises plus."
+}
