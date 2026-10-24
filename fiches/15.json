@@ -29,5 +29,6 @@
     "Réinitialise les réglages réseau : Paramètres > Système > Réinitialiser > Réinitialiser le Wi-Fi, le mobile et le Bluetooth.",
     "Contacte ton opérateur : la ligne est peut-être suspendue, ou la SIM doit être remplacée."
   ],
-  "securite": "Si ton réseau disparaît soudainement sans raison et que tu reçois des alertes bizarres, appelle vite ton opérateur depuis un autre téléphone : quelqu'un a peut-être fait remplacer ta SIM pour voler ton compte, notamment Mobile Money. Ne partage jamais tes codes secrets."
+  "securite": "Si ton réseau disparaît soudainement sans raison et que tu reçois des alertes bizarres, appelle vite ton opérateur depuis un autre téléphone : quelqu'un a peut-être fait remplacer ta SIM pour voler ton compte, notamment Mobile Money. Ne partage jamais tes codes secrets.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

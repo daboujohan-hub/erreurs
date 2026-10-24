@@ -30,5 +30,6 @@
   ],
   "commande": "getprop ro.build.version.release && getprop ro.product.cpu.abi",
   "commandeNote": "Dans Termux. La première ligne donne ta version d'Android, la deuxième le type de processeur (par exemple arm64-v8a). Compare-les avec ce que demande l'application.",
-  "securite": "Ne télécharge pas l'application sur un site inconnu juste parce que le Play Store la refuse. Beaucoup de faux APK contiennent des virus. Si tu dois utiliser un APK, prends-le uniquement sur le site officiel du développeur."
+  "securite": "Ne télécharge pas l'application sur un site inconnu juste parce que le Play Store la refuse. Beaucoup de faux APK contiennent des virus. Si tu dois utiliser un APK, prends-le uniquement sur le site officiel du développeur.",
+  "categorie": "Installation et mises à jour"
 }

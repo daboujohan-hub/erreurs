@@ -30,5 +30,6 @@
   ],
   "commande": "pkg update && pkg upgrade",
   "commandeNote": "Mets Termux à jour avant d'installer un nouveau programme. Si Termux demande une confirmation, tape y puis Entrée.",
-  "securite": "Ne copie pas dans Termux des commandes trouvées sur internet sans les comprendre : une commande peut effacer tes fichiers ou installer un programme dangereux. Pour supprimer, prends toujours le temps de relire la commande avant d'appuyer sur Entrée."
+  "securite": "Ne copie pas dans Termux des commandes trouvées sur internet sans les comprendre : une commande peut effacer tes fichiers ou installer un programme dangereux. Pour supprimer, prends toujours le temps de relire la commande avant d'appuyer sur Entrée.",
+  "categorie": "Autres appareils et outils"
 }

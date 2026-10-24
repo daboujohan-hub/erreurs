@@ -35,5 +35,6 @@
   ],
   "commande": "adb logcat -d | grep \"ANR in\"",
   "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. La ligne trouvée indique quel élément du système était bloqué et pourquoi. Si tu utilises une IA, envoie-lui cette ligne.",
-  "securite": "Ne désactive pas et ne désinstalle pas les applications du système (Interface système, écran d'accueil) pour « réparer » : le téléphone peut ne plus démarrer correctement. N'installe pas d'applications « booster » ou « nettoyeur ». Si ces messages apparaissent juste après l'installation d'une application inconnue, désinstalle-la."
+  "securite": "Ne désactive pas et ne désinstalle pas les applications du système (Interface système, écran d'accueil) pour « réparer » : le téléphone peut ne plus démarrer correctement. N'installe pas d'applications « booster » ou « nettoyeur ». Si ces messages apparaissent juste après l'installation d'une application inconnue, désinstalle-la.",
+  "categorie": "Applications et performance"
 }

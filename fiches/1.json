@@ -29,5 +29,6 @@
   ],
   "commande": "adb logcat -b crash",
   "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé, lance cette commande, puis ouvre l'application. Cherche la ligne « FATAL EXCEPTION ».",
-  "securite": "Installe un APK seulement depuis une source de confiance. Un APK inconnu peut contenir un virus. Teste toujours ton APK sur ton propre téléphone avant de le partager."
+  "securite": "Installe un APK seulement depuis une source de confiance. Un APK inconnu peut contenir un virus. Teste toujours ton APK sur ton propre téléphone avant de le partager.",
+  "categorie": "Applications et performance"
 }

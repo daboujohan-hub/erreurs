@@ -26,5 +26,6 @@
     "Si tu ne connais plus le compte Google ou le mot de passe, récupère-le d'abord sur le site officiel de Google.",
     "Si le téléphone vient de toi mais que rien ne marche, va dans une boutique agréée de la marque avec la preuve d'achat."
   ],
-  "securite": "Ne paie jamais des inconnus sur Facebook ou WhatsApp qui promettent de « débloquer ton téléphone » : ce sont souvent des arnaques. N'installe pas d'outils de déblocage trouvés sur internet : ils peuvent voler tes données. Pour éviter ce problème, note ton code dans un endroit sûr et garde ton compte Google à jour."
+  "securite": "Ne paie jamais des inconnus sur Facebook ou WhatsApp qui promettent de « débloquer ton téléphone » : ce sont souvent des arnaques. N'installe pas d'outils de déblocage trouvés sur internet : ils peuvent voler tes données. Pour éviter ce problème, note ton code dans un endroit sûr et garde ton compte Google à jour.",
+  "categorie": "Sécurité et vie privée"
 }

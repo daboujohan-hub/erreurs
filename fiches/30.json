@@ -31,5 +31,6 @@
   ],
   "commande": "du -sh ~/storage/shared/* 2>/dev/null | sort -h | tail",
   "commandeNote": "Dans Termux, après avoir tapé une fois « termux-setup-storage ». Les dernières lignes montrent les plus gros dossiers de ton téléphone.",
-  "securite": "Ne supprime pas des dossiers que tu ne connais pas dans Android ou dans les dossiers d'applications : tu peux casser une application et perdre des données. N'installe pas d'application de « nettoyage » inconnue."
+  "securite": "Ne supprime pas des dossiers que tu ne connais pas dans Android ou dans les dossiers d'applications : tu peux casser une application et perdre des données. N'installe pas d'application de « nettoyage » inconnue.",
+  "categorie": "Stockage et sauvegarde"
 }

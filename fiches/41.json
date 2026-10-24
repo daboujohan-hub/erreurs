@@ -26,5 +26,6 @@
     "Si le mode sécurisé revient tout le temps : désinstalle les dernières applications installées, puis redémarre.",
     "Si le bouton volume est abîmé, fais-le réparer."
   ],
-  "securite": "Si le mode sécurisé solutionne un problème (le téléphone marche bien dedans), c'est qu'une application récente est la cause : désinstalle-la. N'installe pas d'outils « pour sortir du mode sécurisé » trouvés au hasard."
+  "securite": "Si le mode sécurisé solutionne un problème (le téléphone marche bien dedans), c'est qu'une application récente est la cause : désinstalle-la. N'installe pas d'outils « pour sortir du mode sécurisé » trouvés au hasard.",
+  "categorie": "Écran, son et système"
 }

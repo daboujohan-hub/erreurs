@@ -30,5 +30,6 @@
     "Sauvegarde tes photos et vidéos sur Google Photos ou sur un ordinateur, puis supprime-les du téléphone.",
     "Garde au moins 1 à 2 Go d'espace libre pour que le téléphone reste rapide."
   ],
-  "securite": "N'installe pas d'applications de « nettoyage » ou « booster » trouvées au hasard : beaucoup affichent de fausses alertes, de la publicité ou espionnent le téléphone. Utilise seulement les outils intégrés d'Android ou « Files » de Google."
+  "securite": "N'installe pas d'applications de « nettoyage » ou « booster » trouvées au hasard : beaucoup affichent de fausses alertes, de la publicité ou espionnent le téléphone. Utilise seulement les outils intégrés d'Android ou « Files » de Google.",
+  "categorie": "Stockage et sauvegarde"
 }

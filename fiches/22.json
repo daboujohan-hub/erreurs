@@ -28,5 +28,6 @@
     "Laisse refroidir s'il est chaud.",
     "Si le téléphone a pris l'eau, éteins-le et apporte-le vite à un technicien."
   ],
-  "securite": "N'ouvre pas le téléphone toi-même : tu peux l'abîmer ou te blesser avec la batterie. Choisis un réparateur de confiance et, avant de le lui laisser, sauvegarde ce que tu peux et note le code de verrouillage pour pouvoir récupérer tes données."
+  "securite": "N'ouvre pas le téléphone toi-même : tu peux l'abîmer ou te blesser avec la batterie. Choisis un réparateur de confiance et, avant de le lui laisser, sauvegarde ce que tu peux et note le code de verrouillage pour pouvoir récupérer tes données.",
+  "categorie": "Écran, son et système"
 }

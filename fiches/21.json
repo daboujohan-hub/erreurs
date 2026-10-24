@@ -30,5 +30,6 @@
     "Utilise l'outil officiel de la marque sur ordinateur si elle en propose un.",
     "Si le téléphone est bloqué sur la mise à jour, charge-le puis fais un redémarrage forcé."
   ],
-  "securite": "N'utilise que les mises à jour officielles de la marque. Les fichiers « mise à jour » trouvés sur des sites inconnus peuvent contenir un virus ou rendre le téléphone inutilisable. Sauvegarde tes données avant une grosse mise à jour et n'éteins pas le téléphone pendant l'installation."
+  "securite": "N'utilise que les mises à jour officielles de la marque. Les fichiers « mise à jour » trouvés sur des sites inconnus peuvent contenir un virus ou rendre le téléphone inutilisable. Sauvegarde tes données avant une grosse mise à jour et n'éteins pas le téléphone pendant l'installation.",
+  "categorie": "Installation et mises à jour"
 }

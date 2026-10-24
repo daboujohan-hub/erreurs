@@ -33,5 +33,6 @@
     "Ne joue pas et ne regarde pas de vidéo pendant la charge.",
     "Si le problème revient souvent, fais vérifier la batterie chez un technicien de confiance."
   ],
-  "securite": "Si le téléphone devient brûlant, gonflé, ou sent le brûlé, éteins-le et arrête de le charger. Ne le mets jamais au congélateur : l'humidité peut l'abîmer. Une batterie abîmée peut prendre feu, apporte-la à un technicien."
+  "securite": "Si le téléphone devient brûlant, gonflé, ou sent le brûlé, éteins-le et arrête de le charger. Ne le mets jamais au congélateur : l'humidité peut l'abîmer. Une batterie abîmée peut prendre feu, apporte-la à un technicien.",
+  "categorie": "Batterie, charge et chaleur"
 }

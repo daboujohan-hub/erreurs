@@ -31,5 +31,6 @@
   ],
   "commande": "unzip -t app.apk",
   "commandeNote": "Dans Termux (pkg install unzip). Si le résultat affiche « No errors detected », le fichier est entier. S'il affiche des erreurs, le fichier est abîmé : télécharge-le de nouveau.",
-  "securite": "Ne fais pas confiance à un APK dont tu ne connais pas l'origine. Un fichier modifié ou renommé peut cacher un virus. Télécharge seulement depuis le Play Store ou depuis le site officiel de l'application."
+  "securite": "Ne fais pas confiance à un APK dont tu ne connais pas l'origine. Un fichier modifié ou renommé peut cacher un virus. Télécharge seulement depuis le Play Store ou depuis le site officiel de l'application.",
+  "categorie": "Installation et mises à jour"
 }

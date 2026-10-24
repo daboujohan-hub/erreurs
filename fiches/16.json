@@ -31,5 +31,6 @@
     "Redémarre le téléphone, puis réessaie.",
     "En dernier recours : sauvegarde tes discussions, puis désinstalle et réinstalle WhatsApp."
   ],
-  "securite": "Ne donne jamais à personne le code à 6 chiffres que WhatsApp t'envoie par SMS : il permet de prendre ton compte. N'installe pas de versions modifiées de WhatsApp (GBWhatsApp et autres) : elles peuvent voler tes données et ton compte peut être bloqué."
+  "securite": "Ne donne jamais à personne le code à 6 chiffres que WhatsApp t'envoie par SMS : il permet de prendre ton compte. N'installe pas de versions modifiées de WhatsApp (GBWhatsApp et autres) : elles peuvent voler tes données et ton compte peut être bloqué.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

@@ -30,5 +30,6 @@
   ],
   "commande": "adb logcat -d | grep \"ANR in\"",
   "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. La ligne trouvée donne le nom de l'application et ce qui l'a bloquée. Si tu utilises une IA, envoie-lui cette ligne avec ton code.",
-  "securite": "Si une application inconnue bloque ou se fige tout le temps, désinstalle-la : elle peut être mal faite ou cacher des activités en arrière-plan. N'installe que des applications de sources de confiance."
+  "securite": "Si une application inconnue bloque ou se fige tout le temps, désinstalle-la : elle peut être mal faite ou cacher des activités en arrière-plan. N'installe que des applications de sources de confiance.",
+  "categorie": "Applications et performance"
 }

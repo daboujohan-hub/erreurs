@@ -28,5 +28,6 @@
     "Teste la carte dans un autre téléphone pour savoir si c'est la carte ou le téléphone.",
     "Si la carte est abîmée, remplace-la par une carte d'une marque connue achetée dans une boutique fiable."
   ],
-  "securite": "Ne formate pas la carte avant d'avoir essayé de récupérer tes fichiers : le formatage les efface. N'utilise pas d'applications de « récupération » inconnues, elles peuvent contenir des virus. Évite les cartes SD trop bon marché : beaucoup sont fausses et perdent les données."
+  "securite": "Ne formate pas la carte avant d'avoir essayé de récupérer tes fichiers : le formatage les efface. N'utilise pas d'applications de « récupération » inconnues, elles peuvent contenir des virus. Évite les cartes SD trop bon marché : beaucoup sont fausses et perdent les données.",
+  "categorie": "Stockage et sauvegarde"
 }

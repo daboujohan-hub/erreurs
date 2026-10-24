@@ -13,6 +13,8 @@ Chaque fiche explique :
 
 Une barre de recherche permet de retrouver une erreur en tapant quelques mots (« batterie », « écran noir », « ne répond plus »). Elle accepte les petites fautes de frappe et surligne les mots trouvés.
 
+Les erreurs sont classées en 8 catégories (boutons en haut de la page) : applications, installation, stockage, batterie, réseau, écran et son, sécurité, autres appareils.
+
 **Site en ligne :** https://daboujohan-hub.github.io/erreurs/
 
 **Développeur :** https://daboujohan-hub.github.io
@@ -57,6 +59,7 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 {
   "numero": 48,
   "titre": "Titre court de l'erreur",
+  "categorie": "Applications et performance",
   "message": "Le message affiché à l'écran",
   "image": "images/erreur-48.png",
   "video": "",
@@ -69,7 +72,7 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 }
 ```
 
-Champs facultatifs : `video`, `commande` et `commandeNote` (une commande à tester, avec son explication).
+Le champ `categorie` range la fiche dans un des boutons du haut de la page : réutilise le nom exact d'une catégorie existante (ou crée-en une nouvelle). Champs facultatifs : `video`, `commande` et `commandeNote` (une commande à tester, avec son explication).
 
 2. Ajoute l'image dans `images/` sous le nom `erreur-48.png`. Sans image, la fiche s'affiche quand même.
 3. Ajoute `"48.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**

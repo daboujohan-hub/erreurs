@@ -30,5 +30,6 @@
     "Démarre en mode sécurisé pour voir si une application bloque le micro.",
     "Si le micro ne marche dans aucune application, fais-le réparer."
   ],
-  "securite": "Vérifie quelles applications ont accès au micro : Paramètres > Confidentialité > Gestionnaire d'autorisations > Micro. Retire l'accès aux applications que tu ne connais pas ou dont tu n'as pas besoin."
+  "securite": "Vérifie quelles applications ont accès au micro : Paramètres > Confidentialité > Gestionnaire d'autorisations > Micro. Retire l'accès aux applications que tu ne connais pas ou dont tu n'as pas besoin.",
+  "categorie": "Écran, son et système"
 }

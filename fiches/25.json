@@ -30,5 +30,6 @@
     "Démarre en mode sécurisé pour voir si une application bloque la caméra.",
     "Si la caméra ne marche dans aucune application, fais-la réparer."
   ],
-  "securite": "Vérifie quelles applications ont accès à la caméra : Paramètres > Confidentialité > Gestionnaire d'autorisations > Appareil photo. Retire l'accès aux applications inconnues ou inutiles."
+  "securite": "Vérifie quelles applications ont accès à la caméra : Paramètres > Confidentialité > Gestionnaire d'autorisations > Appareil photo. Retire l'accès aux applications inconnues ou inutiles.",
+  "categorie": "Écran, son et système"
 }

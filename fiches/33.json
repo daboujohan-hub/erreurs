@@ -28,5 +28,6 @@
     "Signale le bug au développeur ou dans les avis du Play Store.",
     "Pour le développeur : teste toujours les nouvelles versions sur d'anciens téléphones et diffuse-les progressivement (déploiement par étapes)."
   ],
-  "securite": "Ne télécharge pas une ancienne version depuis un site inconnu : beaucoup de faux APK contiennent des virus. Passe seulement par des sources de confiance."
+  "securite": "Ne télécharge pas une ancienne version depuis un site inconnu : beaucoup de faux APK contiennent des virus. Passe seulement par des sources de confiance.",
+  "categorie": "Applications et performance"
 }

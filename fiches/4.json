@@ -36,5 +36,6 @@
     "Garde le téléphone au frais : pas au soleil, pas sous l'oreiller, pas dans une coque trop épaisse pendant la charge.",
     "Si la batterie est usée, fais-la changer chez un technicien de confiance."
   ],
-  "securite": "Si la batterie est gonflée, si le téléphone devient très chaud ou sent le brûlé, arrête de le charger et de l'utiliser, et apporte-le à un technicien. Une batterie abîmée peut prendre feu. Méfie-toi aussi des applications inconnues qui vident la batterie : elles peuvent travailler en cachette."
+  "securite": "Si la batterie est gonflée, si le téléphone devient très chaud ou sent le brûlé, arrête de le charger et de l'utiliser, et apporte-le à un technicien. Une batterie abîmée peut prendre feu. Méfie-toi aussi des applications inconnues qui vident la batterie : elles peuvent travailler en cachette.",
+  "categorie": "Batterie, charge et chaleur"
 }

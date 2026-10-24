@@ -25,6 +25,10 @@
   .secu{background:#fff4e0;border-left:4px solid #e8a317;padding:8px 10px;font-size:14px;border-radius:6px}
   pre{background:#222;color:#eee;padding:10px;border-radius:8px;overflow:auto;font-size:13px}
   mark{background:#ffe97a;color:inherit;border-radius:3px;padding:0 1px}
+  .cats{display:flex;gap:8px;overflow-x:auto;padding:10px 12px;background:#fff;border-bottom:1px solid #e1e1f2;-webkit-overflow-scrolling:touch}
+  .cat{flex:0 0 auto;border:1.5px solid #c9c9e0;background:#fff;color:#3b2f8f;border-radius:16px;padding:6px 12px;font-size:13px;font-family:inherit;cursor:pointer;white-space:nowrap}
+  .cat.on{background:#3b2f8f;color:#fff;border-color:#3b2f8f}
+  .tag{display:inline-block;margin-left:6px;background:#e8e6fb;color:#3b2f8f;border-radius:6px;padding:2px 8px;font-size:12px}
   #info{text-align:center;color:#666;padding:14px;font-size:14px}
   footer{text-align:center;font-size:13px;color:#555;padding:18px 12px 28px}
   footer a{color:#3b2f8f}
@@ -37,6 +41,7 @@
   <p>Développeur officiel : <a href="https://daboujohan-hub.github.io" target="_blank" rel="noopener">daboujohan-hub.github.io</a></p>
 </header>
 <input id="q" type="search" placeholder="Rechercher : batterie, écran, wifi, ne répond plus..." aria-label="Rechercher une erreur" autocomplete="off">
+<div id="cats" class="cats" role="group" aria-label="Catégories"></div>
 <div id="info"></div>
 <main id="liste"></main>
 <footer>
@@ -149,7 +154,7 @@ function liste_html(tab, tag, mots){
 }
 
 function carte(e, mots){
-  var h = '<div class="fiche"><span class="num">Erreur n°' + esc(e.numero) + '</span><h2>' + hl(e.titre, mots) + '</h2>';
+  var h = '<div class="fiche"><span class="num">Erreur n°' + esc(e.numero) + '</span>' + (e.categorie ? '<span class="tag">' + esc(e.categorie) + '</span>' : '') + '<h2>' + hl(e.titre, mots) + '</h2>';
   if (e.message) h += '<p><b>Message affiché :</b> ' + hl(e.message, mots) + '</p>';
   if (e.image) h += '<img src="' + esc(e.image) + '" alt="Capture de l\'erreur" loading="lazy" onerror="this.style.display=\'none\'">';
   if (e.video) h += '<video src="' + esc(e.video) + '" controls></video>';
@@ -168,22 +173,49 @@ var listeEl = document.getElementById('liste');
 var info = document.getElementById('info');
 var q = document.getElementById('q');
 var compteur = document.getElementById('compteur');
+var catsEl = document.getElementById('cats');
+var cat = '';
+
+function nomCat(e){ return e.categorie || 'Autres'; }
+
+function dessinerCategories(){
+  var noms = [];
+  erreurs.forEach(function(e){ if (noms.indexOf(nomCat(e)) === -1) noms.push(nomCat(e)); });
+  var h = '<button type="button" class="cat' + (cat === '' ? ' on' : '') + '" data-c="">Toutes (' + erreurs.length + ')</button>';
+  noms.forEach(function(n){
+    var nb = erreurs.filter(function(e){ return nomCat(e) === n; }).length;
+    h += '<button type="button" class="cat' + (cat === n ? ' on' : '') + '" data-c="' + esc(n) + '">' + esc(n) + ' (' + nb + ')</button>';
+  });
+  catsEl.innerHTML = h;
+}
+
+function choisir(c){
+  cat = c;
+  dessinerCategories();
+  afficher();
+}
+
+catsEl.addEventListener('click', function(ev){
+  var b = ev.target.closest ? ev.target.closest('button') : null;
+  if (b) choisir(b.getAttribute('data-c') || '');
+});
 
 function afficher(){
   var mots = norm(q.value).split(/[^a-z0-9]+/).filter(function(m){ return m.length >= 2; });
   var res;
+  var base = cat ? erreurs.filter(function(e){ return nomCat(e) === cat; }) : erreurs;
   if (!mots.length){
-    res = erreurs.map(function(e){ return { e: e, s: 0 }; });
+    res = base.map(function(e){ return { e: e, s: 0 }; });
   } else {
-    res = erreurs.map(function(e){ return { e: e, s: evaluer(e, mots) }; })
+    res = base.map(function(e){ return { e: e, s: evaluer(e, mots) }; })
                  .filter(function(r){ return r.s > 0; })
                  .sort(function(a, b){ return b.s - a.s || a.e.numero - b.e.numero; });
   }
   listeEl.innerHTML = res.map(function(r){ return carte(r.e, mots); }).join('');
   if (!erreurs.length) return;
   if (!res.length) info.textContent = 'Aucune erreur trouvée. Essaie un autre mot, par exemple : batterie, écran, wifi, stockage.';
-  else if (mots.length) info.textContent = res.length + ' résultat(s)';
-  else info.textContent = '';
+  else if (mots.length) info.textContent = res.length + ' résultat(s)' + (cat ? ' dans « ' + cat + ' »' : '');
+  else info.textContent = cat ? res.length + ' erreur(s) dans « ' + cat + ' »' : '';
 }
 
 async function listerFichiers(){
@@ -208,6 +240,7 @@ async function demarrer(){
     erreurs = lots.filter(Boolean).sort(function(a, b){ return a.numero - b.numero; });
     erreurs.forEach(preparer);
     compteur.textContent = erreurs.length + ' erreur(s) documentée(s)';
+    dessinerCategories();
     afficher();
   } catch (e) {
     console.error(e);

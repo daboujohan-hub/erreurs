@@ -28,5 +28,6 @@
     "Si rien ne marche, une réinitialisation d'usine peut être nécessaire. Elle efface tout, donc c'est le dernier recours.",
     "Si le téléphone a pris l'eau ou est tombé, apporte-le directement chez un technicien."
   ],
-  "securite": "N'installe pas de logiciels ou de « ROM » trouvés au hasard pour réparer le téléphone : tu peux le rendre définitivement inutilisable ou y mettre un virus. Pour éviter de perdre tes données un jour, sauvegarde régulièrement tes photos et contacts."
+  "securite": "N'installe pas de logiciels ou de « ROM » trouvés au hasard pour réparer le téléphone : tu peux le rendre définitivement inutilisable ou y mettre un virus. Pour éviter de perdre tes données un jour, sauvegarde régulièrement tes photos et contacts.",
+  "categorie": "Écran, son et système"
 }

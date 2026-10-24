@@ -29,5 +29,6 @@
     "Pour WhatsApp : Paramètres > Discussions > Sauvegarde, puis relance la sauvegarde sur Wi-Fi.",
     "Libère de l'espace si le téléphone est presque plein."
   ],
-  "securite": "Ne supprime jamais tes photos ou tes discussions du téléphone avant d'avoir vérifié que la sauvegarde est vraiment terminée. Garde aussi une copie importante sur un ordinateur ou un disque externe."
+  "securite": "Ne supprime jamais tes photos ou tes discussions du téléphone avant d'avoir vérifié que la sauvegarde est vraiment terminée. Garde aussi une copie importante sur un ordinateur ou un disque externe.",
+  "categorie": "Stockage et sauvegarde"
 }

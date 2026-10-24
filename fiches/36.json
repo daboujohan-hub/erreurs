@@ -30,5 +30,6 @@
   ],
   "commande": "adb shell dumpsys meminfo nom.du.paquet",
   "commandeNote": "Remplace « nom.du.paquet » par l'identifiant de ton application. Lance la commande plusieurs fois pendant que tu utilises l'application : si le chiffre de mémoire monte sans jamais baisser, il y a probablement une fuite.",
-  "securite": "Les applications très lentes qui chauffent le téléphone sans que tu les utilises peuvent aussi cacher une activité suspecte. Si tu ne connais pas l'application, désinstalle-la."
+  "securite": "Les applications très lentes qui chauffent le téléphone sans que tu les utilises peuvent aussi cacher une activité suspecte. Si tu ne connais pas l'application, désinstalle-la.",
+  "categorie": "Applications et performance"
 }

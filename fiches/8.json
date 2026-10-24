@@ -32,5 +32,6 @@
     "Si tu es sûr de toi, tu peux réduire les animations dans Options pour les développeurs.",
     "En dernier recours : sauvegarde tes données, puis fais une réinitialisation d'usine."
   ],
-  "securite": "N'installe pas d'applications « booster » ou « antivirus » inconnues pour accélérer le téléphone : elles ralentissent souvent plus qu'elles n'aident. Si tu penses qu'une application est un virus, désinstalle-la et lance une analyse avec Google Play Protect."
+  "securite": "N'installe pas d'applications « booster » ou « antivirus » inconnues pour accélérer le téléphone : elles ralentissent souvent plus qu'elles n'aident. Si tu penses qu'une application est un virus, désinstalle-la et lance une analyse avec Google Play Protect.",
+  "categorie": "Applications et performance"
 }

@@ -31,5 +31,6 @@
     "Redémarre le téléphone.",
     "Supprime ton compte Google du téléphone, puis ajoute-le de nouveau."
   ],
-  "securite": "Télécharge les applications uniquement depuis le Play Store officiel. Vérifie le nom du développeur avant d'installer. Si le Play Store ne marche pas, n'installe pas une version « modifiée » ou « gratuite » depuis un site inconnu : c'est souvent un virus."
+  "securite": "Télécharge les applications uniquement depuis le Play Store officiel. Vérifie le nom du développeur avant d'installer. Si le Play Store ne marche pas, n'installe pas une version « modifiée » ou « gratuite » depuis un site inconnu : c'est souvent un virus.",
+  "categorie": "Installation et mises à jour"
 }

@@ -28,5 +28,6 @@
     "Dans les Options pour les développeurs, ouvre « Services en cours d'exécution » pour voir ce qui tourne.",
     "Redémarre le téléphone de temps en temps."
   ],
-  "securite": "Si une application inconnue travaille tout le temps en arrière-plan, désinstalle-la. Une application qui ne sert à rien ne doit pas utiliser ta batterie, tes données ni ta position."
+  "securite": "Si une application inconnue travaille tout le temps en arrière-plan, désinstalle-la. Une application qui ne sert à rien ne doit pas utiliser ta batterie, tes données ni ta position.",
+  "categorie": "Applications et performance"
 }

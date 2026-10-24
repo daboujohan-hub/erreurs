@@ -30,5 +30,6 @@
     "Redémarre le téléphone.",
     "Si ça continue, demande à ton opérateur de vérifier le numéro du centre de messages."
   ],
-  "securite": "Ne réponds pas aux SMS qui demandent un code, un mot de passe ou un paiement, même s'ils semblent venir de ton opérateur ou d'une banque. Ne donne jamais le code reçu par SMS à quelqu'un d'autre."
+  "securite": "Ne réponds pas aux SMS qui demandent un code, un mot de passe ou un paiement, même s'ils semblent venir de ton opérateur ou d'une banque. Ne donne jamais le code reçu par SMS à quelqu'un d'autre.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

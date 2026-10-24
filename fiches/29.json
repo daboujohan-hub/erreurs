@@ -30,5 +30,6 @@
   ],
   "commande": "adb logcat -d | grep -E \"FATAL EXCEPTION|has died|lowmemorykiller\"",
   "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé, ouvre l'application, puis lance cette commande. Envoie les lignes trouvées à une IA avec ton code.",
-  "securite": "Si une application inconnue se ferme sans cesse ou se rouvre toute seule, désinstalle-la. Ne désactive pas les protections du téléphone pour la faire marcher."
+  "securite": "Si une application inconnue se ferme sans cesse ou se rouvre toute seule, désinstalle-la. Ne désactive pas les protections du téléphone pour la faire marcher.",
+  "categorie": "Applications et performance"
 }

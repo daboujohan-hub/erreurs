@@ -30,5 +30,6 @@
     "Pour voir qui a utilisé quoi : Paramètres > Confidentialité > Tableau de bord de confidentialité (ou Gestionnaire d'autorisations). Regarde les lignes « Dernier accès ».",
     "Si une application ne marche plus après un refus, c'est qu'elle a vraiment besoin de cette autorisation : active-la seulement pour cette fonction."
   ],
-  "securite": "Les autorisations les plus sensibles sont le micro, la caméra, la position, les contacts et les photos. Ne les donne qu'aux applications de confiance, et seulement quand c'est utile. Si une application inconnue ou une application qui n'en a pas besoin demande une de ces autorisations, refuse-la ou désinstalle-la. Retire régulièrement les autorisations que tu n'utilises plus."
+  "securite": "Les autorisations les plus sensibles sont le micro, la caméra, la position, les contacts et les photos. Ne les donne qu'aux applications de confiance, et seulement quand c'est utile. Si une application inconnue ou une application qui n'en a pas besoin demande une de ces autorisations, refuse-la ou désinstalle-la. Retire régulièrement les autorisations que tu n'utilises plus.",
+  "categorie": "Sécurité et vie privée"
 }

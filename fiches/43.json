@@ -27,5 +27,6 @@
     "Redémarre le téléphone et rouvre l'application.",
     "Si le message reste, contacte le service client de ta banque ou de ton opérateur depuis le numéro officiel."
   ],
-  "securite": "Ne cherche pas à contourner cette protection avec des outils ou des applications trouvées sur internet : c'est dangereux pour ton argent. Si quelqu'un te demande d'installer une application de contrôle à distance pour « réparer » ton compte, c'est une arnaque."
+  "securite": "Ne cherche pas à contourner cette protection avec des outils ou des applications trouvées sur internet : c'est dangereux pour ton argent. Si quelqu'un te demande d'installer une application de contrôle à distance pour « réparer » ton compte, c'est une arnaque.",
+  "categorie": "Sécurité et vie privée"
 }

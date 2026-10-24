@@ -32,5 +32,6 @@
   ],
   "commande": "ping -c 5 8.8.8.8",
   "commandeNote": "Dans Termux. Regarde « time » : plus de 300 ms, ou des paquets perdus (« packet loss »), signifie une connexion mauvaise ou saturée, même avec un bon signal.",
-  "securite": "N'accepte pas les offres « internet illimité gratuit » ou les applications qui promettent d'accélérer ton réseau : ce sont souvent des arnaques qui demandent ton numéro ou tes codes."
+  "securite": "N'accepte pas les offres « internet illimité gratuit » ou les applications qui promettent d'accélérer ton réseau : ce sont souvent des arnaques qui demandent ton numéro ou tes codes.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

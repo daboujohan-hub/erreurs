@@ -33,5 +33,6 @@
   ],
   "commande": "adb install -r app.apk",
   "commandeNote": "Branche le téléphone à un ordinateur avec le débogage USB activé. Si l'installation échoue, adb affiche la cause exacte. Envoie ce message à une IA avec ton problème.",
-  "securite": "N'installe que des APK de sources de confiance. Si Play Protect bloque une application inconnue, ne désactive pas la protection juste pour l'installer : l'application peut être dangereuse."
+  "securite": "N'installe que des APK de sources de confiance. Si Play Protect bloque une application inconnue, ne désactive pas la protection juste pour l'installer : l'application peut être dangereuse.",
+  "categorie": "Installation et mises à jour"
 }

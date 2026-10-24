@@ -30,5 +30,6 @@
     "Si la télévision n'est pas compatible, fais ce que l'écran demande : débranche le câble HDMI, branche la télé au décodeur avec le câble RCA fourni (jaune, blanc, rouge), puis appuie sur « OK ». L'image sera de moins bonne qualité.",
     "Si le problème continue, contacte le service client de ton fournisseur de décodeur."
   ],
-  "securite": "Débranche toujours les appareils du courant avant de changer un câble, et ne démonte pas le décodeur. N'achète pas de boîtiers ou de câbles « spéciaux » vendus pour contourner la protection : ils peuvent abîmer ta télé. Ne donne pas ton numéro d'abonné ni de code à quelqu'un qui t'appelle pour « réparer » ton décodeur."
+  "securite": "Débranche toujours les appareils du courant avant de changer un câble, et ne démonte pas le décodeur. N'achète pas de boîtiers ou de câbles « spéciaux » vendus pour contourner la protection : ils peuvent abîmer ta télé. Ne donne pas ton numéro d'abonné ni de code à quelqu'un qui t'appelle pour « réparer » ton décodeur.",
+  "categorie": "Autres appareils et outils"
 }

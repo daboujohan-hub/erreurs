@@ -27,5 +27,6 @@
     "Utilise un appareil où tu es déjà connecté : Google te reconnaît plus facilement.",
     "Prépare des codes de secours pour la vérification en 2 étapes, et garde-les dans un endroit sûr."
   ],
-  "securite": "Ne donne jamais ton mot de passe ni le code de vérification à quelqu'un, même s'il dit venir de Google. Récupère ton compte seulement sur les pages officielles de Google. Les personnes qui proposent de « récupérer ton compte » contre de l'argent sont des arnaqueurs."
+  "securite": "Ne donne jamais ton mot de passe ni le code de vérification à quelqu'un, même s'il dit venir de Google. Récupère ton compte seulement sur les pages officielles de Google. Les personnes qui proposent de « récupérer ton compte » contre de l'argent sont des arnaqueurs.",
+  "categorie": "Sécurité et vie privée"
 }

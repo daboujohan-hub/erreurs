@@ -29,5 +29,6 @@
     "Redémarre le téléphone, puis mets-le à jour.",
     "Si le son ne marche dans aucune application, fais réparer le haut-parleur."
   ],
-  "securite": "N'utilise pas de liquide ni d'objet métallique pour nettoyer le haut-parleur : tu peux l'abîmer. N'installe pas d'applications « boosteur de volume » inconnues."
+  "securite": "N'utilise pas de liquide ni d'objet métallique pour nettoyer le haut-parleur : tu peux l'abîmer. N'installe pas d'applications « boosteur de volume » inconnues.",
+  "categorie": "Écran, son et système"
 }

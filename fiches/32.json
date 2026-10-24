@@ -25,5 +25,6 @@
     "Sur Android 12 et plus récent, tu peux couper complètement le micro ou la caméra dans les réglages rapides.",
     "Lance une analyse Google Play Protect."
   ],
-  "securite": "Si tu penses qu'une application t'espionne, désinstalle-la, change tes mots de passe depuis un autre appareil, et active la double vérification sur tes comptes importants. Ne donne les autorisations qu'aux applications dont tu as besoin."
+  "securite": "Si tu penses qu'une application t'espionne, désinstalle-la, change tes mots de passe depuis un autre appareil, et active la double vérification sur tes comptes importants. Ne donne les autorisations qu'aux applications dont tu as besoin.",
+  "categorie": "Sécurité et vie privée"
 }

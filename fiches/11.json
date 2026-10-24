@@ -27,5 +27,6 @@
     "Si ça ne marche toujours pas : Paramètres > Système > Réinitialiser > Réinitialiser le Wi-Fi, le mobile et le Bluetooth.",
     "Si tu es le propriétaire : vérifie les réglages de la box (sécurité WPA2, filtrage d'appareils)."
   ],
-  "securite": "Ne cherche pas à deviner ni à pirater le mot de passe d'un Wi-Fi qui n'est pas à toi. C'est interdit, et les applications « pour trouver les mots de passe Wi-Fi » sont souvent des arnaques ou des virus. Demande toujours le mot de passe au propriétaire."
+  "securite": "Ne cherche pas à deviner ni à pirater le mot de passe d'un Wi-Fi qui n'est pas à toi. C'est interdit, et les applications « pour trouver les mots de passe Wi-Fi » sont souvent des arnaques ou des virus. Demande toujours le mot de passe au propriétaire.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

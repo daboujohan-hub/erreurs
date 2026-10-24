@@ -27,5 +27,6 @@
     "Utilise l'application « Files » de Google et appuie sur « Libérer de l'espace ».",
     "Redémarre le téléphone, puis réessaie l'installation."
   ],
-  "securite": "Évite les applications de « nettoyage » ou « booster » inconnues : beaucoup affichent de fausses alertes ou collectent tes données. Utilise les outils intégrés d'Android ou « Files » de Google."
+  "securite": "Évite les applications de « nettoyage » ou « booster » inconnues : beaucoup affichent de fausses alertes ou collectent tes données. Utilise les outils intégrés d'Android ou « Files » de Google.",
+  "categorie": "Stockage et sauvegarde"
 }

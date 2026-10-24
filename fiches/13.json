@@ -30,5 +30,6 @@
     "Redémarre le téléphone et mets-le à jour.",
     "Si rien ne marche, fais vérifier le port et la batterie chez un technicien de confiance."
   ],
-  "securite": "Utilise un chargeur et un câble d'origine ou de bonne marque. Les chargeurs très bon marché sans marque peuvent abîmer la batterie et même causer un incendie. Ne charge jamais un téléphone mouillé."
+  "securite": "Utilise un chargeur et un câble d'origine ou de bonne marque. Les chargeurs très bon marché sans marque peuvent abîmer la batterie et même causer un incendie. Ne charge jamais un téléphone mouillé.",
+  "categorie": "Batterie, charge et chaleur"
 }

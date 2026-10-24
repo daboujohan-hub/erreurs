@@ -28,5 +28,6 @@
     "Si le téléphone était dans de l'eau salée ou sale, apporte-le rapidement à un technicien.",
     "Après le séchage, allume-le. S'il ne marche pas, va chez un technicien de confiance."
   ],
-  "securite": "Ne charge jamais un téléphone mouillé : cela peut causer un court-circuit, détruire le téléphone ou provoquer un incendie. Si la batterie gonfle ou si le téléphone chauffe fortement, arrête et apporte-le à un technicien."
+  "securite": "Ne charge jamais un téléphone mouillé : cela peut causer un court-circuit, détruire le téléphone ou provoquer un incendie. Si la batterie gonfle ou si le téléphone chauffe fortement, arrête et apporte-le à un technicien.",
+  "categorie": "Écran, son et système"
 }

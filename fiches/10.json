@@ -32,5 +32,6 @@
   ],
   "commande": "ping -c 3 8.8.8.8",
   "commandeNote": "Dans Termux. Si cette commande répond mais que « ping -c 3 google.com » échoue, c'est un problème de DNS. Si aucune des deux ne répond, il n'y a pas d'internet sur le Wi-Fi.",
-  "securite": "Sur un Wi-Fi public, évite les opérations bancaires et les mots de passe importants. Ne tape pas tes informations sur une page de connexion qui te paraît bizarre."
+  "securite": "Sur un Wi-Fi public, évite les opérations bancaires et les mots de passe importants. Ne tape pas tes informations sur une page de connexion qui te paraît bizarre.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

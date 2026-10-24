@@ -26,5 +26,6 @@
     "Si tu as donné un code, appelle tout de suite ton opérateur ou ta banque pour bloquer le compte, et change ton code secret.",
     "Prévient tes proches : ces arnaques touchent beaucoup de monde."
   ],
-  "securite": "Une règle simple : un vrai opérateur, une vraie banque ou un vrai agent ne te demande jamais ton code secret. Si on te presse de faire vite, c'est un signe d'arnaque. Ne partage pas ta carte d'identité ni des photos de tes documents à un inconnu."
+  "securite": "Une règle simple : un vrai opérateur, une vraie banque ou un vrai agent ne te demande jamais ton code secret. Si on te presse de faire vite, c'est un signe d'arnaque. Ne partage pas ta carte d'identité ni des photos de tes documents à un inconnu.",
+  "categorie": "Sécurité et vie privée"
 }

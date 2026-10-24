@@ -27,5 +27,6 @@
     "Démarre en mode sécurisé pour trouver l'application responsable.",
     "Si le problème continue, sauvegarde tes données et fais une réinitialisation d'usine."
   ],
-  "securite": "N'installe pas d'« antivirus » ou de « nettoyeur » à cause d'une fausse alerte : c'est souvent le piège. Ne donne jamais de code, de numéro de paiement ou de Mobile Money sur une page qui s'affiche toute seule."
+  "securite": "N'installe pas d'« antivirus » ou de « nettoyeur » à cause d'une fausse alerte : c'est souvent le piège. Ne donne jamais de code, de numéro de paiement ou de Mobile Money sur une page qui s'affiche toute seule.",
+  "categorie": "Sécurité et vie privée"
 }

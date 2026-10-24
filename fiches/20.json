@@ -31,5 +31,6 @@
     "Active une alerte ou une limite de données dans Paramètres > Réseau.",
     "Vérifie que ton partage de connexion est éteint."
   ],
-  "securite": "Si une application que tu ne connais pas consomme beaucoup de données, désinstalle-la : elle peut envoyer tes informations en cachette. N'accepte pas les « bonus data gratuits » qui demandent ton code ou ton numéro de paiement : ce sont souvent des arnaques."
+  "securite": "Si une application que tu ne connais pas consomme beaucoup de données, désinstalle-la : elle peut envoyer tes informations en cachette. N'accepte pas les « bonus data gratuits » qui demandent ton code ou ton numéro de paiement : ce sont souvent des arnaques.",
+  "categorie": "Réseau, messages et Bluetooth"
 }

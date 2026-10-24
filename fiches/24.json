@@ -29,5 +29,6 @@
     "Sur certaines marques, verrouille l'application dans la liste des applications récentes pour qu'elle ne soit pas fermée.",
     "Mets l'application et le système à jour."
   ],
-  "securite": "Autorise seulement les applications dont tu as besoin à travailler en arrière-plan : trop d'applications ralentissent le téléphone et vident la batterie. Ne clique pas sur les liens suspects reçus dans une notification."
+  "securite": "Autorise seulement les applications dont tu as besoin à travailler en arrière-plan : trop d'applications ralentissent le téléphone et vident la batterie. Ne clique pas sur les liens suspects reçus dans une notification.",
+  "categorie": "Applications et performance"
 }
