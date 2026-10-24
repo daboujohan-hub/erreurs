@@ -1,0 +1,34 @@
+{
+  "numero": 49,
+  "categorie": "Sécurité et vie privée",
+  "titre": "Faux « Cadeau de la Toussaint Wave » : gagner 30 000 F CFA en partageant",
+  "message": "Wave - Cadeau de la Toussaint ! Félicitations ! Remplissez ce sondage pour avoir une chance de gagner 30 000 F CFA. Partagez avec 5 groupes différents ou 20 amis, puis cliquez sur « Continuer ».",
+  "image": "images/erreur-49.png",
+  "video": "",
+  "motsCles": "wave cadeau toussaint 30 000 f cfa sondage félicitations partagez 5 groupes 20 amis continuer progression 100 % faux commentaires arnaque whatsapp messenger bscbp buzz lien récompense gagner",
+  "quand": [
+    "Après avoir ouvert un lien reçu dans un groupe WhatsApp (voir la fiche 48), souvent avec la phrase « J'ai reçu 30 000 F CFA, essayez aussi ».",
+    "Pendant les fêtes (Toussaint, Noël, Tabaski, anniversaire de l'entreprise…) : les arnaqueurs profitent du moment où les gens ont besoin d'argent.",
+    "Sur un site dont l'adresse n'est pas celle de la vraie société : ici une adresse en « .buzz », pas le site officiel de Wave."
+  ],
+  "explication": "Cette page imite la marque Wave (logo, couleurs, pingouin, « © Wave Inc. ») mais c'est un faux. On le voit à l'adresse dans la barre du navigateur, qui n'est pas celle de Wave. La page te dit « Félicitations » alors que tu n'as rien fait, te pose un petit sondage (âge…), puis t'oblige à partager le lien à 5 groupes WhatsApp ou 20 amis avant de pouvoir « continuer ». Une barre de progression reste à 0 % pour te pousser à partager encore. Le but est de faire circuler l'arnaque gratuitement et, ensuite, de te conduire vers d'autres pages (publicités, demandes de numéro ou de code, abonnements payants). Le gain n'existe pas.",
+  "causes": [
+    "Un faux site copie la marque d'une société connue pour inspirer confiance.",
+    "De faux commentaires sont affichés en bas de la page (« Aah merci hein », « Ça c'est doux »), avec des photos de profil et des heures comme « 8m », « 13m » : ils sont écrits à l'avance, ce sont de faux témoignages, comme « 10 / 192 commentaires ».",
+    "La date du jour est affichée pour faire croire à une offre du moment.",
+    "Le partage obligatoire fait que ce sont les victimes elles-mêmes qui envoient l'arnaque à leurs proches.",
+    "Les gens pensent « même si ça ne marche pas, je ne risque rien » et partagent."
+  ],
+  "solutions": [
+    "Ferme la page. N'appuie pas sur « Continuer », WhatsApp ou Messenger, et ne partage rien.",
+    "Si tu as déjà partagé : ouvre la conversation, appuie longtemps sur le message, puis « Supprimer pour tous ». Préviens le groupe.",
+    "Si tu as répondu au sondage : ce n'est pas grave en soi, mais ne donne plus aucune autre information.",
+    "Si tu as tapé ton numéro, un code ou un mot de passe : appelle le service client officiel en passant par l'application ou le site officiel (pas par un numéro donné dans le message), et change ton code secret.",
+    "Si une application s'est installée ou si ton téléphone affiche des publicités bizarres : désinstalle-la et vérifie Paramètres > Applications.",
+    "Vide l'historique et le cache de ton navigateur : menu ⋮ > Historique > Effacer les données.",
+    "Vérifie ton WhatsApp : Paramètres > Appareils connectés, et active la validation en deux étapes.",
+    "Pour vérifier une offre, ouvre toi-même l'application officielle (écris l'adresse officielle à la main ou passe par le magasin d'applications) au lieu de cliquer sur le lien reçu.",
+    "Signale le message à WhatsApp (appui long > Signaler) et préviens ton entourage."
+  ],
+  "securite": "Aucune société sérieuse ne demande de partager un lien à 5 groupes pour donner un cadeau. Regarde toujours l'adresse en haut de la page : si elle n'est pas celle de la vraie société, c'est un faux, même avec le bon logo. Ne donne jamais ton code secret, ton code de validation ni ton numéro complet sur une page ouverte par un lien reçu dans un groupe. Les commentaires et les « likes » sur ces pages sont faux."
+}
