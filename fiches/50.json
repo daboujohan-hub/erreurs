@@ -1,0 +1,29 @@
+{
+  "numero": 50,
+  "categorie": "Sécurité et vie privée",
+  "titre": "Comment fonctionne une fausse page de connexion (phishing)",
+  "message": "Une page qui ressemble exactement à l'écran de connexion d'un vrai service (Facebook, WhatsApp, banque, Mobile Money…) mais dont l'adresse est différente",
+  "image": "images/erreur-50.png",
+  "video": "",
+  "motsCles": "phishing hameçonnage fausse page connexion facebook mot de passe identifiant piège copie adresse url démonstration pédagogique comment ça marche arnaque explication",
+  "quand": [
+    "Après avoir cliqué sur un lien reçu par SMS, WhatsApp ou e-mail, qui t'amène sur une page de connexion.",
+    "Quand une page ressemble parfaitement à un service connu (même logo, mêmes couleurs) mais que l'adresse en haut est différente du vrai site.",
+    "Quand la page insiste pour que tu te connectes « pour vérifier ton compte », « débloquer ton compte » ou « confirmer un paiement »."
+  ],
+  "explication": "C'est ce qu'on appelle le phishing (hameçonnage) : une page copie l'apparence d'un vrai site pour que la victime tape elle-même son identifiant et son mot de passe. Le logo ne prouve rien : copier une image coûte quelques secondes à n'importe qui. Ce qui identifie vraiment un site, c'est son adresse. Une fois les informations tapées, elles partent directement vers la personne qui a créé la fausse page, qui peut ensuite se connecter au vrai compte. Pour montrer ce mécanisme sans aucun danger, une démonstration a été construite ici : https://claude.ai/artifact/BhwYrsAKenEA9swb9MwiFY — c'est une page qui ressemble à un écran de connexion Facebook, avec une fausse adresse bien visible, mais qui n'envoie ni n'enregistre jamais rien : elle affiche simplement, dans le téléphone de la personne qui teste, ce qu'elle a tapé, pour montrer ce qu'un vrai pirate aurait récupéré.",
+  "causes": [
+    "Un lien reçu par SMS, WhatsApp, e-mail ou réseau social amène vers une page copiée.",
+    "La page utilise une adresse proche du vrai nom mais différente (par exemple avec un mot ajouté, une autre terminaison comme .buzz, ou des fautes).",
+    "Le cadenas ou le logo rassurent à tort : ils ne garantissent pas que le site est le bon.",
+    "Beaucoup de gens ne regardent jamais l'adresse avant de taper leur mot de passe."
+  ],
+  "solutions": [
+    "Avant de taper un mot de passe, regarde toujours l'adresse en haut du navigateur : elle doit correspondre exactement au vrai site (par exemple facebook.com, pas facebook-quelquechose.autre).",
+    "En cas de doute, n'utilise pas le lien reçu : ouvre toi-même l'application officielle ou tape l'adresse officielle à la main.",
+    "Si tu as déjà tapé ton mot de passe sur une page douteuse : change-le immédiatement sur le vrai site ou la vraie application, et active la validation en deux étapes.",
+    "Essaie la démonstration ci-dessus avec des amis ou de la famille pour leur montrer concrètement le mécanisme, sans risque, puisqu'elle ne collecte rien.",
+    "Signale les liens suspects à la plateforme concernée (WhatsApp, Facebook…) au lieu de les transférer."
+  ],
+  "securite": "Ne construis et ne partage jamais une vraie copie d'une page de connexion dans le but de récupérer les informations de quelqu'un, même « pour un test entre amis » : c'est un outil d'arnaque, utilisable contre n'importe qui, et c'est illégal. Utilise uniquement des démonstrations qui, comme celle-ci, ne collectent et n'envoient rien."
+}
