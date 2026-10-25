@@ -1,0 +1,31 @@
+{
+  "numero": 51,
+  "categorie": "Sécurité et vie privée",
+  "titre": "Faux agent Mobile Money qui appelle (« j'ai fait une erreur de transfert »)",
+  "message": "Appel ou SMS d'une personne qui se présente comme un agent Mobile Money (Wave, Orange Money, MTN Money, Moov Money…) et qui te demande ton code secret ou de faire une manipulation sur ton téléphone",
+  "image": "",
+  "video": "",
+  "motsCles": "mobile money arnaque faux agent appel code secret pin erreur transfert wave orange money mtn moov annulation remboursement ussd manipulation vocal",
+  "quand": [
+    "Un appel ou un SMS arrive, parfois juste après un vrai transfert reçu ou envoyé, ou sans raison.",
+    "La personne se présente comme agent, technicien ou service client de Wave, Orange Money, MTN Money ou Moov Money.",
+    "Elle dit qu'une erreur a eu lieu (trop d'argent envoyé, transfert bloqué, compte à vérifier) et demande d'agir vite."
+  ],
+  "explication": "Ce n'est pas un vrai agent. Les sociétés de Mobile Money ne demandent jamais ton code secret par téléphone, ni de composer un code USSD qu'elles te dictent. Le faux agent invente une histoire urgente (erreur de transfert, remboursement, compte bloqué) pour te pousser à donner ton code secret ou à faire une manipulation (souvent un code commençant par * et finissant par #) qui, en réalité, transfère de l'argent ou active un renvoi d'appel vers le numéro du pirate. Une fois que ça marche, il vide le compte ou intercepte les codes reçus par SMS ensuite.",
+  "causes": [
+    "Le numéro de téléphone a été obtenu au hasard, ou après une fuite de données, ou parce qu'il circule publiquement (petites annonces, réseaux sociaux).",
+    "La personne est formée à parler vite, avec assurance, en utilisant le vocabulaire exact de l'opérateur pour paraître crédible.",
+    "Elle crée une fausse urgence (« si vous ne faites rien maintenant, l'argent est perdu ») pour empêcher de réfléchir ou de vérifier.",
+    "Certaines victimes pensent que donner un code suffit « juste pour vérifier » sans risque."
+  ],
+  "solutions": [
+    "Ne donne jamais ton code secret (PIN) à qui que ce soit, même à quelqu'un qui dit être un agent, un technicien ou de la famille.",
+    "Ne compose aucun code USSD qu'une personne au téléphone te dicte, surtout s'il contient * et #.",
+    "Raccroche, puis rappelle toi-même le vrai numéro du service client (celui noté sur l'application officielle ou sur le reçu), jamais un numéro donné par l'appelant.",
+    "Si on te dit qu'un transfert t'a été envoyé « par erreur » et qu'on te demande de le renvoyer : vérifie d'abord dans ton historique de transactions que l'argent est bien arrivé, avant toute action.",
+    "Si tu as déjà donné ton code ou fait la manipulation : appelle immédiatement le vrai service client pour bloquer le compte, et change ton code.",
+    "Active, si ton opérateur le propose, une alerte par SMS pour chaque transaction.",
+    "Ne partage jamais le code de confirmation reçu par SMS lors d'un retrait ou d'un changement de code."
+  ],
+  "securite": "Un vrai agent n'a jamais besoin de ton code secret pour faire son travail : lui seul doit rester dans ta tête, jamais au téléphone ni par SMS. Toute urgence imposée par un appelant inconnu est un signal d'alerte : prends le temps de raccrocher et de vérifier par toi-même."
+}
