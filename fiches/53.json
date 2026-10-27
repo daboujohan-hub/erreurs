@@ -1,0 +1,28 @@
+{
+  "numero": 53,
+  "categorie": "Sécurité et vie privée",
+  "titre": "Fausse publicité « Activez votre accès » (interrupteur ON/OFF) dans une application",
+  "message": "Un encart publicitaire affiche un interrupteur gris marqué « OFF » avec le texte « Activez votre accès », et une main qui semble pointer dessus, à l'intérieur d'un article ou d'une application gratuite",
+  "image": "",
+  "video": "",
+  "motsCles": "publicité trompeuse faux interrupteur activez votre accès on off piège clic app actualités playweez publicité déguisée bouton système faux réglage",
+  "quand": [
+    "En lisant un article dans une application d'actualités gratuite (agrégateur de news), au milieu ou en bas du texte.",
+    "Quand l'encart imite l'apparence d'un réglage du téléphone (un interrupteur ON/OFF) plutôt que celle d'une publicité classique.",
+    "Souvent avec une petite icône « i » (information) à peine visible dans un coin, qui est le seul indice qu'il s'agit d'une publicité."
+  ],
+  "explication": "Ce n'est pas un réglage de ton téléphone ni de l'application : c'est une publicité conçue pour ressembler à un bouton système, afin de pousser à cliquer par réflexe. Ces publicités s'appellent des « publicités trompeuses » ou « faux boutons » : elles copient l'apparence d'un élément d'interface familier (interrupteur, barre de progression, bouton de fermeture) pour obtenir des clics qu'une vraie publicité n'obtiendrait pas. Toucher dessus amène en général vers un site de publicité, un abonnement payant caché, ou une autre application à installer, jamais vers un vrai réglage du téléphone.",
+  "causes": [
+    "Les applications gratuites (actualités, jeux, lecteurs de musique) affichent des publicités pour gagner de l'argent, fournies par des régies publicitaires externes.",
+    "Certaines régies publicitaires acceptent des formats trompeurs, qui rapportent plus de clics, sans que l'application elle-même les ait choisis exprès.",
+    "La petite icône « i » en haut de l'encart est une obligation légale pour signaler que c'est une publicité, mais elle est volontairement discrète."
+  ],
+  "solutions": [
+    "Ne touche pas l'interrupteur ni l'encart : ce n'est jamais un vrai réglage.",
+    "Si tu as cliqué et qu'une page ou une autre application s'ouvre : ferme-la simplement, sans rien remplir ni installer.",
+    "Repère la petite icône « i » ou le mot écrit en tout petit (« Publicité », « Sponsorisé ») dans le coin de l'encart : c'est le signe qu'il faut l'ignorer.",
+    "Si une application affiche trop de publicités trompeuses, laisse un avis ou désinstalle-la, et préfère des applications d'actualités plus sérieuses.",
+    "Un bloqueur de publicités dans le navigateur peut réduire ce genre d'encart, mais ne les supprime pas toujours dans les applications."
+  ],
+  "securite": "Un vrai réglage du téléphone ou d'une application ne se trouve jamais au milieu du texte d'un article. Si un bouton ressemble à un réglage mais est entouré de texte publicitaire, de couleurs vives ou d'une main qui pointe dessus, c'est presque toujours une publicité conçue pour tromper, pas un vrai contrôle."
+}

@@ -1,0 +1,27 @@
+{
+  "numero": 54,
+  "categorie": "Sécurité et vie privée",
+  "titre": "Publicités inappropriées ou choquantes dans une application d'actualités gratuite",
+  "message": "Une image ou une vidéo à caractère choquant ou pour adultes s'affiche entre deux articles, dans une application d'actualités par ailleurs sérieuse",
+  "image": "",
+  "video": "",
+  "motsCles": "publicité inappropriée choquante contenu adulte application actualités gratuite régie publicitaire bloqueur enfants protection filtre",
+  "quand": [
+    "En faisant défiler les articles d'une application d'actualités gratuite (agrégateur qui regroupe plusieurs journaux).",
+    "L'application elle-même est sérieuse (des vrais titres de presse), mais une publicité isolée, glissée entre deux articles, ne l'est pas."
+  ],
+  "explication": "Une application d'actualités gratuite ne choisit pas chaque publicité une par une : elle les reçoit de régies publicitaires externes, qui placent automatiquement des annonces selon des règles générales. Il arrive qu'une publicité inappropriée passe à travers ces règles, surtout sur des applications gratuites qui acceptent plusieurs régies pour gagner plus d'argent. Ce n'est ni un piratage ni une attaque ciblée : c'est un défaut de modération publicitaire, plus fréquent sur les applications gratuites que sur les versions payantes ou les sites de presse officiels.",
+  "causes": [
+    "L'application utilise plusieurs régies publicitaires, dont certaines filtrent moins bien le contenu inapproprié.",
+    "Les applications gratuites financées uniquement par la publicité acceptent souvent plus de formats et de sources publicitaires.",
+    "Le même emplacement publicitaire peut changer de contenu à chaque chargement, donc une page peut sembler propre puis afficher autre chose en rechargeant."
+  ],
+  "solutions": [
+    "Évite de toucher la publicité : ferme simplement l'application ou passe à l'article suivant.",
+    "Beaucoup d'applications d'actualités permettent de signaler une publicité choquante (bouton « i » puis « Signaler cette publicité » ou équivalent) : c'est le moyen le plus efficace de faire réagir la régie publicitaire.",
+    "Si c'est fréquent, installe plutôt l'application officielle d'un seul journal de confiance, ou lis les articles directement sur le site du journal.",
+    "Sur un téléphone utilisé par des enfants ou des adolescents, active un contrôle parental (Google Family Link ou équivalent) qui limite les applications autorisées et filtre une partie des publicités.",
+    "Un bloqueur de publicités (dans le navigateur, ou au niveau du Wi-Fi/DNS) réduit ce genre d'apparition, sans les supprimer à 100 %."
+  ],
+  "securite": "Une publicité choquante n'est en général pas dangereuse pour le téléphone lui-même : ne clique simplement pas dessus. Sois plus prudent si l'application te semble peu connue ou si ce genre de publicité devient très fréquent : cela peut indiquer une application mal entretenue, qu'il vaut mieux remplacer."
+}
