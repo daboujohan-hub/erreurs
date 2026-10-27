@@ -21,7 +21,7 @@ Les erreurs sont classées en 8 catégories (boutons en haut de la page) : appli
 
 ## Contenu
 
-51 erreurs documentées, par exemple :
+52 erreurs documentées, par exemple :
 
 - l'application s'arrête systématiquement, ne répond plus, se ferme sans message ;
 - stockage plein, batterie, chauffe, lenteur ;
@@ -53,15 +53,15 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 ## Ajouter une nouvelle erreur
 
-1. Crée le fichier `fiches/52.json` (le numéro suivant) avec ce modèle :
+1. Crée le fichier `fiches/53.json` (le numéro suivant) avec ce modèle :
 
 ```json
 {
-  "numero": 52,
+  "numero": 53,
   "titre": "Titre court de l'erreur",
   "categorie": "Applications et performance",
   "message": "Le message affiché à l'écran",
-  "image": "images/erreur-52.png",
+  "image": "images/erreur-53.png",
   "video": "",
   "motsCles": "mots que les gens peuvent taper pour la chercher",
   "quand": ["Quand elle apparaît."],
@@ -74,13 +74,13 @@ Chaque erreur est un fichier dans `fiches/` (une fiche = un fichier `.json`). La
 
 Le champ `categorie` range la fiche dans un des boutons du haut de la page : réutilise le nom exact d'une catégorie existante (ou crée-en une nouvelle). Champs facultatifs : `video`, `commande` et `commandeNote` (une commande à tester, avec son explication).
 
-2. Ajoute l'image dans `images/` sous le nom `erreur-52.png`. Sans image, la fiche s'affiche quand même.
-3. Ajoute `"52.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
+2. Ajoute l'image dans `images/` sous le nom `erreur-53.png`. Sans image, la fiche s'affiche quand même.
+3. Ajoute `"53.json"` à la fin de `fiches/liste.json`. **Cette étape est obligatoire sur le site en ligne.**
 4. Envoie les changements :
 
 ```
 git add .
-git commit -m "Ajout de l'erreur 52"
+git commit -m "Ajout de l'erreur 53"
 git push
 ```
 

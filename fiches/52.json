@@ -1,0 +1,26 @@
+{
+  "numero": 52,
+  "categorie": "Autres appareils et outils",
+  "titre": "Message « PROMO +2000F sur les chaînes CANAL+ & SuperSport » sur le décodeur",
+  "message": "PROMO +2000F SUR LES CHAINES CANAL+ & SUPERSPORT. Réabonnez-vous en rajoutant 2000 FCFA à votre formule actuelle pour avoir les chaînes CANAL+ et SuperSport pendant 30 jours ! Si vous vous réabonnez par Mobile Money, choisissez « CHANGER D'OFFRES » dans le menu CANAL+ et suivez les instructions.",
+  "image": "",
+  "video": "",
+  "motsCles": "canal+ décodeur promo supersport réabonnement mobile money changer offres message écran tv nollywood secret story publicité officielle légitime",
+  "quand": [
+    "Le message s'affiche directement sur l'écran du décodeur CANAL+, pas sur le téléphone.",
+    "Il apparaît de temps en temps, souvent en dehors d'un programme, pour annoncer une offre ou une promotion.",
+    "Rien à cliquer ni à confirmer depuis un lien : on retourne au menu avec la télécommande (bouton « RETOUR »)."
+  ],
+  "explication": "Ce message est une vraie publicité envoyée par CANAL+ lui-même à travers le décodeur, ce n'est pas une arnaque. On peut le reconnaître d'une fausse alerte : il s'affiche directement sur l'écran du décodeur (un escroc ne peut pas faire apparaître un message sur ton décodeur à distance), il ne demande aucun code secret ni numéro de carte, et il explique juste comment changer d'offre depuis le menu officiel de l'appareil, pas depuis un lien internet. La mention « Mobile Money » est normale : CANAL+ propose vraiment ce moyen de paiement pour se réabonner, directement depuis le menu du décodeur.",
+  "causes": [
+    "CANAL+ envoie régulièrement ce type de message à tous les décodeurs connectés pour annoncer ses offres (promotions, nouveaux programmes).",
+    "Le message reste affiché jusqu'à ce qu'on appuie sur « RETOUR » ou qu'on change de chaîne."
+  ],
+  "solutions": [
+    "Pour l'ignorer : appuie simplement sur « RETOUR » avec la télécommande, rien n'est activé automatiquement.",
+    "Pour profiter de l'offre si elle t'intéresse : va dans le menu CANAL+ du décodeur, choisis toi-même « CHANGER D'OFFRES », et suis les instructions à l'écran (jamais un lien ou un numéro reçu ailleurs).",
+    "Si tu paies par Mobile Money, fais-le uniquement depuis ce menu officiel du décodeur, jamais en répondant à un SMS ou un appel qui prétend venir de CANAL+.",
+    "En cas de doute sur une offre, appelle le service client CANAL+ au numéro officiel inscrit sur ta facture ou sur le site officiel."
+  ],
+  "securite": "La règle reste la même que pour toute offre : une vraie entreprise ne te demande jamais ton code secret Mobile Money, même pour un réabonnement. Ce message affiché directement par ton décodeur est fiable ; reste prudent uniquement si la même offre t'arrive par SMS ou appel avec un lien ou un numéro à rappeler, car là, ce serait suspect (voir la fiche 48)."
+}
